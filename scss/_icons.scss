@@ -1,0 +1,92 @@
+@import "compass/css3";
+
+$icons: sprite-map("icons/*.png", $spacing: 5px);
+
+[class*="icon-"]{
+	display: inline-block;
+}
+
+
+// Define blok width and height 
+//such as image's  width and height
+@mixin image-size($path){
+	width: image-width($path);
+	height: image-height($path);
+}
+
+// Sprite mixin
+@mixin sprite($map, $sprite, $width-height:1){
+	background: sprite($map,  $sprite) no-repeat;
+
+	@if $width-height == 1
+	{
+		@include image-size(sprite-file($map, $sprite));
+	}
+	@else{}
+}
+
+// Icons
+
+.icon-logo {
+	@include sprite($icons, icon-logo);
+}
+
+.icon-top {
+	@include sprite($icons, icon-top);
+}
+
+.icon-top2 {
+	@include sprite($icons, icon-top2);
+}
+
+.icon-top3 {
+	@include sprite($icons, icon-top3);
+}
+
+.icon-logo2 {
+	@include sprite($icons, icon-logo2);
+}
+
+.icon-skype {
+	@include sprite($icons, icon-skype);
+}
+
+.icon-marker-blue {
+	@include sprite($icons, icon-marker-blue);
+}
+
+.icon-marker-phone {
+	@include sprite($icons, icon-marker-phone);
+}
+
+.icon-mail-blue {
+	@include sprite($icons, icon-mail-blue);
+}
+
+.icon-logo3 {
+	@include sprite($icons, icon-logo3);
+}
+
+.icon-book {
+	@include sprite($icons, icon-book);
+}
+
+.icon-speach {
+	@include sprite($icons, icon-speach);
+}
+
+.icon-home {
+	@include sprite($icons, icon-home);
+}
+
+.icon-badge {
+	@include sprite($icons, icon-badge);
+}
+
+.icon-top {
+	@include sprite($icons, icon-top);
+}
+
+.icon-plus-blue {
+	@include sprite($icons, icon-plus-blue);
+}
