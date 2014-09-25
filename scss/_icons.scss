@@ -25,7 +25,7 @@ $icons: sprite-map("icons/*.png", $spacing: 5px);
 	@else{}
 }
 
-// Icons
+// Custom Icons
 
 .icon-logo {
 	@include sprite($icons, icon-logo);
@@ -33,6 +33,10 @@ $icons: sprite-map("icons/*.png", $spacing: 5px);
 
 .icon-top {
 	@include sprite($icons, icon-top);
+}
+
+.icon-top1 {
+	@include sprite($icons, icon-top1);
 }
 
 .icon-top2 {
@@ -90,3 +94,40 @@ $icons: sprite-map("icons/*.png", $spacing: 5px);
 .icon-plus-blue {
 	@include sprite($icons, icon-plus-blue);
 }
+
+.icon-proj {
+	@include sprite($icons, icon-proj);
+}
+
+.icon-kalendar {
+	@include sprite($icons, icon-kalendar);
+}
+
+.icon-klient{
+	@include sprite($icons, icon-klient);
+}
+
+.icon-like{
+	@include sprite($icons, icon-like);
+}
+
+.icon-emotion{
+	@include sprite($icons, icon-emotion);
+}
+
+.icon-directions{
+	@include sprite($icons, icon-directions);
+}
+
+.icon-pie-chart{
+	@include sprite($icons, icon-pie-chart);
+}
+
+.icon-bar-chart{
+	@include sprite($icons, icon-bar-chart);
+}
+
+.icon-edit{
+	@include sprite($icons, icon-edit);
+}
+

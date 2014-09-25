@@ -21,6 +21,16 @@
 	<!-- ========================================================= -->	
 	<link rel="stylesheet" href="css/base.css">
 
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<link rel="stylesheet" href="css/ie.css" />
+	<![endif]-->
+
+	<!--[if IE 9]>
+		<link rel="stylesheet" href="css/ie9.css" />
+	<![endif]-->
+
+
 	<!-- FONTS -->
 	<!-- ========================================================= -->	
 	<link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Roboto:400,300,500,400italic&subset=latin,cyrillic'>	

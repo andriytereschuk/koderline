@@ -1,9 +1,9 @@
 
 
 <section class="offers">
-	<div class="container">
+	<div class="container" title="anim">
 		<div class="row">
-			<div class="span4">
+			<div class="span4 offer1">
 				<a href="#">
 					<img src="images/offer1.jpg" alt="">
 					<span class="border-overlay">
@@ -15,7 +15,7 @@
 				</a>
 			</div>
 
-			<div class="span4">
+			<div class="span4 offer2">
 				<a href="#">
 					<img src="images/offer2.jpg" alt="">
 					<span class="border-overlay">
@@ -27,7 +27,7 @@
 				</a>
 			</div>
 
-			<div class="span4">
+			<div class="span4 offer3">
 				<a href="#">
 					<img src="images/offer3.jpg" alt="">
 					<span class="border-overlay">
@@ -39,9 +39,9 @@
 				</a>
 			</div>
 
-			<div class="span12"><hr></div>
+			<div class="span12"><hr class="hr1"></div>
 
-			<div class="span4">
+			<div class="span4 offer4">
 				<a href="#">
 					<img src="images/offer4.jpg" alt="">
 					<span class="border-overlay">
@@ -52,7 +52,7 @@
 				</a>
 			</div>			
 
-			<div class="span4">
+			<div class="span4 offer5">
 				<a href="#">
 					<img src="images/offer5.jpg" alt="">
 					<span class="border-overlay">
@@ -63,7 +63,7 @@
 				</a>
 			</div>
 
-			<div class="span4">
+			<div class="span4 offer6">
 				<a href="#">
 					<img src="images/offer6.jpg" alt="">
 					<span class="border-overlay">
@@ -76,9 +76,9 @@
 				</a>
 			</div>
 
-			<div class="span12"><hr></div>			
+			<div class="span12"><hr class="hr2"></div>			
 
-			<div class="span4">
+			<div class="span4 offer7">
 				<a href="#">
 					<img src="images/offer7.jpg" alt="">
 					<span class="border-overlay">
@@ -89,7 +89,7 @@
 				</a>
 			</div>
 
-			<div class="span4">
+			<div class="span4 offer8">
 				<a href="#">
 					<img src="images/offer8.jpg" alt="">
 					<span class="border-overlay">
@@ -100,7 +100,7 @@
 				</a>
 			</div>
 
-			<div class="span4">
+			<div class="span4 offer9">
 				<a href="#">
 					<img src="images/offer9.jpg" alt="">
 					<span class="border-overlay">

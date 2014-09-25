@@ -16,12 +16,12 @@
 						<i class="icon-top1"></i>
 						<div class="project-count" title="anim">
 							<ul>
+								<li>0</li>
+								<li>11</li>
+								<li>23</li>
+								<li>35</li>
+								<li>42</li>
 								<li>49</li>
-								<li>50</li>
-								<li>51</li>
-								<li>52</li>
-								<li>53</li>
-								<li>54</li>
 								<li>55</li>
 								<li>56</li>
 							</ul>
@@ -32,13 +32,13 @@
 						<i class="icon-top2"></i>
 						<div class="project-count" title="anim">
 							<ul>
-								<li>76</li>
-								<li>77</li>
-								<li>78</li>
-								<li>79</li>
-								<li>80</li>
-								<li>81</li>
-								<li>82</li>
+								<li>0</li>
+								<li>14</li>
+								<li>23</li>
+								<li>43</li>
+								<li>52</li>
+								<li>65</li>
+								<li>72</li>
 								<li>83</li>
 							</ul>
 						</div>
