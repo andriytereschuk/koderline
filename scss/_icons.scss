@@ -183,3 +183,20 @@ $icon: sprite-map("icons/*.png", $spacing: 5px);
 	position: relative;
 	top: 7px;
 }
+
+.icon-proj2 {
+	@include sprite($icon, icon-proj2);
+}
+
+.icon-check {
+	@include sprite($icon, icon-check);
+}
+
+
+.icon-reload {
+	@include sprite($icon, icon-reload);
+}
+
+.icon-future {
+	@include sprite($icon, icon-future);
+}
