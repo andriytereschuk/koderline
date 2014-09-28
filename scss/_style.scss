@@ -927,7 +927,6 @@ $offer-del: $offer-dur / 2;
 	text-align: center;
 	background-color: $blue;
 	border-bottom: 2px solid #119ac6;
-	margin-top: 20px;
 	@include ts;
 	font-weight: 500;
 	line-height: 40px;
@@ -1414,9 +1413,310 @@ $offer-del: $offer-dur / 2;
 		line-height: 28px;
 		color: $black;
 		text-align: center;
-		margin-bottom: 50px;	
+		margin-bottom: 40px;	
 	}	
 }
 
+.address-blok {
+	height: 118px;
+	position: relative;
+	padding-top: 25px;
+	margin-bottom: 20px;
 
+	&:after {
+		@include cont;
+		width: 0; 
+		height: 0; 
+		border-left: 8px solid transparent;
+		border-right: 8px solid transparent;
+		border-top: 8px solid #fff;
+		left: 50%;
+		margin-left: -4px;
+		bottom: -8px;
+	}
+}
 
+.address-icon {
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+	background-color: #fff;
+	position: absolute;
+	left: 50%;
+	margin-left: -25px;
+	top: 0;
+	text-align: center;
+
+	i {
+		margin-top: 8px;
+	}
+
+	.mt-10 {
+		margin-top: 11px;
+	}
+}
+
+.address-cont {
+	height: 118px;
+	background-color: #fff;
+	display: table-cell;
+	vertical-align: middle;
+	line-height: 20px;
+	text-align: center;
+	padding: 0 5px;
+	width: 290px;
+}
+
+.address-h {
+	font-weight: 500;
+	color: $black;
+	text-align: center;
+	padding: 0 10px;
+	margin-bottom: 20px;
+}
+
+.address-btn {
+	width: 174px;
+	margin: 20px auto 30px auto;
+}
+
+.bottom-border {
+	height: 20px;
+	width: 100%;
+	border-top: 2px solid #f9f9f9;
+}
+
+.small-h {
+	h2 {
+		font-weight: 300;
+		font-size: 24px;
+		line-height: 28px;
+		color: #444;
+		text-align: center;
+		margin-bottom: 6px;
+	}
+
+	h3 {
+		font-size: 16px;
+		color: $black;
+		font-weight: 300;
+		line-height: 20px;
+		margin-bottom: 30px;
+		text-align: center;
+	}
+}
+
+// Managers
+// --------------------------------------------
+
+.managers {
+	background-color: $e;
+}
+
+.manager-href {
+	display: block;
+	width: 226px;
+	height: 254px;
+	margin-bottom: 30px;
+	float: left;
+	position: relative;
+	overflow: hidden;
+
+	img {
+		display: block;
+		width: 226px;
+		height: 254px;
+		@include ts(ease-in-out,0.5s);
+	}
+
+	&:before {
+		@include cont;
+		@include sprite($icon, icon-corner-right);
+		top: -1px;
+		right: 0;
+		z-index: 2;
+	}
+
+	&:after {
+		@include cont;
+		@include sprite($icon, icon-corner-right2);
+		top: 27px;
+		right: 0;
+	}
+
+	.icon-plus {
+		position: absolute;
+		display: block;
+		left: 50%;
+		margin-left: -16px;
+		top: 50%;
+		margin-top: -16px;
+		@include sprite($icons, icon-plus);
+		z-index: 2;			
+	}
+
+	.border-overlay{
+		display: block;
+		position: absolute;
+		@include sprite($icon, icon-overlay);
+		width: 197px;
+		height: 228px;
+		padding: 2px;
+		top: 10px;
+		left: 9px;
+		opacity: 0;
+		@include tsp(opacity,ease-in-out,0.3s,0.2s);
+
+		.bg-overlay {
+			width: 197px;
+			height: 228px;
+			display: block;
+			background-color: rgba(19, 58, 70, 0.2);
+			@include ts(ease-in-out,0.3s);	
+		}
+	}
+
+	&:hover {
+
+		img {
+			@include scale(1.2);
+		}
+
+		.border-overlay {
+			opacity: 1;
+		}
+
+		.border-overlay {
+			.bg-overlay {
+				background-color: rgba(19, 58, 70, 0.2);
+			}
+		}
+	}				
+}
+
+.manager-info {
+	width: 208px;
+	padding-right: 10px;
+	margin-left: 15px;
+	float: left;
+	height: 100%;
+	overflow: hidden;
+	border-right: 1px solid $e;
+	position: relative;
+	top: -4px;
+	margin-bottom: 20px;
+
+	h2 {
+		font-size: 16px;
+		line-height: 20px;
+		color: $black;
+		margin: 0 0 4px 0;
+		text-align: left;
+	}
+
+	.h {
+		font-weight: 500;
+		color: $black;
+		margin-bottom: 4px;
+	}
+
+	.mail {
+		margin-bottom: 10px;
+		display: block;
+	}
+}
+
+.mail {
+	text-decoration: underline;
+
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+// Map
+// ---------------------------------------------
+
+.map {
+	height: 424px;
+	position: relative;
+}
+
+#map {
+	height: 424px;
+}
+
+.feedback {
+	padding: 20px;
+	background-color: #fff;
+	width: 260px;
+	position: absolute;
+	left: 50%;
+	top: 20px;
+	padding: 10px 20px 20px 20px;
+	margin-left: -470px;
+
+	h2 {
+		font-weight: 300;
+		font-size: 24px;
+		line-height: 28px;
+		color: $black;
+	}
+
+	h3 {
+		font-weight: 300;
+		font-size: 16px;
+		line-height: 20px;
+		color: $black;
+		margin-bottom: 15px;		
+	}
+
+	@include placeholder($grey);
+
+	input {
+		font-family: 'Roboto', sans-serif;
+		font-size: 14px;
+		background-color: $e;
+		padding: 8px 9px;
+		width: 240px;
+		margin-bottom: 12px;
+		outline: none;
+		border: 1px solid $e;
+		@include ts;
+
+		&:focus {
+			border: 1px solid $blue;
+		}
+	}
+
+	textarea {
+		font-family: 'Roboto', sans-serif;
+		font-size: 14px;
+		background-color: $e;
+		padding: 8px 9px;
+		width: 240px;
+		height: 75px;
+		margin-bottom: 12px;
+		outline: none;
+		border: 1px solid $e;
+		@include ts;
+
+		&:focus {
+			border: 1px solid $blue;
+		}		
+	}
+
+	button {
+		width: 100%;
+	}
+
+	textarea, input {
+		&.error {
+			border: 1px solid $red;
+
+			&:focus {
+				border: 1px solid $blue;
+			}			
+		}
+	}	
+}

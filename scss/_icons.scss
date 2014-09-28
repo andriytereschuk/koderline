@@ -138,3 +138,48 @@ $icon: sprite-map("icons/*.png", $spacing: 5px);
 .icon-map {
 	@include sprite($icon, icon-map);
 }
+
+.icon-address1 {
+	@include sprite($icon, icon-address1);
+}
+
+.icon-address2 {
+	@include sprite($icon, icon-address2);
+}
+
+.icon-address3 {
+	@include sprite($icon, icon-address3);
+}
+
+.icon-address4 {
+	@include sprite($icon, icon-address4);
+}
+
+.icon-address5 {
+	@include sprite($icon, icon-address5);
+}
+
+.icon-address6 {
+	@include sprite($icon, icon-address6);
+}
+
+.icon-download {
+	@include sprite($icon, icon-download);
+	margin-right: 8px;
+	position: relative;
+	top: 5px;
+}
+
+.icon-by-mail {
+	@include sprite($icon, icon-by-mail);
+	margin-right: 8px;
+	position: relative;
+	top: 6px;
+}
+
+.icon-print {
+	@include sprite($icon, icon-print);
+	margin-right: 8px;
+	position: relative;
+	top: 7px;
+}
