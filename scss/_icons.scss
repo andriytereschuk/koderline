@@ -204,3 +204,24 @@ $icon: sprite-map("icons/*.png", $spacing: 5px);
 .icon-future {
 	@include sprite($icon, icon-future);
 }
+
+.icon-kalendar-blue {
+	@include sprite($icon, icon-kalendar-blue);
+}
+
+.icon-close {
+	@include sprite($icon, icon-close);
+}
+
+.icon-com {
+	@include sprite($icon, icon-com);
+}
+
+.icon-rezult {
+	@include sprite($icon, icon-rezult);
+}
+
+.icon-monitor {
+	@include sprite($icon, icon-monitor);
+}
+

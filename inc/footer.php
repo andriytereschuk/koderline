@@ -38,7 +38,7 @@
 				</ul>				
 			</div>
 			<div class="span2">
-				<div class="col-name">Компетенции МСФО</div>
+				<div class="col-name">Компетенции</div>
 
 				<ul>
 					<li><a href="#">МСФО</a></li>
