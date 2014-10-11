@@ -12,10 +12,6 @@
 				<ul>
 					<li><a href="#">О нас</a></li>
 					<li><a href="#">Проекты и отзывы</a></li>
-					<li><a href="#">Технология</a></li>
-					<li><a href="#">Платформа</a></li>
-					<li><a href="#">Вакансии</a></li>
-					<li><a href="#">Работа у нас</a></li>
 				</ul>
 			</div>
 			<div class="span2">
@@ -23,7 +19,6 @@
 
 				<ul>
 					<li><a href="#">Универсальное решение 1С</a></li>
-					<li><a href="#">Отраслевое решение 1С</a></li>
 					<li><a href="#">Лицензии 1С: Предприятие 8</a></li>
 				</ul>				
 			</div>
@@ -33,37 +28,28 @@
 				<ul> 
 					<li><a href="#">Проекты и консалтинг</a></li>
 					<li><a href="#">Внедрение и настройка</a></li>
-					<li><a href="#">Споровождние 1С</a></li>
-					<li><a href="#">Онлайн (удаленное) сопровождние</a></li>
 				</ul>				
 			</div>
 			<div class="span2">
 				<div class="col-name"></div>
 
 				<ul>
-					<li><a href="#">Аудит систем 1С</a></li>
-					<li><a href="#">Оценка ТЗ</a></li>
-					<li><a href="#">Оптимизация производительности</a></li>
-					<li><a href="#">Интернет-проекты</a></li>
-					<li><a href="#">Линия консультаций</a></li>
+					<li><a href="#">Споровождние 1С</a></li>
 				</ul>				
 			</div>
 			<div class="span2">
 				<div class="col-name">Компетенции МСФО</div>
 
 				<ul>
-					<li><a href="#">Производство</a></li>
-					<li><a href="#">Стройка</a></li>
-					<li><a href="#">Автозапчасти</a></li>
+					<li><a href="#">МСФО</a></li>
+					<li><a href="#">Строительство</a></li>
 					<li><a href="#">Торговля</a></li>
-					<li><a href="#">Деловодство и  документооборот</a></li>
 				</ul>				
 			</div>				
 			<div class="span2">
 				<div class="col-name">Карьера</div>
 
 				<ul>
-					<li><a href="#">Работа у нас</a></li>
 					<li><a href="#">Вакансии</a></li>
 				</ul>					
 			</div>

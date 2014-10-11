@@ -1,5 +1,5 @@
 function init() {
-	var latLng = new google.maps.LatLng(55.781928,37.7);
+	var latLng = new google.maps.LatLng(55.7263,37.39);
 
 	var settings = {
 		center: latLng,
@@ -22,7 +22,7 @@ function init() {
 	
 	var marker = new google.maps.Marker({
 		map: map,
-		position: new google.maps.LatLng(55.781928,37.7134395),
+		position: new google.maps.LatLng(55.7263,37.3995),
 		draggable: false,
 		title: 'Главный офис',
 		icon:'images/icons/icon-marker.png'

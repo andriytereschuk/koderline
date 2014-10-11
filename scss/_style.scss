@@ -111,6 +111,12 @@
 	.top-desc {
 		width: 75px;
 	}
+
+	&:hover {
+		color: $blue;
+	}
+
+	@include ts;	
 }
 
 .icon-top2 {
@@ -241,6 +247,7 @@
 
 .logo2 {
 	margin-top: 11px;
+	display: block;
 }
 
 .call-skype {
@@ -517,70 +524,52 @@
 			@include ts(ease-in-out,0.5s);
 		}
 
-		&:after {
-			@include cont;
-			left: 50%;
-			margin-left: -16px;
-			bottom: 50px;
-			@include sprite($icons, icon-plus);
-			z-index: 2;			
-		}
 
-		.border-overlay{
-			display: block;
+		.bg-overlay {
+			height: 96px;
+			width: 100%;
+			@include ts(ease,0.5s);
 			position: absolute;
-			@include sprite($icons, icon-overlay);
-			width: 275px;
-			height: 195px;
-			padding: 2px;
-			top: 10.5px;
-			left: 10.5px;
+			left: 0;
+			bottom: 0;
 
-			.bg-overlay {
-				height: 195px;
-				width: 275px;
-				display: table-cell;
-				vertical-align: middle;
-				background-color: rgba(0,0,0,0.45);
-				text-align: center;
-				@include ts(ease-in-out,0.3s);
-
-				h2 {
-					display: inline-block;
-					color: #fff;
-					font-size: 24px;
-					line-height: 26px;
-					font-weight: 300;
-					position: relative;
-					top: -24px;
-					margin-bottom: 5px;
-				}
-
-				h3 {
-					display: inline-block;
-					color: #fff;
-					font-weight: 500;
-					font-size: 14px;
-					line-height: 20px;
-					position: relative;
-					top: -24px;					
-				}				
+			h2 {
+				color: #fff;
+				font-size: 24px;
+				line-height: 26px;
+				font-weight: 300;
+				margin-left: 18px;
+				margin-top: 22px;
+				margin-bottom: 5px;
 			}
+
+			h3 {
+				color: #fff;
+				font-weight: 500;
+				font-size: 14px;
+				line-height: 20px;
+				margin-left: 18px;				
+			}				
 		}
 
 		&:hover {
 			img {
-				@include scale(1.2);
+				@include scale(1.1);
 			}
 
-			.border-overlay {
-				.bg-overlay {
-					background-color: rgba(19, 58, 70, 0.45);
-				}
+			.bg-overlay {
+				height: 100%;
 			}
 		}
 	}
 }
+
+.offer1 .bg-overlay {background-color: rgba(99,194,205,0.8);}
+.offer2 .bg-overlay {background-color: rgba(161,205,99,0.8);}
+.offer3 .bg-overlay {background-color: rgba(247,147,30,0.8);}
+.offer4 .bg-overlay {background-color: rgba(214,95,166,0.8);}
+.offer5 .bg-overlay {background-color: rgba(0,189,173,0.8);}
+.offer6 .bg-overlay {background-color: rgba(231,76,60,0.8);}
 
 $offer-dur: 0.6s;
 $offer-del: $offer-dur / 2;
@@ -590,11 +579,7 @@ $offer-del: $offer-dur / 2;
 .offer4 {@include ts(ease,$offer-dur,$offer-del+0.7s)}
 .offer5 {@include ts(ease,$offer-dur,$offer-del+0.8s)}
 .offer6 {@include ts(ease,$offer-dur,$offer-del+0.9s)}
-.offer7 {@include ts(ease,$offer-dur,$offer-del+1.3s)}
-.offer8 {@include ts(ease,$offer-dur,$offer-del+1.4s)}
-.offer9 {@include ts(ease,$offer-dur,$offer-del+1.5s)}
 .hr1 {@include ts(ease,0.2s,$offer-del+0.6s)}
-.hr2 {@include ts(ease,0.2s,$offer-del+1.2s)}
 
 // News
 // --------------------------------
@@ -998,7 +983,6 @@ $offer-del: $offer-dur / 2;
 	img {
 		width: 226px;
 		height: 294px;
-		@include ts(ease-in-out,0.5s);
 	}
 
 	&:before {
@@ -1024,40 +1008,58 @@ $offer-del: $offer-dur / 2;
 		top: 50%;
 		margin-top: -16px;
 		@include sprite($icons, icon-plus);
-		z-index: 2;			
+		z-index: 2;
+		opacity: 0;
+		@include ts;			
 	}
 
 	.border-overlay{
 		display: block;
 		position: absolute;
 		@include sprite($icons, icon-overlay3);
+		opacity: 0;
 		width: 197px;
 		height: 270px;
 		padding: 2px;
 		top: 10px;
 		left: 9px;
+		@include ts;
 
 		.bg-overlay {
 			width: 197px;
 			height: 270px;
 			display: block;
-			background-color: rgba(0,0,0,0.3);
-			@include ts(ease-in-out,0.3s);	
+			background-color: rgba(0, 0, 0, 0.2);
 		}
 	}
 
 	&:hover {
 
-		img {
-			@include scale(1.2);
+		.icon-plus {
+			opacity: 1;
 		}
 
 		.border-overlay {
-			.bg-overlay {
-				background-color: rgba(19, 58, 70, 0.4);
-			}
+			opacity: 1;
 		}
 	}				
+}
+
+.history-h {
+	height: 22px;
+	margin-bottom: 10px;
+
+	i {
+		margin-right: 16px;
+	}
+
+	span {
+		font-weight: 300;
+		font-size: 16px;	
+		color: $black;
+		position: relative;
+		top: -4px;
+	}
 }
 
 .project-info {
@@ -1067,7 +1069,7 @@ $offer-del: $offer-dur / 2;
 	float: left;
 	height: 100%;
 	overflow: hidden;
-	border-right: 1px solid $e;
+	border-right: 2px solid $e;
 	position: relative;
 	top: -4px;
 
@@ -1090,9 +1092,7 @@ $offer-del: $offer-dur / 2;
 	width: 284px;
 	height: 100%;
 	overflow: hidden;
-	float: right;
-	position: relative;
-	top: -4px;			
+	float: right;			
 }
 
 .com-h {
@@ -1526,7 +1526,6 @@ $offer-del: $offer-dur / 2;
 		display: block;
 		width: 226px;
 		height: 254px;
-		@include ts(ease-in-out,0.5s);
 	}
 
 	&:before {
@@ -1542,55 +1541,7 @@ $offer-del: $offer-dur / 2;
 		@include sprite($icon, icon-corner-right2);
 		top: 27px;
 		right: 0;
-	}
-
-	.icon-plus {
-		position: absolute;
-		display: block;
-		left: 50%;
-		margin-left: -16px;
-		top: 50%;
-		margin-top: -16px;
-		@include sprite($icons, icon-plus);
-		z-index: 2;			
-	}
-
-	.border-overlay{
-		display: block;
-		position: absolute;
-		@include sprite($icon, icon-overlay);
-		width: 197px;
-		height: 228px;
-		padding: 2px;
-		top: 10px;
-		left: 9px;
-		opacity: 0;
-		@include ts;
-
-		.bg-overlay {
-			width: 197px;
-			height: 228px;
-			display: block;
-			background-color: rgba(19, 58, 70, 0.2);
-		}
-	}
-
-	&:hover {
-
-		img {
-			@include scale(1);
-		}
-
-		.border-overlay {
-			opacity: 1;
-		}
-
-		.border-overlay {
-			.bg-overlay {
-				background-color: rgba(19, 58, 70, 0.2);
-			}
-		}
-	}				
+	}			
 }
 
 .manager-info {
@@ -1830,6 +1781,12 @@ $offer-del: $offer-dur / 2;
 	width: 260px;
 	height: 42px;
 	background-color: $e;
+	@include tsp(background-color,ease,0.2s);
+
+	&:hover {
+		background-color: #ddd;
+		cursor: pointer;
+	}
 
 	&:focus {
 		outline: 1px solid $e;

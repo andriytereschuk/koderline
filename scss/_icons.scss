@@ -132,6 +132,10 @@ $icon: sprite-map("icons/*.png", $spacing: 5px);
 	@include sprite($icons, icon-edit);
 }
 
+.icon-history{
+	@include sprite($icons, icon-history);
+}
+
 // Other sprite
 // ----------------------------------------------
 

@@ -56,6 +56,7 @@
 				}
 
 				else {
+					$(".filter-btn").removeClass("chosen");
 					$(this).addClass("chosen");
 				}
 			});

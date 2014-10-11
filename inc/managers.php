@@ -11,13 +11,9 @@
 
 		<div class="row">
 			<div class="span6">
-				<a href="#" class="manager-href">
+				<div class="manager-href">
 					<img src="images/manager1.jpg" alt="">
-					<span class="border-overlay">
-						<span class="bg-overlay"></span>
-						<i class="icon-plus"></i>
-					</span>
-				</a>
+				</div>
 
 				<div class="manager-info">
 					<h2>Андрей Бербека</h2>
@@ -35,13 +31,9 @@
 			</div>
 
 			<div class="span6">
-				<a href="#" class="manager-href">
+				<div class="manager-href">
 					<img src="images/manager2.jpg" alt="">
-					<span class="border-overlay">
-						<span class="bg-overlay"></span>
-						<i class="icon-plus"></i>
-					</span>
-				</a>
+				</div>
 
 				<div class="manager-info">
 					<h2>Игорь Шлепанов</h2>

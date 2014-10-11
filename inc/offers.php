@@ -6,11 +6,9 @@
 			<div class="span4 offer1">
 				<a href="#">
 					<img src="images/offer1.jpg" alt="">
-					<span class="border-overlay">
-						<span class="bg-overlay">
-							<h2>Внедрение 1С</h2>
-							<h3>Внедрение и настройка</h3>
-						</span>
+					<span class="bg-overlay">
+						<h2>Внедрение 1С</h2>
+						<h3>Внедрение и настройка</h3>
 					</span>
 				</a>
 			</div>
@@ -18,11 +16,9 @@
 			<div class="span4 offer2">
 				<a href="#">
 					<img src="images/offer2.jpg" alt="">
-					<span class="border-overlay">
-						<span class="bg-overlay">
-							<h2>Сопровождение 1С</h2>
-							<h3>Удаленное он-лайн <br> сопровождение 1С</h3>
-						</span>
+					<span class="bg-overlay">
+						<h2>Сопровождение 1С</h2>
+						<h3>Удаленное он-лайн сопровождение 1С</h3>
 					</span>
 				</a>
 			</div>
@@ -30,11 +26,9 @@
 			<div class="span4 offer3">
 				<a href="#">
 					<img src="images/offer3.jpg" alt="">
-					<span class="border-overlay">
-						<span class="bg-overlay">
-							<h2> Проекты и консалтинг</h2>
-							<h3>Удаленное он-лайн <br> сопровождение 1С</h3>
-						</span>
+					<span class="bg-overlay">
+						<h2> Проекты и консалтинг</h2>
+						<h3>Удаленное он-лайн сопровождение 1С</h3>
 					</span>
 				</a>
 			</div>
@@ -44,10 +38,9 @@
 			<div class="span4 offer4">
 				<a href="#">
 					<img src="images/offer4.jpg" alt="">
-					<span class="border-overlay">
-						<span class="bg-overlay">
-							<h2> Выезд эксперта</h2>
-						</span>
+					<span class="bg-overlay">
+						<h2> Выезд эксперта</h2>
+						<h3>Внедрение и настройка</h3>
 					</span>
 				</a>
 			</div>			
@@ -55,10 +48,8 @@
 			<div class="span4 offer5">
 				<a href="#">
 					<img src="images/offer5.jpg" alt="">
-					<span class="border-overlay">
-						<span class="bg-overlay">
-							<h2> Экспресс-аудит <br> 1С-системы</h2>
-						</span>
+					<span class="bg-overlay">
+						<h2> Экспресс-аудит 1С-системы</h2>
 					</span>
 				</a>
 			</div>
@@ -66,47 +57,9 @@
 			<div class="span4 offer6">
 				<a href="#">
 					<img src="images/offer6.jpg" alt="">
-					<span class="border-overlay">
-						<span class="bg-overlay">
-							<h2> Экспресс-оценка ТЗ</h2>
-							<br>
-							<h3>Оценка реализации проекта <br>или задачи</h3>
-						</span>
-					</span>
-				</a>
-			</div>
-
-			<div class="span12"><hr class="hr2"></div>			
-
-			<div class="span4 offer7">
-				<a href="#">
-					<img src="images/offer7.jpg" alt="">
-					<span class="border-overlay">
-						<span class="bg-overlay">
-							<h2> Купить 1С</h2>
-						</span>
-					</span>
-				</a>
-			</div>
-
-			<div class="span4 offer8">
-				<a href="#">
-					<img src="images/offer8.jpg" alt="">
-					<span class="border-overlay">
-						<span class="bg-overlay">
-							<h2> Документооборот</h2>
-						</span>
-					</span>
-				</a>
-			</div>
-
-			<div class="span4 offer9">
-				<a href="#">
-					<img src="images/offer9.jpg" alt="">
-					<span class="border-overlay">
-						<span class="bg-overlay">
-							<h2> Управление торговлей</h2>
-						</span>
+					<span class="bg-overlay">
+						<h2> Экспресс-оценка ТЗ</h2>
+						<h3>Внедрение и настройка</h3>
 					</span>
 				</a>
 			</div>																					

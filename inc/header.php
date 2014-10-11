@@ -12,7 +12,11 @@
 				</div>
 
 				<div class="pull-right">
-					<a href="#" class="top1">
+				<?php
+				$homepage = "/main.php";
+				$currentpage = $_SERVER['REQUEST_URI'];
+				if($homepage==$currentpage) {
+				echo '<a href="#" class="top1" title="Реализованих проектов">
 						<i class="icon-top1"></i>
 						<div class="project-count" title="anim">
 							<ul>
@@ -28,7 +32,7 @@
 						</div>
 						<div class="top-desc">Реализованных проектов</div>
 					</a>
-					<div class="top2">
+					<a href="#" class="top2" title="Активных клиентов">
 						<i class="icon-top2"></i>
 						<div class="project-count" title="anim">
 							<ul>
@@ -43,7 +47,30 @@
 							</ul>
 						</div>
 						<div class="top-desc">Активных клиентов</div>						
-					</div>
+					</a>';
+				}
+				else {
+				echo '<a href="#" class="top1" title="Реализованих проектов">
+						<i class="icon-top1"></i>
+						<div class="project-count">
+							<ul>
+								<li>56</li>
+							</ul>
+						</div>
+						<div class="top-desc">Реализованных проектов</div>
+					</a>
+					<a href="#" class="top2" title="Активных клиентов">
+						<i class="icon-top2"></i>
+						<div class="project-count">
+							<ul>
+								<li>83</li>
+							</ul>
+						</div>
+						<div class="top-desc">Активных клиентов</div>						
+					</a>';
+				}
+				?>				
+
 					<div class="top3">
 						<i class="icon-top3"></i>
 						<span>+7 (495) 374 55 29</span>
@@ -85,7 +112,7 @@
 			</div>
 
 			<div class="span1">
-				<div class="logo2 icon-logo2"></div>
+				<a href="#" title="1С" class="logo2 icon-logo2"></a>
 			</div>
 		</div>
 	</div>	
