@@ -1,12 +1,17 @@
 
 
-<section class="our-systems">
+<section class="services">
 	<div class="container">
 		<div class="row">
 			<div class="span12">
-				<div class="section-icon"><i class="icon-monitor"></i></div>
-				<h2>Информационные системы</h2>
-				<h3>которые мы внедряем:</h3>							
+				<div class="top-section">
+					<div class="up-section">
+						<i class="icon-monitor"></i>
+					</div>
+					<h1>Воспользуйтесь экспресс услугами</h1>
+					<h2>Проверьте эффективность работы системы 1С, 
+					либо получите доступ к демо версии</h2>					
+				</div>								
 			</div>
 
 

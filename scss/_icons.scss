@@ -225,3 +225,14 @@ $icon: sprite-map("icons/*.png", $spacing: 5px);
 	@include sprite($icon, icon-monitor);
 }
 
+.icon-dream {
+	@include sprite($icon, icon-dream);
+}
+
+.icon-graph {
+	@include sprite($icon, icon-graph);
+}
+
+.icon-edit-grey {
+	@include sprite($icon, icon-edit-grey);
+}
