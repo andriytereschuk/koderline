@@ -252,3 +252,11 @@ $icon: sprite-map("icons/*.png", $spacing: 5px);
 .icon-down {
 	@include sprite($icon, icon-down);
 }
+
+.icon-phone-white {
+	@include sprite($icon, icon-phone-white);	
+}
+
+.icon-edit-white {
+	@include sprite($icon, icon-edit-white);
+}

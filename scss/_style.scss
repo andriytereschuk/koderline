@@ -2501,6 +2501,18 @@ $offer-del: $offer-dur / 2;
 	width: 362px;
 	height: 178px;
 	background-color: rgba(0,0,0,0.45);
+
+	p {
+		line-height: 20px;
+		text-align: center;
+		margin-bottom: 16px;
+		color: #fff;
+	}
+
+	a {
+		width: 322px;
+		margin: 0 auto;
+	}
 }
 
 .estimate-left {
@@ -2511,4 +2523,56 @@ $offer-del: $offer-dur / 2;
 .estimate-right {
 	float: right;
 	margin-right: 50px;
+}
+
+.order-phone {
+	color: #fff;
+	font-weight: 500;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 10px;
+
+	i {
+		margin-right: 4px;
+	}
+
+	span {
+		position: relative;
+		top: -7px;
+	}
+}
+
+.order-anketa {
+	color: #fff;
+	font-weight: 500;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 10px;
+
+	i {
+		margin-right: 4px;
+	}
+
+	span {
+		position: relative;
+		top: -6px;
+		text-transform: uppercase;
+	}
+}
+
+.red-btn {
+	display: block;
+	height: 40px;
+	text-align: center;
+	background-color: $red;
+	border-bottom: 2px solid #bd3e31;
+	@include ts;
+	font-weight: 500;
+	line-height: 40px;
+	text-transform: uppercase;
+	color: #fff;
+
+	&:hover {
+		background-color: #d04436;
+	}
 }
