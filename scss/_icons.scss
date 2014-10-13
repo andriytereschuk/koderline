@@ -236,3 +236,19 @@ $icon: sprite-map("icons/*.png", $spacing: 5px);
 .icon-edit-grey {
 	@include sprite($icon, icon-edit-grey);
 }
+
+.icon-busket {
+	@include sprite($icon, icon-busket);
+}
+
+.icon-busket-grey {
+	@include sprite($icon, icon-busket-grey);
+}
+
+.icon-star {
+	@include sprite($icon, icon-star);
+}
+
+.icon-down {
+	@include sprite($icon, icon-down);
+}

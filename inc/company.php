@@ -4,7 +4,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="span12">
-				<div class="section-icon"><i class="icon-com"></i></div>
+				<div class="section-icon"><i class="icon-star"></i></div>
 				<div class="small-h">
 					<h2>Краткое описание нашей компании<br><br></h2>
 				</div>

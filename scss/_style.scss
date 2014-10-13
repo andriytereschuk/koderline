@@ -958,13 +958,13 @@ $offer-del: $offer-dur / 2;
 	&:hover {
 		color: $blue;
 
-		&.slider-left {
+		&.slider-left, &.slider-left2 {
 			i {
 				@include sprite($icons, icon-left2);
 			}
 		}
 
-		&.slider-right {
+		&.slider-right, &.slider-right2 {
 			i {
 				@include sprite($icons, icon-right2);				
 			}
@@ -2211,3 +2211,304 @@ $offer-del: $offer-dur / 2;
 	position: relative;	
 }
 
+
+// Product
+// ----------------------------
+
+.product {
+	background-color: $e;
+
+	.container {
+		padding: 35px 0 40px 0;
+	}
+
+	h1 {
+		font-size: 44px;
+		line-height: 48px;
+		font-weight: 300;
+		color: $black;
+		text-align: center;
+		margin-bottom: 40px;
+	}
+}
+
+.prod-img {
+	width: 100%;
+}
+
+.prod-info {
+	h2 {
+		font-weight: 500;
+		color: $black;
+		margin-bottom: 10px;
+		font-size: 14px;
+	}
+
+	.blue-btn {
+		width: 170px;
+		float: right;
+
+		i {
+			top: 6px;
+			position: relative;
+			margin-right: 6px;
+		}
+	}
+}
+
+.prod-a {
+	float: left;
+	height: 32px;
+	line-height: 32px;
+	display: block;
+	margin-top: 10px;
+
+	i {
+		margin-right: 10px;
+	}
+
+	span {
+		position: relative;
+		top: -11px;
+	}
+}
+
+.order {
+	.container {
+		padding: 35px 0 40px 0;
+	}
+
+	.section-icon {
+		background-color: #fff;
+
+		i {
+			margin-top: 13px;
+		}
+	}
+
+	.span7 {
+		ul {
+			li {
+				display: block;
+				padding-left: 14px;
+				margin-bottom: 16px;
+				position: relative;
+
+				&:before {
+					@include cont;
+					width: 5px;
+					height: 5px;
+					border-radius: 100%;
+					background-color: $blue;
+					left: 0;
+					top: 7px;
+				}
+			}
+		}
+	}
+}
+
+// Order product
+// -------------------------------------------
+
+.order-product {
+	background-color: $e;
+
+	.container {
+		padding: 40px 0 50px 0;
+	}
+}
+
+.order-wrap {
+	background-color: #fff;
+	padding: 10px 0;
+	margin-bottom: 30px;
+
+	.blue-btn {
+		width: 260px;
+		margin: 0 auto;
+
+		i {
+			top: 6px;
+			position: relative;
+			margin-right: 6px;
+		}		
+	}
+}
+
+.order-product {
+	h2 {
+		color: $black;
+		font-weight: 300;
+		font-size: 24px;
+		line-height: 28px;
+		margin-bottom: 20px;
+	}
+}
+
+.order-h {
+	border-top: 2px solid #e5e5e5;
+	border-bottom: 2px solid #e5e5e5;
+	margin-bottom: 10px;
+
+	.order-div {
+		height: 34px;
+		line-height: 34px;
+		text-align: center;
+		color: $black;
+		font-weight: 300;
+		font-size: 16px;
+	}
+}
+
+.order-name {
+	width: 460px;
+	float: left;
+}
+
+.order-cost {
+	width: 140px;
+	float: right;
+}
+
+.akardion {
+	display: block;
+	width: 410px;
+	background-color: #fff;
+	font-size: 14px;
+	line-height: 18px;
+	font-weight: 500;
+	color: $black;
+	position: relative;
+	padding: 10px 40px 10px 10px;
+
+	i {
+		position: absolute;
+		right: 15px;
+		top: 16px;
+	}
+
+	&.akardion-open + .akardion-t {
+		height: auto;
+	}
+}
+
+.akardion-t {
+	background-color: #e5e5e5;
+	height: 0;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+.akardion-p {
+	padding: 15px 15px 10px 15px;
+}
+
+.price {
+	height: 38px;
+	color: #fff;
+	background-color: #54bf4f;
+	text-align: center;
+	font-weight: 500;
+	line-height: 38px;
+}
+
+.btn-download {
+	width: 240px;
+	float: right;
+
+	i {
+		top: 6px;
+		position: relative;
+		margin-right: 6px;
+	}		
+}
+
+
+.consultation {
+	h3 {
+		font-weight: 300;
+		color: $black;
+		font-size: 16px;
+		line-height: 18px;
+		margin-bottom: 4px;
+		text-align: center;
+	}
+
+	h2 {
+		font-weight: 300;
+		color: $black;
+		font-size: 24px;
+		line-height: 26px;
+		text-align: center;
+		margin-bottom: 14px;
+	}
+
+	.blue-btn {
+		width: 220px;
+		margin: 0 auto 30px auto;
+	}
+}
+
+.consultation-list {
+	h3 {
+		font-weight: 300;
+		color: $black;
+		font-size: 16px;
+		line-height: 20px;
+		margin-bottom: 25px;
+	}	
+}
+
+
+.section-estimate {
+	background: url("../images/highway.jpg") no-repeat center top;
+	background-size: cover;
+
+	.container {
+		padding: 50px 0;
+	}
+
+	h3 {
+		font-weight: 300;
+		font-size: 24px;
+		line-height: 28px;
+		color: #fff;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+
+	h2 {
+		font-weight: 300;
+		font-size: 44px;
+		line-height: 48px;
+		color: #fff;
+		text-align: center;
+		margin-bottom: 30px;
+	}
+
+	h4 {
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 18px;
+		color: #fff;
+		text-align: center;
+		margin-bottom: 5px;
+	}	
+}
+
+.estimate-blok {
+	width: 362px;
+	height: 178px;
+	background-color: rgba(0,0,0,0.45);
+}
+
+.estimate-left {
+	float: left;
+	margin-left: 50px;
+}
+
+.estimate-right {
+	float: right;
+	margin-right: 50px;
+}
