@@ -260,3 +260,87 @@ $icon: sprite-map("icons/*.png", $spacing: 5px);
 .icon-edit-white {
 	@include sprite($icon, icon-edit-white);
 }
+
+.icon-building {
+	@include sprite($icon, icon-building);
+}
+
+.icon-settings-grey {
+	@include sprite($icon, icon-settings-grey);
+}
+
+.icon-file-blue {
+	@include sprite($icon, icon-file-blue);	
+}
+
+.icon-traiding {
+	@include sprite($icon, icon-traiding);	
+}
+
+.icon-solution {
+	@include sprite($icon, icon-solution);	
+}
+
+.icon-dolar {
+	@include sprite($icon, icon-dolar);		
+}
+
+.icon-consol {
+	@include sprite($icon, icon-consol);	
+}
+
+.icon-manage {
+	@include sprite($icon, icon-manage);	
+}
+
+.icon-roz {
+	@include sprite($icon, icon-roz);	
+}
+
+.icon-manage2 {
+	@include sprite($icon, icon-manage2);	
+}
+
+.icon-docoborot {
+	@include sprite($icon, icon-docoborot);	
+}
+
+.icon-salary {
+	@include sprite($icon, icon-salary);	
+}
+
+.icon-manage3 {
+	@include sprite($icon, icon-manage3);	
+}
+
+.icon-avtomat {
+	@include sprite($icon, icon-avtomat);	
+}
+
+.icon-holding {
+	@include sprite($icon, icon-holding);	
+}
+
+.icon-factory {
+	@include sprite($icon, icon-factory);	
+}
+
+.icon-program {
+	@include sprite($icon, icon-program);	
+}
+
+.icon-earth {
+	@include sprite($icon, icon-earth);	
+}
+
+.icon-shield {
+	@include sprite($icon, icon-shield);
+}
+
+.icon-report {
+	@include sprite($icon, icon-report);
+}
+
+.icon-mail-white {
+	@include sprite($icon, icon-mail-white);
+}

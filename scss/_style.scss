@@ -2228,8 +2228,19 @@ $offer-del: $offer-dur / 2;
 		font-weight: 300;
 		color: $black;
 		text-align: center;
-		margin-bottom: 40px;
+		margin-bottom: 10px;
 	}
+
+	.span12 {
+		h2 {
+			font-size: 24px;
+			line-height: 28px;
+			font-weight: 300;
+			color: $black;
+			text-align: center;
+			margin-bottom: 20px;		
+		}
+	}	
 }
 
 .prod-img {
@@ -2242,6 +2253,16 @@ $offer-del: $offer-dur / 2;
 		color: $black;
 		margin-bottom: 10px;
 		font-size: 14px;
+
+		strong {
+			font-weight: 300;
+			font-size: 24px;
+			margin-bottom: 10px;
+		}
+	}
+
+	p {
+		margin-bottom: 15px;
 	}
 
 	.blue-btn {
@@ -2254,6 +2275,10 @@ $offer-del: $offer-dur / 2;
 			margin-right: 6px;
 		}
 	}
+
+	&.results .res {
+		margin-bottom: 18px;
+	}	
 }
 
 .prod-a {
@@ -2574,5 +2599,298 @@ $offer-del: $offer-dur / 2;
 
 	&:hover {
 		background-color: #d04436;
+	}
+}
+
+.hr-top {
+	height: 2px;
+	background-color: #f9f9f9;
+	margin-bottom: 30px;
+}
+
+.hr-bot {
+	height: 2px;
+	background-color: #f9f9f9;
+	margin-top: 40px;
+}
+
+// building-info
+// ---------------------------------------
+
+.product-info {
+	background-color: $e;
+
+	.container {
+		padding: 0 0 20px 0;
+	}
+
+	.span12 {
+		h2 {
+			font-size: 24px;
+			color: $grey;
+			font-weight: 300;
+			margin-bottom: 35px;
+			text-align: center;
+			i {
+				position: relative;
+				top: 6px;
+				margin-right: 15px;
+			}
+		}
+	}
+
+	.span6 {
+		img {
+			width: 100%;
+			margin-bottom: 20px;
+		}
+
+		h2 {
+			font-weight: 500;
+			color: $black;
+			margin-bottom: 10px;
+			font-size: 14px;
+		}
+
+		p {
+			margin-bottom: 15px;
+		}		
+	}
+}
+
+
+// building-func
+// ---------------------------------------
+
+.product-func {
+	background-color: $e;
+
+	.container {
+		padding: 0 0 30px 0;
+	}
+
+	.span12 {
+		h2 {
+			font-size: 24px;
+			color: $grey;
+			font-weight: 300;
+			margin-bottom: 35px;
+			text-align: center;
+			i {
+				position: relative;
+				top: 6px;
+				margin-right: 15px;
+			}
+		}
+	}
+}
+
+// building-func
+// ---------------------------------------
+
+.product-prop {
+	background-color: $e;
+
+	.container {
+		padding: 0 0 10px 0;
+	}
+
+	.span10 {
+		text-align: center;
+
+		i {
+			margin-bottom: 10px;
+		}
+
+		h2 {
+			font-size: 24px;
+			color: $black;
+			font-weight: 300;
+			margin-bottom: 10px;
+		}
+
+		h3 {
+			font-size: 16px;
+			color: $black;
+			font-weight: 300;
+			margin-bottom: 14px;
+		}
+
+		.blue-btn {
+			width: 300px;
+			margin: 0 auto;
+
+			i {
+				margin-bottom: 0;
+				position: relative;
+				top: 5px;
+				margin-right: 15px;
+			}
+		}
+
+	}
+}
+
+.blok-white {
+	background-color: #fff;
+	padding: 20px 0;
+}
+
+.blue-btn.c-8 {
+	float: none;
+	width: 280px;
+}
+
+
+// choose-product
+// ---------------------------------------
+
+.choose-product {
+	background-color: $e;
+
+	.container {
+		padding: 0 0 30px 0;
+	}
+
+	.span12 {
+		h2 {
+			font-size: 24px;
+			color: $black;
+			font-weight: 300;
+			margin-bottom: 35px;
+			text-align: center;
+		}
+	}
+
+	.span6 {
+
+		a {
+			display: block;
+			text-align: center;
+			height: 38px;
+			line-height: 38px;
+			background-color: #fff;
+			border-bottom: 2px solid #e3e3e3;
+			margin-bottom: 15px;
+			font-weight: 500;
+			color: $black;
+			@include ts;
+
+			&:hover {
+				background-color: #e3e3e3;
+			}
+
+			i {
+				margin-right: 5px;
+				position: relative;
+				top: 4px;	
+			}
+		}
+	}
+}
+
+// msfo-making
+// ---------------------------------------
+
+.msfo-making {
+	background-color: $e;
+
+	.span12 {
+		h2 {
+			font-size: 24px;
+			color: $grey;
+			font-weight: 300;
+			margin-bottom: 35px;
+			text-align: center;
+			i {
+				position: relative;
+				top: 6px;
+				margin-right: 15px;
+			}
+		}
+	}
+}
+
+.make {
+	height: 78px;
+	width: 272px;
+	border-left: 7px solid #fff;
+	margin-bottom: 12px;
+	display: table-cell;
+	vertical-align: middle;
+	color: #fff;
+	line-height: 22px;
+	text-align: center;
+	font-weight: 500;
+}
+
+.make1 {
+	background-color: #63c2cd;
+}
+
+.make2 {
+	background-color: #a1cd63;
+}
+
+.make3 {
+	background-color: #f7931e;
+}
+
+.make-wrapper {
+	border-right: 6px dotted $grey;
+	position: relative;
+
+	&:after {
+		@include cont;
+		right: -40px;
+		top: 50%;
+		margin-top: -9px;
+		@include sprite($icon, icon-right-grey);
+	}
+}
+
+.msfo-h {
+	text-align: center;
+	color: $black;
+	font-weight: 300;
+	font-size: 24px;
+	margin: 57px 0 20px;
+}
+
+.msfo-t {
+	width: 226px;
+	height: 80px;
+	background-color: #fff;
+	font-size: 16px;
+	line-height: 22px;
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+	color: $black;
+	font-weight: 300;
+	border-bottom: 2px solid $e;
+	position: relative;
+	left: 33px;
+}
+
+.red-phone {
+	width: 48%;
+	margin-top: 2px;
+
+	i {
+			position: relative;
+			top: 8px;
+			margin-right: 10px;
+	}	
+}
+
+.blue-btn.blue-mail {
+	width: 48%;
+	margin-top: 2px;
+	text-transform: uppercase;
+	i {
+			position: relative;
+			top: 5px;
+			margin-right: 11px;
 	}
 }
