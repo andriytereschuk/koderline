@@ -28,15 +28,10 @@
 				<ul> 
 					<li><a href="#">Проекты и консалтинг</a></li>
 					<li><a href="#">Внедрение и настройка</a></li>
-				</ul>				
-			</div>
-			<div class="span2">
-				<div class="col-name"></div>
-
-				<ul>
 					<li><a href="#">Споровождние 1С</a></li>
 				</ul>				
 			</div>
+
 			<div class="span2">
 				<div class="col-name">Компетенции</div>
 

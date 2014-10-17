@@ -4,7 +4,7 @@
 
 	include_once('inc/project-filter.php');
 	include_once('inc/projects-list.php');
-	include_once('inc/offers-small.php');	
+	include_once('inc/our-systems.php');
 
 	include_once('inc/footer.php');
 ?>

@@ -50,25 +50,4 @@
 			</div>
 		</div>
 	</div>
-
-	<script>
-		$(function(){
-			$(".more-about").click(function(event){
-				event.preventDefault();
-				if ($(".text-short").hasClass("text-long"))
-				{
-					$(".text-short").removeClass("text-long");
-					$(this)
-						.removeClass("icon-minus-blue")
-						.children("span").html("Подробнее о компании");
-				}
-				else {
-					$(".text-short").addClass("text-long");
-					$(this)
-						.addClass("icon-minus-blue")
-						.children("span").html("Свернуть");
-				}
-			});
-		});
-	</script>
 </section>
