@@ -344,3 +344,19 @@ $icon: sprite-map("icons/*.png", $spacing: 5px);
 .icon-mail-white {
 	@include sprite($icon, icon-mail-white);
 }
+
+.icon-bag {
+	@include sprite($icon, icon-bag);
+}
+
+.icon-friends {
+	@include sprite($icon, icon-friends);	
+}
+
+.icon-headphones {
+	@include sprite($icon, icon-headphones);	
+}
+
+.icon-graduation {
+	@include sprite($icon, icon-graduation);	
+}
