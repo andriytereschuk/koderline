@@ -8,7 +8,7 @@
 			</div>
 			<div class="span10">
 				<div class="pull-right">
-					<a href="#" title="Оставьте заявку и мы перезвоним Вам в течении 30 минут" class="order-call">заказать звонок</a>					
+					<a href="#" id="order-call" title="Оставьте заявку и мы перезвоним Вам в течении 30 минут" class="order-call">заказать звонок</a>					
 				</div>
 
 				<div class="pull-right">
@@ -84,7 +84,7 @@
 <section class="menu">
 	<div class="container">
 		<div class="row">
-			<div class="span7">
+			<div class="span11">
 				<nav>
 					<ul>                              
 						<li class="has-lvl2"><a href="#">Компания</a>
@@ -123,12 +123,12 @@
 				</nav>				
 			</div>
 
-			<div class="span4">
-				<!--a href="#" class="call-skype">
+			<!--div class="span4">
+				<a href="#" class="call-skype">
 					<i class="icon-skype"></i><span class="call-text">позвонить по скайпу</span>
 					<span class="call-info">Вы можете позвонить нам  по скайпу</span>
-				</a-->
-			</div>
+				</a>
+			</div-->
 
 			<div class="span1">
 				<a href="#" title="1С" class="logo2 icon-logo2"></a>

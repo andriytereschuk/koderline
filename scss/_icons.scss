@@ -136,6 +136,18 @@ $icon: sprite-map("icons/*.png", $spacing: 5px);
 	@include sprite($icons, icon-history);
 }
 
+.icon-close-popup {
+	@include sprite($icons, icon-close-popup);	
+}
+
+.icon-orange-clock {
+	@include sprite($icons, icon-orange-clock);	
+}
+
+.icon-orange-mail {
+	@include sprite($icons, icon-orange-mail);
+}
+
 // Other sprite
 // ----------------------------------------------
 
@@ -359,4 +371,8 @@ $icon: sprite-map("icons/*.png", $spacing: 5px);
 
 .icon-graduation {
 	@include sprite($icon, icon-graduation);	
+}
+
+.icon-pencil {
+	@include sprite($icon, icon-pencil);	
 }
