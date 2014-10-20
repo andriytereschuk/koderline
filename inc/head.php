@@ -4,7 +4,7 @@
 	<!-- META TAGS -->
 	<!-- ========================================================= -->
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=960">
+	<meta name="viewport" content="width=820">
 	<meta name="format-detection" content="telephone=no" />	
 	<meta name="description" content="">
 	<meta name="author" content="">
