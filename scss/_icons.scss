@@ -376,3 +376,23 @@ $icon: sprite-map("icons/*.png", $spacing: 5px);
 .icon-pencil {
 	@include sprite($icon, icon-pencil);	
 }
+
+.icon-time {
+	@include sprite($icon, icon-time);		
+}
+
+.icon-tag {
+	@include sprite($icon, icon-tag);		
+}
+
+.icon-grey-kalendar {
+	@include sprite($icon, icon-grey-kalendar);	
+}
+
+.icon-layers {
+	@include sprite($icon, icon-layers);		
+}
+
+.icon-note-pencil {
+	@include sprite($icon, icon-note-pencil);	
+}
