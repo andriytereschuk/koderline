@@ -396,3 +396,31 @@ $icon: sprite-map("icons/*.png", $spacing: 5px);
 .icon-note-pencil {
 	@include sprite($icon, icon-note-pencil);	
 }
+
+.icon-login {
+	@include sprite($icon, icon-login);
+}
+
+.icon-open-book {
+	@include sprite($icon, icon-open-book);
+}
+
+.icon-list-blue {
+	@include sprite($icon, icon-list-blue);
+}
+
+.icon-user-blue {
+	@include sprite($icon, icon-user-blue);
+}
+
+.icon-flag-blue {
+	@include sprite($icon, icon-flag-blue);
+}
+
+.icon-study {
+	@include sprite($icon, icon-study);
+}
+
+.icon-improve {
+	@include sprite($icon, icon-improve);	
+}
