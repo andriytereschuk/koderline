@@ -1090,7 +1090,6 @@ $offer-del: $offer-dur / 2;
 	padding-right: 10px;
 	margin-left: 15px;
 	float: left;
-	height: 100%;
 	overflow: hidden;
 	border-right: 2px solid $e;
 	position: relative;
@@ -1933,8 +1932,6 @@ $offer-del: $offer-dur / 2;
 
 .project-prop {
 	width: 284px;
-	height: 100%;
-	overflow: hidden;
 	float: right;
 
 	ul {
