@@ -1112,7 +1112,6 @@ $offer-del: $offer-dur / 2;
 
 .slider-comment {
 	width: 284px;
-	height: 100%;
 	overflow: hidden;
 	float: right;			
 }
@@ -1568,8 +1567,6 @@ $offer-del: $offer-dur / 2;
 	padding-right: 10px;
 	margin-left: 15px;
 	float: left;
-	height: 100%;
-	overflow: hidden;
 	border-right: 1px solid $e;
 	position: relative;
 	top: -4px;
@@ -3772,37 +3769,6 @@ $offer-del: $offer-dur / 2;
 	}
 }
 
-.product-improve + .our-systems {
-	.section-icon {
-		left: 0;
-		margin-left: 0;
-		width: 100%;
-		height: 54px;
-		border-radius: 0;
-		top: 0;	
-
-		&:before {
-			@include cont;
-			height: 2px;
-			width: 80px;
-			background-color: #c0c0c0;
-			top: 18px;
-			left: 50%;
-			margin-left: -111px;
-		}
-
-		&:after {
-			@include cont;
-			height: 2px;
-			width: 80px;
-			background-color: #c0c0c0;
-			top: 18px;
-			left: 50%;
-			margin-left: 31px;
-		}			
-	}
-}
-
 // license
 
 // --------------
@@ -3860,4 +3826,167 @@ $offer-del: $offer-dur / 2;
 	font-size: 16px;
 	line-height: 22px;
 	margin-bottom: 6px;
+}
+
+
+// Our implements
+// ---------------------------------
+
+
+.our-implements {
+	background-color: $e;
+
+	.section-icon {
+		left: 0;
+		margin-left: 0;
+		width: 100%;
+		height: 54px;
+		border-radius: 0;
+		top: 0;
+		background-color: $e;
+
+		i {
+			margin-top: 10px;
+		}		
+
+		&:before {
+			@include cont;
+			height: 2px;
+			width: 80px;
+			background-color: #c0c0c0;
+			top: 18px;
+			left: 50%;
+			margin-left: -111px;
+		}
+
+		&:after {
+			@include cont;
+			height: 2px;
+			width: 80px;
+			background-color: #c0c0c0;
+			top: 18px;
+			left: 50%;
+			margin-left: 31px;
+		}			
+	}	
+
+	.container {
+		padding: 40px 0 70px;
+	}
+
+	h2 {
+		font-size: 44px;
+		line-height: 48px;
+		text-align: center;
+		color: $black;
+		font-weight: 300;
+		margin-bottom: 10px;
+	}
+
+	h3 {
+		font-size: 24px;
+		line-height: 28px;
+		text-align: center;
+		color: $black;
+		font-weight: 300;
+		margin-bottom: 40px;
+	}	
+}
+
+
+.implements-slider{
+	width: 100%;
+	height: 480px;
+	margin-bottom: 10px;
+
+
+	&:after {
+		@include cont;
+		background-color: #fff;
+		height: 2px;
+		width: 100%;
+		top: 239px;
+		left: 20px;
+	}
+
+	.swiper-slide {
+		height: 480px;
+		width: 320px;
+
+		a {
+			display: block;
+			position: relative;
+			height: 220px;
+			width: 300px;
+			overflow: hidden;
+			margin-left: 20px;
+
+
+			&:first-child {
+				margin-bottom: 40px;
+			}
+
+			img {
+				@include ts(ease-in-out,0.5s);
+			}
+
+
+			.bg-overlay {
+				height: 96px;
+				width: 300px;
+				@include ts(ease,0.5s);
+				position: absolute;
+				left: 0;
+				bottom: 0;
+
+				&:after {
+					@include cont;
+					left: 50%;
+					margin-left: -16px;
+					top: 50%;
+					margin-top: -16px;
+					@include sprite($icons, icon-plus);
+					z-index: 2;
+					opacity: 0;
+					@include ts(ease,0.5s);
+					filter: alpha(opacity=0);			
+				}
+
+				h2 {
+					color: #fff;
+					font-size: 24px;
+					line-height: 26px;
+					font-weight: 300;
+					margin-left: 18px;
+					margin-top: 22px;
+					margin-bottom: 5px;
+					text-align: left;
+				}
+
+				h3 {
+					color: #fff;
+					font-weight: 500;
+					font-size: 14px;
+					line-height: 20px;
+					margin-left: 18px;
+					text-align: left;				
+				}				
+			}
+
+			&:hover {
+				img {
+					@include scale(1.1);
+				}
+
+				.bg-overlay {
+
+					&:after {
+						opacity: 1;
+					}
+					
+					height: 100%;
+				}
+			}
+		}		
+	}	
 }

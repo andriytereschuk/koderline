@@ -11,7 +11,7 @@
 
 		<div class="row">
 			<div class="span4">
-				<img class="prod-img" src="images/consalting.jpg" alt="">
+				<img class="prod-img" src="images/support.jpg" alt="">
 			</div>
 			<div class="span8 prod-info results">
 				<h2>Что мы предлагаем:</h2>
