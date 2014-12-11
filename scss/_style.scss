@@ -3990,3 +3990,46 @@ $offer-del: $offer-dur / 2;
 		}		
 	}	
 }
+
+
+// News
+
+.fltr-btn {
+	display: inline-block;
+	height: 46px;
+	line-height: 46px;
+	color: $black;
+	font-weight: 500;
+	position: relative;
+
+	i {
+		margin-right: 10px;
+		position: relative;
+		top: 3px;
+	}
+
+	& + .fltr-btn {
+		margin-left: 37px;
+	}
+
+	&:after {
+		width: 100%;
+		height: 2px;
+		background-color: $blue;
+		top: -4px;
+		left: 0;
+		@include cont;
+		@include ts(ease-in-out,0.3s);
+		@include scaleX(0);
+	}
+
+	&:hover {
+		&:after {
+			@include scaleX(1);
+		}
+	}
+
+	&.picked {
+		color: $blue;
+	}	
+}

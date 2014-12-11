@@ -424,3 +424,96 @@ $icon: sprite-map("icons/*.png", $spacing: 5px);
 .icon-improve {
 	@include sprite($icon, icon-improve);	
 }
+
+
+
+.icon-fltr1 {
+	@include sprite($icon, icon-fltr1);	
+}
+
+.fltr1.picked i{
+	@include sprite($icon, icon-fltr1-blue);	
+}
+
+.icon-fltr1-white {
+	@include sprite($icon, icon-fltr1-white);	
+}
+
+
+
+.icon-fltr2 {
+	@include sprite($icon, icon-fltr2);	
+}
+
+.fltr2.picked i{
+	@include sprite($icon, icon-fltr2-blue);	
+}
+
+.icon-fltr2-white {
+	@include sprite($icon, icon-fltr2-white);	
+}
+
+
+.icon-fltr3 {
+	@include sprite($icon, icon-fltr3);	
+}
+
+.fltr3.picked i{
+	@include sprite($icon, icon-fltr3-blue);	
+}
+
+.icon-fltr3-white {
+	@include sprite($icon, icon-fltr3-white);	
+}
+
+
+.icon-fltr4 {
+	@include sprite($icon, icon-fltr4);	
+}
+
+.fltr4.picked i{
+	@include sprite($icon, icon-fltr4-blue);	
+}
+
+.icon-fltr4-white {
+	@include sprite($icon, icon-fltr4-white);	
+}
+
+
+.icon-fltr5 {
+	@include sprite($icon, icon-fltr5);	
+}
+
+.fltr5.picked i{
+	@include sprite($icon, icon-fltr5-blue);	
+}
+
+.icon-fltr5-white {
+	@include sprite($icon, icon-fltr5-white);	
+}
+
+
+.icon-fltr6 {
+	@include sprite($icon, icon-fltr6);	
+}
+
+.fltr6.picked i{
+	@include sprite($icon, icon-fltr6-blue);	
+}
+
+.icon-fltr6-white {
+	@include sprite($icon, icon-fltr6-white);	
+}
+
+
+.icon-fltr7 {
+	@include sprite($icon, icon-fltr7);	
+}
+
+.fltr7.picked i{
+	@include sprite($icon, icon-fltr7-blue);	
+}
+
+.icon-fltr7-white {
+	@include sprite($icon, icon-fltr7-white);	
+}
