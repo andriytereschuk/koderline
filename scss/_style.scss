@@ -4033,3 +4033,376 @@ $offer-del: $offer-dur / 2;
 		color: $blue;
 	}	
 }
+
+
+// Filter
+// -----------------------------------------
+
+.fltr-rez {
+	background-color: $e;
+	padding-bottom: 40px;
+}
+
+.rez {
+	position: relative;
+	margin-bottom: 20px;
+
+	&:after {
+		width: 100%;
+		height: 2px;
+		background-color: $blue;
+		bottom: 0;
+		left: 0;
+		@include cont;
+		@include ts(ease-in-out,0.3s);
+		@include scaleX(0);
+	}
+
+	&:hover {
+		&:after {
+			@include scaleX(1);
+		}
+	}
+}
+
+.rez-top {
+	display: block;
+	height: 127px;
+	position: relative;
+	overflow: hidden;
+
+	&:after {
+		@include cont;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0,0,0,0.5);
+		left: 0;
+		top: 0;
+		opacity: 0;
+		@include ts(ease-in-out,0.3s);
+	}
+
+	img {
+		width: 100%;
+		height: 127px;
+	}
+
+	&:hover {
+		&:after {
+			opacity: 1;
+		}
+
+		.rez-info {
+			background-color: rgba(0,0,0,0);
+		}
+
+		.icon-right-white {
+			opacity: 1;
+		}
+	}
+}
+
+.rez-info {
+	position: absolute;
+	height: 36px;
+	width: 180px;
+	bottom: 0;
+	left: 20px;
+	background-color: rgba(0,0,0,0.5);
+	@include ts(ease-in-out,0.3s);
+	z-index: 2;
+}
+
+.rez-left {
+	display: table-cell;
+	width: 36px;
+	height: 36px;
+	text-align: center;
+	vertical-align: middle;
+	background-color: $blue;
+
+	i {
+		position: relative;
+		top: 2px;
+	}
+}
+
+.rez-data {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	font-weight: 500;
+	color: #fff;
+	height: 36px;
+	width: 144px;
+}
+
+.rez-bot {
+	background-color: #fff;
+	padding: 0 20px;
+	height: 114px;
+	overflow: hidden;
+
+	h2 {
+		font-size: 14px;
+		line-height: 18px;
+		font-weight: 500;
+		margin-top: 16px;
+		margin-bottom: 8px;
+		color: $black;
+		@include text-overflow;
+	}
+
+	p a {
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}
+
+.icon-right-white {
+	position: absolute;
+	top: 50%;
+	margin-top: -16px;
+	left: 50%;
+	margin-left: -16px;
+	z-index: 2;
+	opacity: 0;
+	@include ts(ease-in-out,0.3s);
+}
+
+
+// News detail
+// -----------------------------------------
+
+.new-detail {
+	background-color: $e;
+	padding-bottom: 40px;
+}
+
+.template {
+	overflow: hidden;
+
+	.slider-arrows i {
+		top: 0;
+	}
+
+	h1 {
+		font-size: 24px;
+		line-height: 28px;
+		color: $black;
+		margin-bottom: 10px;
+		font-weight: 300;
+
+		i {
+			margin-right: 10px;
+		}
+	}
+
+	h2 {
+		font-size: 14px;
+		color: $black;
+		font-weight: 500;
+		margin-bottom: 14px;
+	}
+
+	p {
+		margin-bottom: 15px;
+
+		b {
+			font-weight: 500;
+		}
+
+		i, em {
+			font-family: Arial;
+		}
+
+		b i, i b, strong i, strong em, i strong, em strong {
+			font-weight: bold;
+			font-family: Arial;
+		}
+	}
+
+	ul {
+		list-style: square;
+		margin-left: 30px;
+		margin-bottom: 15px;
+
+		li i {
+			font-family: Arial;
+		}
+	}
+
+	iframe {
+		margin-bottom: 15px;
+	}
+}
+
+.template-info {
+	position: relative;
+	margin-bottom: 15px;
+
+	img {
+		width: 100%;
+	}
+
+	.template-date {
+		position: absolute;
+		bottom: 20px;
+		color: #fff;
+		font-weight: 500;
+		padding: 15px 30px;
+		background-color: rgba(0,0,0,0.5);
+	}
+}
+
+.new-slider {
+	width: 100%;
+	height: 125px;
+	margin-bottom: 20px;
+
+	.swiper-slide {
+		width: 240px;
+
+		img {
+			margin-left: 20px;
+			width: 220px;
+			height: 125px;
+		}
+	}
+}
+
+.share-new {
+	margin: 10px 0 20px;
+}
+
+.share-text {
+	float: left;
+	font-size: 24px;
+	font-weight: 300;
+	color: $black;
+	margin-right: 20px;
+	padding-top: 20px;
+}
+
+.share-links {
+	float: left;
+	padding-top: 10px;
+
+	a {
+		float: left;
+		display: block;
+		margin-right: 17px;
+		width: 44px;
+		height: 44px;
+		filter: grayscale(1);
+		-webkit-filter: grayscale(1);
+		filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+		@include ts(ease-in-out,0.2s);
+
+		&.facebook {
+			@include sprite($icon, icon-facebook, 0);
+		}
+
+		&.goo {
+			@include sprite($icon, icon-goo, 0);
+		}
+
+		&.youtube {
+			@include sprite($icon, icon-youtube, 0);
+		}
+
+		&.linkedin {
+			@include sprite($icon, icon-linkedin, 0);
+		}
+
+		&.vk {
+			@include sprite($icon, icon-vk, 0);
+		}
+
+		&:hover {
+			filter: grayscale(0);
+			filter: none;
+			-webkit-filter: grayscale(0);
+		}
+	}
+}
+
+.other-h {
+	font-size: 24px;
+	line-height: 28px;
+	font-weight: 300;
+	color: $black;
+	margin-bottom: 25px;
+}
+
+.other-new {
+	background-color: #fff;
+	padding: 20px 0 4px 20px;
+	margin-bottom: 20px;
+	display: block;
+	cursor: pointer;
+	position: relative;
+
+	&:after {
+		width: 100%;
+		height: 2px;
+		background-color: $blue;
+		bottom: 0;
+		left: 0;
+		@include cont;
+		@include ts(ease-in-out,0.3s);
+		@include scaleX(0);
+	}
+
+	&:hover {
+		&:after {
+			@include scaleX(1);
+		}
+	}
+}
+
+.other-ico {
+	display: table-cell;
+	width: 36px;
+	height: 36px;
+	background-color: $blue;
+	text-align: center;
+	vertical-align: middle;
+
+	i {
+		position: relative;
+		top: 2px;
+	}
+}
+
+.other-right {
+	display: table-cell;
+	height: 36px;
+}
+
+.other-date {
+	font-weight: 500;
+	color: $red;
+	padding-left: 14px;
+	position: relative;
+	top: -2px;
+}
+
+.other-name {
+	font-weight: 500;
+	color: $black;
+	padding-left: 14px;
+	@include text-overflow;
+	position: relative;
+	top: 2px;
+	width: 150px;
+}
+
+.other-desc {
+	padding: 10px 20px 0 0;
+
+	p {
+		color: $grey;
+	}
+}

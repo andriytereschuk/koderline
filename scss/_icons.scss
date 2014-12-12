@@ -517,3 +517,7 @@ $icon: sprite-map("icons/*.png", $spacing: 5px);
 .icon-fltr7-white {
 	@include sprite($icon, icon-fltr7-white);	
 }
+
+.icon-right-white {
+	@include sprite($icon, icon-right-white);
+}
