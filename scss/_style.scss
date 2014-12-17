@@ -4182,21 +4182,22 @@ $offer-del: $offer-dur / 2;
 
 .template {
 	overflow: hidden;
+	color: #777;
 
 	.slider-arrows i {
 		top: 0;
+	}
+
+	h2:first-child {
+		margin-bottom: 8px;
 	}
 
 	h1 {
 		font-size: 24px;
 		line-height: 28px;
 		color: $black;
-		margin-bottom: 10px;
+		margin-bottom: 15px;
 		font-weight: 300;
-
-		i {
-			margin-right: 10px;
-		}
 	}
 
 	h2 {
@@ -4204,6 +4205,12 @@ $offer-del: $offer-dur / 2;
 		color: $black;
 		font-weight: 500;
 		margin-bottom: 14px;
+
+		i {
+			margin-right: 10px;
+			position: relative;
+			top: 4px;
+		}
 	}
 
 	p {
@@ -4264,10 +4271,26 @@ $offer-del: $offer-dur / 2;
 	.swiper-slide {
 		width: 240px;
 
-		img {
+		a {
+			display: block;
 			margin-left: 20px;
 			width: 220px;
 			height: 125px;
+			position: relative;
+			overflow: hidden;
+
+			img {
+				width: 220px;
+				height: 125px;
+				@include ts(ease-in-out,0.3s);
+				@include scale(1);
+			}
+
+			&:hover {
+				img {
+					@include scale(1.1);
+				}
+			}
 		}
 	}
 }
@@ -4339,6 +4362,7 @@ $offer-del: $offer-dur / 2;
 .other-new {
 	background-color: #fff;
 	padding: 20px 0 4px 20px;
+	color: #999;
 	margin-bottom: 20px;
 	display: block;
 	cursor: pointer;
@@ -4405,4 +4429,9 @@ $offer-del: $offer-dur / 2;
 	p {
 		color: $grey;
 	}
+}
+
+#fancybox-buttons.top {
+	height: 0;
+	background-color: transparent;
 }

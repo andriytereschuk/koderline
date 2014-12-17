@@ -17,8 +17,8 @@
 		<div class="row">
 			<div class="span9">
 				<div class="template">
-					<h1><i class="icon-fltr2"></i>Вебинар</h1>
-					<h2>Диагностика типовых узких мест скорости 1С</h2>
+					<h2><i class="icon-fltr2"></i>Вебинар</h1>
+					<h1>Диагностика типовых узких мест скорости 1С</h1>
 					<div class="template-info">
 						<img src="images/temp.jpg" alt="">
 						<div class="template-date">21 июля 2014</div>
@@ -44,14 +44,20 @@
 							<div class="swiper-container new-slider">
 								<div class="swiper-wrapper">
 									<div class="swiper-slide">
-										<img src="images/temp.jpg" alt="">
+										<a class="fancybox-buttons" title="Картинка 1" data-fancybox-group="button" href="images/temp.jpg">
+											<img src="images/temp.jpg" alt="">
+										</a>
 									</div>
 
 									<div class="swiper-slide">
-										<img src="images/temp.jpg" alt="">
+										<a class="fancybox-buttons" title="Картинка 2" data-fancybox-group="button" href="images/temp.jpg">
+											<img src="images/temp.jpg" alt="">
+										</a>
 									</div>
 									<div class="swiper-slide">
-										<img src="images/temp.jpg" alt="">
+										<a class="fancybox-buttons" title="Картинка 3" data-fancybox-group="button" href="images/temp.jpg">
+											<img src="images/temp.jpg" alt="">
+										</a>
 									</div>
 								</div>
 							</div>
@@ -196,4 +202,35 @@
 		});	
 	});	
 	</script>
+
+	<!-- connections for fancybox -->
+
+	<script src="source/jquery.fancybox.js?v=2.1.5"></script>
+	<link rel="stylesheet" href="source/jquery.fancybox.css?v=2.1.5" media="screen" />
+	<link rel="stylesheet" href="source/helpers/jquery.fancybox-buttons.css?v=1.0.5" />
+	<script src="source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+	<script	src="source/jquery.mousewheel-3.0.6.pack.js"></script>
+
+	<script>
+		$(function() {
+			$('.fancybox-buttons').fancybox({
+				openEffect  : 'fade',
+				closeEffect : 'fade',
+
+				closeBtn  : false,
+
+				helpers : {
+					title : {
+						type : 'inside'
+					},
+					buttons	: {}
+				},
+
+				afterLoad : function() {
+					this.title = this.title;
+				}
+			});
+		})
+	</script>
+
 </section>
