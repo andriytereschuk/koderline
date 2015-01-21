@@ -1699,6 +1699,35 @@ $offer-del: $offer-dur / 2;
 	}
 }
 
+.filter5 {
+
+	&.chosen {
+		i {
+			@include sprite($icon, icon-plunt-blue);
+		}
+	}
+}
+
+
+.filter6 {
+
+	&.chosen {
+		i {
+			@include sprite($icon, icon-molot-blue);
+		}
+	}
+}
+
+
+.filter7 {
+
+	&.chosen {
+		i {
+			@include sprite($icon, icon-busket-blue);
+		}
+	}
+}
+
 .blue-bottom-border {
 	height: 20px;
 	width: 100%;
@@ -2015,6 +2044,7 @@ $offer-del: $offer-dur / 2;
 		color: $black;
 		font-weight: 300;
 		margin-bottom: 10px;
+		padding-top: 6px;
 	}
 
 	h3 {
@@ -2316,6 +2346,12 @@ $offer-del: $offer-dur / 2;
 	.container {
 		padding: 40px 0 50px 0;
 	}
+
+	&.erp-order {
+		.container {
+			padding: 0 0 40px 0;
+		}		
+	}
 }
 
 .order-wrap {
@@ -2342,6 +2378,18 @@ $offer-del: $offer-dur / 2;
 		font-size: 24px;
 		line-height: 28px;
 		margin-bottom: 20px;
+	}
+
+	.span12 h2 {
+		text-align: center;
+		color: $grey;
+		margin-bottom: 40px;
+
+		i {
+			position: relative;
+			top: 4px;
+			margin-right: 10px;
+		}
 	}
 }
 
@@ -4357,4 +4405,124 @@ $offer-del: $offer-dur / 2;
 #fancybox-buttons.top {
 	height: 0;
 	background-color: transparent;
+}
+
+// ERP
+
+.erp-a {
+	display: inline-block;
+	width: 176px;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	background-color: #fff;
+	color: $black;
+	font-weight: 500;
+	margin-right: 15px;
+	margin-top: 15px;
+	border-bottom: 2px solid #e3e3e3;
+}
+
+.manage-blok {
+	height: 38px;
+	color: $black;
+	background-color: #fff;
+	text-align: center;
+	font-weight: 500;
+	line-height: 38px;
+	border-bottom: 2px solid #e3e3e3;
+	margin-bottom: 1px;
+}
+
+.manage-time {
+	height: 38px;
+	color: $black;
+	text-align: center;
+	font-weight: 500;
+	line-height: 38px;
+}
+
+.manage-cost {
+	border-top: 2px solid #e3e3e3;
+	height: 34px;
+	line-height: 34px;
+	color: $black;
+	font-weight: 300;
+	font-size: 16px;
+	margin: 20px 0 5px 0;
+}
+
+.erp-tab {
+	display: none;
+
+	h3 {
+		font-weight: 300;
+		font-size: 16px;
+		line-height: 18px;
+		margin-bottom: 16px;
+	}
+}
+
+.erp-img {
+	padding: 10px 10px 8px 10px;
+	border: 1px solid #e3e3e3;
+
+	img {
+		width: 100%;
+	}
+}
+
+.erp1 {
+	display: block;
+}
+
+.filter h2{
+	color: $grey;
+	text-align: center;
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 28px;
+	margin-bottom: 20px;
+
+	i {
+		position: relative;
+		top: 4px;
+		margin-right: 10px;
+	}
+}
+
+.erp-order .span12 > .akardion {
+	width: auto;
+}
+
+.calc-enter {
+	width: 218px;
+	height: 40px;
+	text-align: center;
+	color: #fff;
+	line-height: 40px;
+	background-color: #f7931e;
+	border-bottom: 2px solid #c98536;
+	@include ts;
+	text-transform: uppercase;
+	font-size: 14px;
+	display: block;
+	font-weight: 500;
+
+	&:hover {
+		background-color: #c98536;
+	}
+
+	i {
+		position: relative;
+		top: 8px;
+		margin-right: 15px;
+	}
+}
+
+.calc-free {
+    text-align: center;
+    color: $black;
+    font-weight: 500;
+    margin-top: 8px;
 }

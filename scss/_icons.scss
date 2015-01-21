@@ -521,3 +521,32 @@ $icon: sprite-map("icons/*.png", $spacing: 5px);
 .icon-right-white {
 	@include sprite($icon, icon-right-white);
 }
+
+.icon-case {
+	@include sprite($icon, icon-case);
+}
+
+.icon-dark-book {
+	@include sprite($icon, icon-dark-book);
+}
+
+.icon-plant {
+	@include sprite($icon, icon-plant);
+}
+
+.icon-molot{
+	@include sprite($icon, icon-molot);
+}
+
+
+.icon-busket-dark {
+	@include sprite($icon, icon-busket-dark);
+}
+
+.icon-pie-grey {
+	@include sprite($icon, icon-pie-grey);
+}
+
+.icon-calc-white {
+	@include sprite($icon, icon-calc-white);
+}
