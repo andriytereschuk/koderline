@@ -3744,7 +3744,7 @@ $offer-del: $offer-dur / 2;
 
 // --------------
 
-.order-product + .our-systems {
+.order-product + .our-systems,  .filter + .our-systems{
 	.section-icon {
 		left: 0;
 		margin-left: 0;
@@ -4525,4 +4525,254 @@ $offer-del: $offer-dur / 2;
     color: $black;
     font-weight: 500;
     margin-top: 8px;
+}
+
+// Crm
+// ----------------------------
+
+.crm-top {
+	background-color: $e;
+
+	.container {
+		padding: 35px 0 40px 0;
+	}
+
+	h1 {
+		font-size: 44px;
+		line-height: 48px;
+		font-weight: 300;
+		color: $black;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+
+	.span12 {
+		h2 {
+			font-size: 24px;
+			line-height: 28px;
+			font-weight: 300;
+			color: $black;
+			text-align: center;
+			margin-bottom: 20px;		
+		}
+	}
+
+	.h3 {
+		color: $black;
+		font-weight: 500;
+		margin-bottom: 10px;
+	}
+
+	.span5 .blue-btn {
+		width: 218px;
+	}
+}
+
+.crm-item {
+	text-align: center;
+	background-color: #f7931e;
+	border-bottom: 2px solid #c98536;
+	margin-left: 12px;
+	float: left;
+
+	i {
+		line-height: 40px;
+		position: relative;
+		right: 4px;
+	}
+
+	span {
+		color: #fff;
+		text-transform: uppercase;
+		line-height: 40px; 
+	}
+}
+
+
+.crm-item1 {
+	margin-left: 0;
+	width: 158px;
+	i {
+		top: 4px;
+	}
+}
+
+.crm-item2 {
+	width: 178px;
+	i {
+		top: 6px;
+	}
+}
+
+.crm-item3 {
+	width: 178px;
+	i {
+		top: 6px;
+	}
+}
+
+.crm-item4 {
+	width: 198px;
+	i {
+		top: 4px;
+	}
+}
+
+.crm-item5 {
+	width: 178px;
+	i {
+		top: 8px;
+	}
+}
+
+.crm-sys {
+	background-color: #fff;
+	@include box();
+	height: 40px;
+	line-height: 40px;
+	color: $black;
+	font-weight: 500;
+	padding-left: 20px;
+	border-bottom: 2px solid #e3e3e3;
+	margin-bottom: 10px;
+}
+
+.icon-monitor-white {
+	position: relative;
+	top: 6px;
+	right: 8px;
+}
+
+.crm-price {
+	display: inline-block;
+	height: 40px;
+	line-height: 40px;
+	color: #fff;
+	font-weight: 500;
+	padding: 0 15px;
+	margin-bottom: 10px;
+	background-color: #54bf4f;
+}
+
+.crm-download {
+	margin: 0 auto 20px auto;
+	width: 240px;
+	i {
+		position: relative;
+		right: 5px;
+		top: 6px;
+	}
+}
+
+.more-center.crm-center {
+	margin-bottom: 10px;
+}
+
+.crm-filter {
+	.filter-btn {
+		display: table-cell;
+		vertical-align: middle;
+		text-align: left;
+
+		span {
+			line-height: 14px;
+			height: auto;
+			padding-left: 30px;
+		}
+		
+		i {
+			position: absolute;
+			top: 10px;
+		}
+	}
+}
+
+.filter8 {
+
+	&.chosen {
+		i {
+			@include sprite($icon, icon-headphones-hover);
+		}
+	}
+}
+
+.filter9 {
+
+	&.chosen {
+		i {
+			@include sprite($icon, icon-callout-hover);
+		}
+	}
+}
+
+.filter10 {
+
+	&.chosen {
+		i {
+			@include sprite($icon, icon-liyka-hover);
+		}
+	}
+}
+
+.filter11 {
+
+	&.chosen {
+		i {
+			@include sprite($icon, icon-dollar-hover);
+		}
+	}
+}
+
+.filter12 {
+
+	&.chosen {
+		i {
+			@include sprite($icon, icon-envelop-hover);
+		}
+	}
+}
+
+.filter13 {
+
+	&.chosen {
+		i {
+			@include sprite($icon, icon-manager-hover);
+		}
+	}
+}
+
+.results h3 {
+	font-weight: 300;
+	color: $black;
+	font-size: 16px;
+	line-height: 20px;
+	margin-bottom: 20px;
+}
+
+.filter14 {
+
+	&.chosen {
+		i {
+			@include sprite($icon, icon-followplus-hover);
+		}
+	}
+}
+
+.filter15 {
+
+	&.chosen {
+		i {
+			@include sprite($icon, icon-comm-hover);
+		}
+	}
+}
+
+.filter16 {
+	padding-left: 25px;
+
+	&.chosen {
+		i {
+			@include sprite($icon, icon-phoneplus-hover);
+		}
+	}
 }

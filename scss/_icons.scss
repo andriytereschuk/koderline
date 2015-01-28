@@ -550,3 +550,83 @@ $icon: sprite-map("icons/*.png", $spacing: 5px);
 .icon-calc-white {
 	@include sprite($icon, icon-calc-white);
 }
+
+.icon-video-white {
+	@include sprite($icon, icon-video-white);
+}
+
+.icon-doc-white {
+	@include sprite($icon, icon-doc-white);
+}
+
+.icon-prezy-white {
+	@include sprite($icon, icon-prezy-white);
+}
+
+.icon-eye-white {
+	@include sprite($icon, icon-eye-white);
+}
+
+.icon-discuss-white {
+	@include sprite($icon, icon-discuss-white);
+}
+
+.icon-monitor-white {
+	@include sprite($icon, icon-monitor-white);	
+}
+
+.icon-solution-white {
+	@include sprite($icon, icon-solution-white);	
+}
+
+.icon-download-white {
+	@include sprite($icon, icon-download-white);
+}
+
+.icon-phone-in {
+	@include sprite($icon, icon-phone-in);
+}
+
+.icon-key-grey {
+	@include sprite($icon, icon-key-grey);
+}
+
+.icon-headphones-grey {
+	@include sprite($icon, icon-headphones-grey);
+}
+
+.icon-callout-grey {
+	@include sprite($icon, icon-callout-grey);
+}
+
+.icon-liyka-grey {
+	@include sprite($icon, icon-liyka-grey);
+}
+
+.icon-dollar-grey {
+	@include sprite($icon, icon-dollar-grey);
+}
+
+.icon-envelop-grey {
+	@include sprite($icon, icon-envelop-grey);
+}
+
+.icon-manager-grey {
+	@include sprite($icon, icon-manager-grey);
+}
+
+.icon-user-grey {
+	@include sprite($icon, icon-user-grey);
+}
+
+.icon-followplus-grey {
+	@include sprite($icon, icon-followplus-grey);
+}
+
+.icon-comm-grey {
+	@include sprite($icon, icon-comm-grey);
+}
+
+.icon-phoneplus-grey {
+	@include sprite($icon, icon-phoneplus-grey);
+}
