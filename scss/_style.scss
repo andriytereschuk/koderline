@@ -4574,6 +4574,7 @@ $offer-del: $offer-dur / 2;
 	border-bottom: 2px solid #c98536;
 	margin-left: 12px;
 	float: left;
+	display: block;
 
 	i {
 		line-height: 40px;
@@ -4585,6 +4586,11 @@ $offer-del: $offer-dur / 2;
 		color: #fff;
 		text-transform: uppercase;
 		line-height: 40px; 
+	}
+
+	&:hover {
+		background-color: #c98536;
+		@include ts;
 	}
 }
 

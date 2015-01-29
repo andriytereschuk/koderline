@@ -11,36 +11,36 @@
 
 		<div class="row">
 			<div class="span12 mt-10 mb-40">
-				<div class="crm-item crm-item1">
+				<a href="" class="crm-item crm-item1">
 					<i class="icon-video-white"></i>
 					<span>Видео</span>
-				</div>
+				</a>
 
-				<div class="crm-item crm-item2">
+				<a href="" class="crm-item crm-item2">
 					<i class="icon-doc-white"></i>
 					<span>Прес релиз</span>
-				</div>
+				</a>
 
-				<div class="crm-item crm-item3">
+				<a href="" class="crm-item crm-item3">
 					<i class="icon-prezy-white"></i>
 					<span>Презентация</span>
-				</div>
+				</a>
 
-				<div class="crm-item crm-item4">
+				<a href="" class="crm-item crm-item4">
 					<i class="icon-eye-white"></i>
 					<span>Обзор программы</span>
-				</div>
+				</a>
 
-				<div class="crm-item crm-item5">
+				<a href="" class="crm-item crm-item5">
 					<i class="icon-discuss-white"></i>
 					<span>Обсуждение</span>
-				</div>
+				</a>
 			</div>
 		</div>
 
 		<div class="row">
 			<div class="span4">
-				<iframe src="//www.youtube.com/embed/Gz2wBT9gZfo" frameborder="0" allowfullscreen></iframe>
+				<iframe src="//www.youtube.com/embed/Gz2wBT9gZfo" height="216" frameborder="0" allowfullscreen></iframe>
 			</div>
 			<div class="span8">
 				<p>Решение «Koderline:CRM» на базе 1С:Предприятие 8 является эффективным инструментом для работы малого и среднего бизнеса.</p>
