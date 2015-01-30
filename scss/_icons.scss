@@ -627,6 +627,34 @@ $icon: sprite-map("icons/*.png", $spacing: 5px);
 	@include sprite($icon, icon-comm-grey);
 }
 
-.icon-phoneplus-grey {
-	@include sprite($icon, icon-phoneplus-grey);
+.icon-pies-grey {
+	@include sprite($icon, icon-pies-grey);
+}
+
+.icon-folder {
+	@include sprite($icon, icon-folder);	
+}
+
+.icon-list-grey {
+	@include sprite($icon, icon-list-grey);
+}
+
+.icon-plot-gray {
+	@include sprite($icon, icon-plot-gray);
+}
+
+.icon-doc-grey {
+	@include sprite($icon, icon-doc-grey);
+}
+
+.icon-note-grey {
+	@include sprite($icon, icon-note-grey);
+}
+
+.icon-barchart {
+	@include sprite($icon, icon-barchart);
+}
+
+.icon-docs-grey {
+	@include sprite($icon, icon-docs-grey);
 }
