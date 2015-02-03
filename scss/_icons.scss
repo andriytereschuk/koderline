@@ -698,3 +698,11 @@ $icon: sprite-map("icons/*.png", $spacing: 5px);
 .icon-flag-grey {
 	@include sprite($icon, icon-flag-grey);	
 }
+
+.icon-lamp {
+	@include sprite($icon, icon-lamp);		
+}
+
+.icon-note {
+	@include sprite($icon, icon-note);		
+}

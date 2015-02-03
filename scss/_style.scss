@@ -3170,7 +3170,7 @@ $offer-del: $offer-dur / 2;
 
 		&:focus {
 			outline: none;
-			border: 1px solid #ddd;
+			border: 1px solid $blue;
 		}
 	}
 
@@ -3193,7 +3193,7 @@ $offer-del: $offer-dur / 2;
 
 		&:focus {
 			outline: none;
-			border: 1px solid #ddd;
+			border: 1px solid $blue;
 		}
 	}	
 
@@ -3212,7 +3212,7 @@ $offer-del: $offer-dur / 2;
 
 		&:focus {
 			outline: none;
-			border: 1px solid #ddd;	
+			border: 1px solid $blue;	
 		}
 
 		&:hover {
@@ -3226,7 +3226,7 @@ $offer-del: $offer-dur / 2;
 			border: 1px solid $red;
 
 			&:focus {
-				border: 1px solid #ddd;
+				border: 1px solid $blue;
 			}			
 		}
 	}
@@ -3744,7 +3744,7 @@ $offer-del: $offer-dur / 2;
 
 // --------------
 
-.order-product + .our-systems,  .filter + .our-systems{
+.order-product + .our-systems,  .filter + .our-systems, .product-info + .our-systems{
 	.section-icon {
 		left: 0;
 		margin-left: 0;
@@ -4963,8 +4963,9 @@ $offer-del: $offer-dur / 2;
 	h3 {
 		font-size: 16px;
 		line-height: 22px;
-		font-weight: 300;
+		font-weight: 500;
 		margin-bottom: 14px;
+		color: $black;
 	}
 
 	.read-more {
@@ -4981,8 +4982,8 @@ $offer-del: $offer-dur / 2;
 	margin-top: 6px;
 }
 
-.sup-orange {
-	background-color: #f7931e;	
+.sup-green {
+	background-color: #54be4f;	
 }
 
 .sup-desc {
@@ -4997,8 +4998,8 @@ $offer-del: $offer-dur / 2;
 	margin-bottom: 5px;
 }
 
-.sup-grey {
-	background-color: #777;
+.sup-orange {
+	background-color:  #f7931e;
 }
 
 .read-about {
@@ -5043,3 +5044,80 @@ h3 + .spec {
 	background-image: url('../images/spec5.png');
 }
 
+.big-span {
+	p {
+		color: $black;
+		font-size: 46px;
+		font-weight: 300;
+		line-height: 46px;
+
+		b{
+			color: $blue;
+			font-weight: 300;
+		}
+	}
+}
+
+.solve-h {
+	font-size: 16px;
+	font-weight: 500;
+	color: $black;
+	position: relative;
+	top: -15px;
+	text-align: center;
+}
+
+.results-margin-bottom {
+	.res {
+		margin-bottom: 12px;
+	}
+}
+
+// demo dostyp
+
+
+.get-permission {
+	text-align: center;
+	background-color: #f7931e;
+	border-bottom: 2px solid #c98536;
+	display: block;
+	width: 260px;
+	margin: 10px auto;
+	height: 40px;
+
+	i {
+		line-height: 40px;
+		position: relative;
+		right: 5px;
+		top: 5px;
+	}
+
+	span {
+		color: #fff;
+		text-transform: uppercase;
+		line-height: 42px; 
+	}
+
+	&:hover {
+		background-color: #c98536;
+		@include ts;
+	}
+}
+
+.form-wrap {
+	background-color: #fff;
+}
+
+.form-wrap.form-small {
+	width: 100%;
+	padding: 0;
+
+	h3 {
+		font-size: 16px;
+		line-height: 22px;
+	}
+}
+
+.form-padding {
+	padding: 20px 0;
+}

@@ -17,14 +17,14 @@
 			<div class="span3">
 				<h3>Проект</h3>
 
-				<div class="sup-color sup-orange"></div>
+				<div class="sup-color sup-green"></div>
 				<div class="sup-desc">
 					<div class="sup-percents">85%</div>
 					<p>Онлайн - удаленно</p>
 				</div>
 				<div class="clr"></div>
 
-				<div class="sup-color sup-grey"></div>
+				<div class="sup-color sup-orange"></div>
 				<div class="sup-desc">
 					<div class="sup-percents">15%</div>
 					<p>Офлайн</p>
