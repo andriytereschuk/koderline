@@ -658,3 +658,43 @@ $icon: sprite-map("icons/*.png", $spacing: 5px);
 .icon-docs-grey {
 	@include sprite($icon, icon-docs-grey);
 }
+
+.icon-facts {
+	@include sprite($icon, icon-facts);
+}
+
+.icon-qwe-grey {
+	@include sprite($icon, icon-qwe-grey);
+}
+
+.icon-phoneplus-grey {
+	@include sprite($icon, icon-phoneplus-grey);
+}
+
+.icon-glasses-grey {
+	@include sprite($icon, icon-glasses-grey);	
+}
+
+.icon-loop-grey {
+	@include sprite($icon, icon-loop-grey);
+}
+
+.icon-profile-grey {
+	@include sprite($icon, icon-profile-grey);
+}
+
+.icon-clock-grey {
+	@include sprite($icon, icon-clock-grey);
+}
+
+.icon-calc-grey {
+	@include sprite($icon, icon-calc-grey);
+}
+
+.icon-tag-grey {
+	@include sprite($icon, icon-tag-grey);	
+}
+
+.icon-flag-grey {
+	@include sprite($icon, icon-flag-grey);	
+}

@@ -4867,4 +4867,179 @@ $offer-del: $offer-dur / 2;
 			@include sprite($icon, icon-docs-hover);
 		}
 	}
-}			
+}
+
+// Re-marketing
+
+.fact {
+	background-color: #fff;
+	padding: 23px;
+	min-height: 150px;
+
+	h3 {
+		font-weight: 500;
+		color: $black;
+		margin-bottom: 20px;
+		font-size: 14px;
+	}
+}
+
+.fact1 {
+	background: #fff url('../images/icon-fact1.png') right bottom no-repeat;
+}
+
+.fact2 {
+	background: #fff url('../images/icon-fact2.png') right bottom no-repeat;
+}
+
+.fact3 {
+	background: #fff url('../images/icon-fact3.png') right bottom no-repeat;
+}
+
+.filter24 {
+
+	&.chosen {
+		i {
+			@include sprite($icon, icon-busket-blue);
+		}
+	}
+}
+
+.filter25 {
+
+	&.chosen {
+		i {
+			@include sprite($icon, icon-glasses-hover);
+		}
+	}
+}
+
+.filter26 {
+
+	&.chosen {
+		i {
+			@include sprite($icon, icon-loop-hover);
+		}
+	}
+}
+
+.filter27 {
+
+	&.chosen {
+		i {
+			@include sprite($icon, icon-profile-hover);
+		}
+	}
+}
+
+.filter28 {
+
+	&.chosen {
+		i {
+			@include sprite($icon, icon-clock-hover);
+		}
+	}
+}
+
+.filter29 {
+
+	&.chosen {
+		i {
+			@include sprite($icon, icon-calc-hover);
+		}
+	}
+}
+
+.filter30 {
+
+	&.chosen {
+		i {
+			@include sprite($icon, icon-tag-hover);
+		}
+	}
+}
+
+.product-info {
+	h3 {
+		font-size: 16px;
+		line-height: 22px;
+		font-weight: 300;
+		margin-bottom: 14px;
+	}
+
+	.read-more {
+		float: left;
+	}
+}
+
+.sup-color {
+	float: left;
+	width: 18px;
+	height: 18px;
+	margin-right: 19px;
+	border-radius: 4px;
+	margin-top: 6px;
+}
+
+.sup-orange {
+	background-color: #f7931e;	
+}
+
+.sup-desc {
+	float: left;
+	margin-bottom: 10px;
+	margin-top: 6px;
+}
+
+.sup-percents {
+	font-weight: 500;
+	color: $black;
+	margin-bottom: 5px;
+}
+
+.sup-grey {
+	background-color: #777;
+}
+
+.read-about {
+	display: block;
+	height: 32px;
+	line-height: 32px;
+	float: left;
+	margin: 15px 0 15px 6px;
+}
+
+.spec {
+	float: left;
+	padding-top: 78px;
+	margin: 10px 0 20px 25px;
+	color: $black;
+	font-weight: 500;
+	background-position: center top;
+	background-repeat: no-repeat;
+}
+
+h3 + .spec {
+	margin-left: 0;
+}
+
+.spec1 {
+	background-image: url('../images/spec1.png');
+}
+
+.spec2 {
+	background-image: url('../images/spec2.png');
+}
+
+.spec3 {
+	background-image: url('../images/spec3.png');
+}
+
+.spec4 {
+	background-image: url('../images/spec4.png');
+}
+
+.spec5 {
+	background-image: url('../images/spec5.png');
+}
+
