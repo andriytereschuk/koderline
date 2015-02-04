@@ -706,3 +706,7 @@ $icon: sprite-map("icons/*.png", $spacing: 5px);
 .icon-note {
 	@include sprite($icon, icon-note);		
 }
+
+.icon-right-blue {
+	@include sprite($icon, icon-arrow-right);
+}

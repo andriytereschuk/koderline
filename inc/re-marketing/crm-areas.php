@@ -71,41 +71,82 @@
 								<p>Вы <b>оплачеваете</b> работы только <b>после</b> выполнения и зачета работ</p>
 							</div>
 							<div class="span6">
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid nam totam earum, soluta eligendi sequi, repellendus voluptate obcaecati quas! Accusantium facilis ullam cupiditate, a pariatur quod! Provident commodi pariatur blanditiis!</p>
+								<p>1 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid nam totam earum, soluta eligendi sequi, repellendus voluptate obcaecati quas! Accusantium facilis ullam cupiditate, a pariatur quod! Provident commodi pariatur blanditiis!</p>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem voluptas pariatur necessitatibus quod porro amet libero molestias hic debitis commodi quos doloribus reprehenderit sequi, recusandae, voluptatem aut dolores voluptate in!</p>
 							</div>
 						</div>
 					</div>
 
 					<div class="erp-tab erp2">
-						<h3>Вы оплачеваете работы только после выполнения и зачета работ 2</h3>
-						<p>С первого момента сотрудничества мы гарантируем индивидуальный подход и внимательное отношение к пожеланиям клиента, предлагая при этом максимально эффективные пути решения поставленных задач. Перед началом работ проводится обязательная предварительная оценка трудозатрат, составляется план реализации проекта/работ, рассчитывается необходимое время и обосновывается расчет бюджета. Для контроля за ходом выполнения проекта/работ и соблюдением всех пунктов назначается куратор, который становится связующим звеном между заказчиком и разработчиками-программистами. Наравне с ним клиент также имеет возможность осуществлять строгий и постоянный контроль за процессом реализации проекта/работ, получать отчеты по каждому этапу и вносить коррективы, дополнения.</p>
+						<div class="row">
+							<div class="span6 big-span">
+								<p>Вы <b>оплачеваете</b> работы только <b>после</b> выполнения и зачета работ</p>
+							</div>
+							<div class="span6">
+								<p>2 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid nam totam earum, soluta eligendi sequi, repellendus voluptate obcaecati quas! Accusantium facilis ullam cupiditate, a pariatur quod! Provident commodi pariatur blanditiis!</p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem voluptas pariatur necessitatibus quod porro amet libero molestias hic debitis commodi quos doloribus reprehenderit sequi, recusandae, voluptatem aut dolores voluptate in!</p>
+							</div>
+						</div>
 					</div>
 
-
 					<div class="erp-tab erp3">
-						<h3>Вы оплачеваете работы только после выполнения и зачета работ 3</h3>
-						<p>С первого момента сотрудничества мы гарантируем индивидуальный подход и внимательное отношение к пожеланиям клиента, предлагая при этом максимально эффективные пути решения поставленных задач. Перед началом работ проводится обязательная предварительная оценка трудозатрат, составляется план реализации проекта/работ, рассчитывается необходимое время и обосновывается расчет бюджета. Для контроля за ходом выполнения проекта/работ и соблюдением всех пунктов назначается куратор, который становится связующим звеном между заказчиком и разработчиками-программистами. Наравне с ним клиент также имеет возможность осуществлять строгий и постоянный контроль за процессом реализации проекта/работ, получать отчеты по каждому этапу и вносить коррективы, дополнения.</p>
+						<div class="row">
+							<div class="span6 big-span">
+								<p>Вы <b>оплачеваете</b> работы только <b>после</b> выполнения и зачета работ</p>
+							</div>
+							<div class="span6">
+								<p>3 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid nam totam earum, soluta eligendi sequi, repellendus voluptate obcaecati quas! Accusantium facilis ullam cupiditate, a pariatur quod! Provident commodi pariatur blanditiis!</p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem voluptas pariatur necessitatibus quod porro amet libero molestias hic debitis commodi quos doloribus reprehenderit sequi, recusandae, voluptatem aut dolores voluptate in!</p>
+							</div>
+						</div>
 					</div>
 
 					<div class="erp-tab erp4">
-						<h3>Вы оплачеваете работы только после выполнения и зачета работ 4</h3>
-						<p>С первого момента сотрудничества мы гарантируем индивидуальный подход и внимательное отношение к пожеланиям клиента, предлагая при этом максимально эффективные пути решения поставленных задач. Перед началом работ проводится обязательная предварительная оценка трудозатрат, составляется план реализации проекта/работ, рассчитывается необходимое время и обосновывается расчет бюджета. Для контроля за ходом выполнения проекта/работ и соблюдением всех пунктов назначается куратор, который становится связующим звеном между заказчиком и разработчиками-программистами. Наравне с ним клиент также имеет возможность осуществлять строгий и постоянный контроль за процессом реализации проекта/работ, получать отчеты по каждому этапу и вносить коррективы, дополнения.</p>
+						<div class="row">
+							<div class="span6 big-span">
+								<p>Вы <b>оплачеваете</b> работы только <b>после</b> выполнения и зачета работ</p>
+							</div>
+							<div class="span6">
+								<p>4 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid nam totam earum, soluta eligendi sequi, repellendus voluptate obcaecati quas! Accusantium facilis ullam cupiditate, a pariatur quod! Provident commodi pariatur blanditiis!</p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem voluptas pariatur necessitatibus quod porro amet libero molestias hic debitis commodi quos doloribus reprehenderit sequi, recusandae, voluptatem aut dolores voluptate in!</p>
+							</div>
+						</div>
 					</div>
 
 					<div class="erp-tab erp5">
-						<h3>Вы оплачеваете работы только после выполнения и зачета работ 5</h3>
-						<p>С первого момента сотрудничества мы гарантируем индивидуальный подход и внимательное отношение к пожеланиям клиента, предлагая при этом максимально эффективные пути решения поставленных задач. Перед началом работ проводится обязательная предварительная оценка трудозатрат, составляется план реализации проекта/работ, рассчитывается необходимое время и обосновывается расчет бюджета. Для контроля за ходом выполнения проекта/работ и соблюдением всех пунктов назначается куратор, который становится связующим звеном между заказчиком и разработчиками-программистами. Наравне с ним клиент также имеет возможность осуществлять строгий и постоянный контроль за процессом реализации проекта/работ, получать отчеты по каждому этапу и вносить коррективы, дополнения.</p>
+						<div class="row">
+							<div class="span6 big-span">
+								<p>Вы <b>оплачеваете</b> работы только <b>после</b> выполнения и зачета работ</p>
+							</div>
+							<div class="span6">
+								<p>5 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid nam totam earum, soluta eligendi sequi, repellendus voluptate obcaecati quas! Accusantium facilis ullam cupiditate, a pariatur quod! Provident commodi pariatur blanditiis!</p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem voluptas pariatur necessitatibus quod porro amet libero molestias hic debitis commodi quos doloribus reprehenderit sequi, recusandae, voluptatem aut dolores voluptate in!</p>
+							</div>
+						</div>
 					</div>
 
 					<div class="erp-tab erp6">
-						<h3>Вы оплачеваете работы только после выполнения и зачета работ 6</h3>
-						<p>С первого момента сотрудничества мы гарантируем индивидуальный подход и внимательное отношение к пожеланиям клиента, предлагая при этом максимально эффективные пути решения поставленных задач. Перед началом работ проводится обязательная предварительная оценка трудозатрат, составляется план реализации проекта/работ, рассчитывается необходимое время и обосновывается расчет бюджета. Для контроля за ходом выполнения проекта/работ и соблюдением всех пунктов назначается куратор, который становится связующим звеном между заказчиком и разработчиками-программистами. Наравне с ним клиент также имеет возможность осуществлять строгий и постоянный контроль за процессом реализации проекта/работ, получать отчеты по каждому этапу и вносить коррективы, дополнения.</p>
+						<div class="row">
+							<div class="span6 big-span">
+								<p>Вы <b>оплачеваете</b> работы только <b>после</b> выполнения и зачета работ</p>
+							</div>
+							<div class="span6">
+								<p>6 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid nam totam earum, soluta eligendi sequi, repellendus voluptate obcaecati quas! Accusantium facilis ullam cupiditate, a pariatur quod! Provident commodi pariatur blanditiis!</p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem voluptas pariatur necessitatibus quod porro amet libero molestias hic debitis commodi quos doloribus reprehenderit sequi, recusandae, voluptatem aut dolores voluptate in!</p>
+							</div>
+						</div>
 					</div>
 
 					<div class="erp-tab erp7">
-						<h3>Вы оплачеваете работы только после выполнения и зачета работ 7</h3>
-						<p>С первого момента сотрудничества мы гарантируем индивидуальный подход и внимательное отношение к пожеланиям клиента, предлагая при этом максимально эффективные пути решения поставленных задач. Перед началом работ проводится обязательная предварительная оценка трудозатрат, составляется план реализации проекта/работ, рассчитывается необходимое время и обосновывается расчет бюджета. Для контроля за ходом выполнения проекта/работ и соблюдением всех пунктов назначается куратор, который становится связующим звеном между заказчиком и разработчиками-программистами. Наравне с ним клиент также имеет возможность осуществлять строгий и постоянный контроль за процессом реализации проекта/работ, получать отчеты по каждому этапу и вносить коррективы, дополнения.</p>
+						<div class="row">
+							<div class="span6 big-span">
+								<p>Вы <b>оплачеваете</b> работы только <b>после</b> выполнения и зачета работ</p>
+							</div>
+							<div class="span6">
+								<p>7 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid nam totam earum, soluta eligendi sequi, repellendus voluptate obcaecati quas! Accusantium facilis ullam cupiditate, a pariatur quod! Provident commodi pariatur blanditiis!</p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem voluptas pariatur necessitatibus quod porro amet libero molestias hic debitis commodi quos doloribus reprehenderit sequi, recusandae, voluptatem aut dolores voluptate in!</p>
+							</div>
+						</div>
 					</div>
 
 

@@ -26,7 +26,7 @@
 						<i></i>
 						Супервайзинг бурения	
 					</div>
-				<a href="#" class="read-more"><i class="icon-plus-blue"></i><span>Узнать больше</span></a>
+				<a href="#" class="read-more"><i class="icon-right-blue"></i><span>Узнать больше</span></a>
 			</div>
 
 			<div class="span6">

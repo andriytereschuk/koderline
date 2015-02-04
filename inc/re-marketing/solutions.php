@@ -19,7 +19,7 @@
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint neque non ut impedit ipsum laboriosam soluta libero dolorum eos tempore incidunt inventore debitis, dolores delectus error, corporis totam in ratione.
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 				</p>
-				<a href="#" class="read-more"><i class="icon-plus-blue"></i><span>Узнать больше</span></a>
+				<a href="#" class="read-more"><i class="icon-right-blue"></i><span>Узнать больше</span></a>
 			</div>
 		</div>
 

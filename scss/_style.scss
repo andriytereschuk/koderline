@@ -1072,6 +1072,11 @@ $offer-del: $offer-dur / 2;
 		float: left;
 	}
 
+	.icon-right-blue {
+		margin-right: 10px;
+		float: left;
+	}
+
 	span {
 		display: block;
 		float: left;
@@ -4969,7 +4974,7 @@ $offer-del: $offer-dur / 2;
 	}
 
 	.read-more {
-		float: left;
+		margin-top: 30px;
 	}
 }
 
