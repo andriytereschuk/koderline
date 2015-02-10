@@ -189,7 +189,7 @@
 					$('.choose-region a').click(function(event){
 						event.preventDefault();
 						var chosen = $(this).html();
-						$('.city').html(chosen);
+						$('.city, .city-name').html(chosen);
 						$('.choose-region').fadeOut(100);
 					});
 				});
