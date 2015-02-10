@@ -84,7 +84,7 @@
 <section class="menu">
 	<div class="container">
 		<div class="row">
-			<div class="span11">
+			<div class="span7">
 				<nav>
 					<ul>                              
 						<li class="has-lvl2"><a href="#">Компания</a>
@@ -123,12 +123,78 @@
 				</nav>				
 			</div>
 
-			<!--div class="span4">
-				<a href="#" class="call-skype">
-					<i class="icon-skype"></i><span class="call-text">позвонить по скайпу</span>
-					<span class="call-info">Вы можете позвонить нам  по скайпу</span>
-				</a>
-			</div-->
+			<div class="span4">
+				<div class="geo">
+					<div class="your-city">
+						<b>Ваш город:</b>
+						<span class="city">Москва</span>
+					</div>
+
+					<div class="your-district">
+						<div class="geo-h">Ваш регион определился как:</div>
+						<i class="icon-close-grey close-district"></i>
+						<div class="clr"></div>
+
+						<div class="city-name">Москва и область</div>
+						<div class="red-btn crm-item close-district">Верно</div>
+						<a href="" class="read-more open-choose-region"><span>Нет, выбрать другой</span><i class="icon-right-blue"></i></a>
+						<div class="clr"></div>
+					</div>
+
+					<div class="choose-region">
+						<div class="geo-h">Ваш регион определился как:</div>
+						<i class="icon-close-grey close-region"></i>
+						<div class="clr"></div>
+
+						<div class="country-group">
+							<div class="country-h">Россия:</div>
+							<ul>
+								<li><a href="">Москва и область</a></li>
+								<li><a href="">Санкт Петербург и область</a></li>
+								<li><a href="">Другие регионы</a></li>
+							</ul>
+						</div>
+
+						<div class="country-group">
+							<div class="country-h">Украина:</div>
+							<ul>
+								<li><a href="">Киев</a></li>
+								<li><a href="">Львов</a></li>
+								<li><a href="">Другие регионы</a></li>
+							</ul>
+						</div>		
+					</div>
+				</div>
+
+				<script>
+				$(function(){
+					$('.city').click(function(){
+						$('.your-district').fadeIn(100);
+					});
+
+					$('.close-district').click(function(){
+						$('.your-district').fadeOut(100);
+					});
+
+					$('.open-choose-region').click(function(event){
+						event.preventDefault();
+						$('.your-district').hide();
+						$('.choose-region').show();
+					});
+
+					$('.close-region').click(function(){
+						$('.choose-region').fadeOut(100);
+					});
+
+					$('.choose-region a').click(function(event){
+						event.preventDefault();
+						var chosen = $(this).html();
+						$('.city').html(chosen);
+						$('.choose-region').fadeOut(100);
+					});
+				});
+				</script>
+			</div>
 
 			<div class="span1">
 				<a href="#" title="1С" class="logo2 icon-logo2"></a>

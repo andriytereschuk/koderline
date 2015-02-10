@@ -3566,7 +3566,7 @@ $offer-del: $offer-dur / 2;
 	width: 175px;
 }
 
-.path-h {
+.product-info .path-h {
 	padding: 13px 18px 12px 18px;
 
 	h2 {
@@ -5126,3 +5126,124 @@ h3 + .spec {
 .form-padding {
 	padding: 20px 0;
 }
+
+// geoposition
+
+.geo {
+	position: relative;
+
+	.your-city {
+		color: #fff;
+		margin-top: 20px;
+		margin-left: 20px;
+
+		b {
+			margin-right: 4px;
+		}
+
+		.city {
+			font-weight: 300;
+			cursor: pointer;
+			position: relative;
+			padding-right: 11px;
+
+
+			&:before {
+				content: "";
+				position: absolute;
+				display: block;
+				width: 0;
+				height: 0;
+				border-left: 3px solid transparent;
+				border-right: 3px solid transparent;
+				border-top: 5px solid #fff;
+				right: 0;
+				top: 7px;
+			}
+		}
+	}
+
+	.read-more {
+		float: right;
+		margin: 4px 0 12px 0;
+
+		span {
+			margin-right: 10px;
+		}
+
+		.icon-right-blue {
+			margin-right: 0;
+		}
+	}
+
+	.crm-item {
+		margin-left: 0;
+		width: 132px;
+		cursor: pointer;
+	}
+}
+
+.your-district {
+	position: absolute;
+	background-color: #fff;
+	box-shadow: 0px 0px 3px rgba(0,0,0,0.1);
+	width: 332px;
+	padding: 20px 30px;
+	top: 36px;
+	z-index: 2;
+	display: none;
+}
+
+.geo-h {
+	font-weight: 500;
+	color: $black;
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+.geo-h {
+	float: left;
+}
+
+.icon-close-grey {
+	float: right;
+	cursor: pointer;
+}
+
+.city-name {
+	color: $blue;
+	margin-bottom: 22px;
+}
+
+.choose-region {
+	position: absolute;
+	background-color: #fff;
+	box-shadow: 0px 0px 3px rgba(0,0,0,0.1);
+	width: 332px;
+	padding: 20px 30px 10px 30px;
+	top: 36px;
+	z-index: 2;
+	display: none;
+}
+
+.country-group +  .country-group {
+	border-top: 2px solid $e;
+	padding-top: 12px;
+}
+
+.country-h {
+	margin-bottom: 7px;
+}
+
+.country-group {
+	margin-top: 12px;
+
+	ul li {
+		margin-bottom: 7px;
+
+		a {
+			color: $blue;
+		}
+	}
+}
+
