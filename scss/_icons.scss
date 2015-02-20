@@ -714,3 +714,11 @@ $icon: sprite-map("icons/*.png", $spacing: 5px);
 .icon-close-grey {
 	@include sprite($icon, icon-close-grey);
 }
+
+.icon-check-grey {
+	@include sprite($icon, icon-check-grey);	
+}
+
+.icon-logout {
+	@include sprite($icon, icon-logout);
+}

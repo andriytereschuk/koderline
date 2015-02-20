@@ -931,21 +931,6 @@ $offer-del: $offer-dur / 2;
 		height: 294px;
 	}
 
-	&:before {
-		@include cont;
-		@include sprite($icons, icon-corner-right);
-		top: -1px;
-		right: 0;
-		z-index: 2;
-	}
-
-	&:after {
-		@include cont;
-		@include sprite($icons, icon-corner-right2);
-		top: 27px;
-		right: 0;
-	}
-
 	.icon-plus {
 		position: absolute;
 		display: block;
@@ -5120,6 +5105,10 @@ h3 + .spec {
 	h3 {
 		font-size: 16px;
 		line-height: 22px;
+	}
+
+	&.form-padding {
+		padding: 20px 0;
 	}
 }
 
