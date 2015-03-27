@@ -101,8 +101,8 @@
 			</div>
 
 			<div class="span12 align-center">
-				<a href="#" class="blue-btn">Все новости и мероприятия</a>
 				<a href="#" class="slider-arrows slider-left2"><i class="icon-left"></i></a>
+				<a href="#" class="blue-btn">Все новости и мероприятия</a>
 				<a href="#" class="slider-arrows slider-right2"><i class="icon-right"></i></a>				
 			</div>
 

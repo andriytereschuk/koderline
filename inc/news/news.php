@@ -51,146 +51,334 @@
 <section class="fltr-rez">
 	<div class="container">
 		<div class="row">
+			<div class="swiper-container nw-slider">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide"><!-- begin slide -->
+						<div class="span3">
+							<div class="rez">
+								<a href="" class="rez-top">
+									<img src="images/rez1.jpg" alt="">
+									<div class="rez-info">
+										<div class="rez-left">
+											<i class="icon-fltr1-white"></i>
+										</div>
+										<div class="rez-data">21 июля 2014</div>
+									</div>
+									<i class="icon-right-white"></i>
+								</a>
 
-			<div class="span3">
-				<div class="rez">
-					<a href="" class="rez-top">
-						<img src="images/rez1.jpg" alt="">
-						<div class="rez-info">
-							<div class="rez-left">
-								<i class="icon-fltr1-white"></i>
+								<div class="rez-bot">
+									<h2>Вебинар</h2>
+									<p>“Диагностика типовых узких мест скорости работы 1С”.. <a href="">Читать</a></p>
+								</div>
 							</div>
-							<div class="rez-data">21 июля 2014</div>
 						</div>
-						<i class="icon-right-white"></i>
-					</a>
 
-					<div class="rez-bot">
-						<h2>Вебинар</h2>
-						<p>“Диагностика типовых узких мест скорости работы 1С”.. <a href="">Читать</a></p>
-					</div>
-				</div>
-			</div>
+						<div class="span3">
+							<div class="rez">
+								<a href="" class="rez-top">
+									<img src="images/rez1.jpg" alt="">
+									<div class="rez-info">
+										<div class="rez-left">
+											<i class="icon-fltr2-white"></i>
+										</div>
+										<div class="rez-data">21 июля 2014</div>
+									</div>
+									<i class="icon-right-white"></i>
+								</a>
 
-			<div class="span3">
-				<div class="rez">
-					<a href="" class="rez-top">
-						<img src="images/rez1.jpg" alt="">
-						<div class="rez-info">
-							<div class="rez-left">
-								<i class="icon-fltr2-white"></i>
+								<div class="rez-bot">
+									<h2>Продукт-Koderline: CRM</h2>
+									<p>“Диагностика типовых узких мест скорости работы 1С”.. <a href="">Регистрация</a></p>
+								</div>
 							</div>
-							<div class="rez-data">21 июля 2014</div>
 						</div>
-						<i class="icon-right-white"></i>
-					</a>
 
-					<div class="rez-bot">
-						<h2>Продукт-Koderline: CRM</h2>
-						<p>“Диагностика типовых узких мест скорости работы 1С”.. <a href="">Регистрация</a></p>
-					</div>
-				</div>
-			</div>
+						<div class="span3">
+							<div class="rez">
+								<a href="" class="rez-top">
+									<img src="images/rez1.jpg" alt="">
+									<div class="rez-info">
+										<div class="rez-left">
+											<i class="icon-fltr3-white"></i>
+										</div>
+										<div class="rez-data">21 июля 2014</div>
+									</div>
+									<i class="icon-right-white"></i>
+								</a>
 
-			<div class="span3">
-				<div class="rez">
-					<a href="" class="rez-top">
-						<img src="images/rez1.jpg" alt="">
-						<div class="rez-info">
-							<div class="rez-left">
-								<i class="icon-fltr3-white"></i>
+								<div class="rez-bot">
+									<h2>Вебинар</h2>
+									<p>“Диагностика типовых узких мест скорости работы 1С”.. <a href="">Читать</a></p>
+								</div>
 							</div>
-							<div class="rez-data">21 июля 2014</div>
 						</div>
-						<i class="icon-right-white"></i>
-					</a>
 
-					<div class="rez-bot">
-						<h2>Вебинар</h2>
-						<p>“Диагностика типовых узких мест скорости работы 1С”.. <a href="">Читать</a></p>
-					</div>
-				</div>
-			</div>
+						<div class="span3">
+							<div class="rez">
+								<a href="" class="rez-top">
+									<img src="images/rez1.jpg" alt="">
+									<div class="rez-info">
+										<div class="rez-left">
+											<i class="icon-fltr4-white"></i>
+										</div>
+										<div class="rez-data">21 июля 2014</div>
+									</div>
+									<i class="icon-right-white"></i>
+								</a>
 
-			<div class="span3">
-				<div class="rez">
-					<a href="" class="rez-top">
-						<img src="images/rez1.jpg" alt="">
-						<div class="rez-info">
-							<div class="rez-left">
-								<i class="icon-fltr4-white"></i>
+								<div class="rez-bot">
+									<h2>Вебинар</h2>
+									<p>“Диагностика типовых узких мест скорости работы 1С”.. <a href="">Читать</a></p>
+								</div>
 							</div>
-							<div class="rez-data">21 июля 2014</div>
 						</div>
-						<i class="icon-right-white"></i>
-					</a>
 
-					<div class="rez-bot">
-						<h2>Вебинар</h2>
-						<p>“Диагностика типовых узких мест скорости работы 1С”.. <a href="">Читать</a></p>
-					</div>
-				</div>
-			</div>
+						<div class="span3">
+							<div class="rez">
+								<a href="" class="rez-top">
+									<img src="images/rez1.jpg" alt="">
+									<div class="rez-info">
+										<div class="rez-left">
+											<i class="icon-fltr5-white"></i>
+										</div>
+										<div class="rez-data">21 июля 2014</div>
+									</div>
+									<i class="icon-right-white"></i>
+								</a>
 
-			<div class="span3">
-				<div class="rez">
-					<a href="" class="rez-top">
-						<img src="images/rez1.jpg" alt="">
-						<div class="rez-info">
-							<div class="rez-left">
-								<i class="icon-fltr5-white"></i>
+								<div class="rez-bot">
+									<h2>Вебинар</h2>
+									<p>“Диагностика типовых узких мест скорости работы 1С”.. <a href="">Читать</a></p>
+								</div>
 							</div>
-							<div class="rez-data">21 июля 2014</div>
 						</div>
-						<i class="icon-right-white"></i>
-					</a>
 
-					<div class="rez-bot">
-						<h2>Вебинар</h2>
-						<p>“Диагностика типовых узких мест скорости работы 1С”.. <a href="">Читать</a></p>
-					</div>
-				</div>
-			</div>
+						<div class="span3">
+							<div class="rez">
+								<a href="" class="rez-top">
+									<img src="images/rez1.jpg" alt="">
+									<div class="rez-info">
+										<div class="rez-left">
+											<i class="icon-fltr6-white"></i>
+										</div>
+										<div class="rez-data">21 июля 2014</div>
+									</div>
+									<i class="icon-right-white"></i>
+								</a>
 
-			<div class="span3">
-				<div class="rez">
-					<a href="" class="rez-top">
-						<img src="images/rez1.jpg" alt="">
-						<div class="rez-info">
-							<div class="rez-left">
-								<i class="icon-fltr6-white"></i>
+								<div class="rez-bot">
+									<h2>Вебинар</h2>
+									<p>“Диагностика типовых узких мест скорости работы 1С”.. <a href="">Читать</a></p>
+								</div>
 							</div>
-							<div class="rez-data">21 июля 2014</div>
 						</div>
-						<i class="icon-right-white"></i>
-					</a>
 
-					<div class="rez-bot">
-						<h2>Вебинар</h2>
-						<p>“Диагностика типовых узких мест скорости работы 1С”.. <a href="">Читать</a></p>
-					</div>
-				</div>
-			</div>
+						<div class="span3">
+							<div class="rez">
+								<a href="" class="rez-top">
+									<img src="images/rez1.jpg" alt="">
+									<div class="rez-info">
+										<div class="rez-left">
+											<i class="icon-fltr7-white"></i>
+										</div>
+										<div class="rez-data">21 июля 2014</div>
+									</div>
+									<i class="icon-right-white"></i>
+								</a>
 
-			<div class="span3">
-				<div class="rez">
-					<a href="" class="rez-top">
-						<img src="images/rez1.jpg" alt="">
-						<div class="rez-info">
-							<div class="rez-left">
-								<i class="icon-fltr7-white"></i>
+								<div class="rez-bot">
+									<h2>Вебинар</h2>
+									<p>“Диагностика типовых узких мест скорости работы 1С”.. <a href="">Читать</a></p>
+								</div>
 							</div>
-							<div class="rez-data">21 июля 2014</div>
 						</div>
-						<i class="icon-right-white"></i>
-					</a>
 
-					<div class="rez-bot">
-						<h2>Вебинар</h2>
-						<p>“Диагностика типовых узких мест скорости работы 1С”.. <a href="">Читать</a></p>
-					</div>
-				</div>
-			</div>			
+						<div class="span3">
+							<div class="rez">
+								<a href="" class="rez-top">
+									<img src="images/rez1.jpg" alt="">
+									<div class="rez-info">
+										<div class="rez-left">
+											<i class="icon-fltr7-white"></i>
+										</div>
+										<div class="rez-data">21 июля 2014</div>
+									</div>
+									<i class="icon-right-white"></i>
+								</a>
+
+								<div class="rez-bot">
+									<h2>Вебинар</h2>
+									<p>“Диагностика типовых узких мест скорости работы 1С”.. <a href="">Читать</a></p>
+								</div>
+							</div>
+						</div>
+					</div><!-- end slide -->
+
+					<div class="swiper-slide"><!-- begin slide -->
+						<div class="span3">
+							<div class="rez">
+								<a href="" class="rez-top">
+									<img src="images/rez1.jpg" alt="">
+									<div class="rez-info">
+										<div class="rez-left">
+											<i class="icon-fltr1-white"></i>
+										</div>
+										<div class="rez-data">21 июля 2014</div>
+									</div>
+									<i class="icon-right-white"></i>
+								</a>
+
+								<div class="rez-bot">
+									<h2>Вебинар</h2>
+									<p>“Диагностика типовых узких мест скорости работы 1С”.. <a href="">Читать</a></p>
+								</div>
+							</div>
+						</div>
+
+						<div class="span3">
+							<div class="rez">
+								<a href="" class="rez-top">
+									<img src="images/rez1.jpg" alt="">
+									<div class="rez-info">
+										<div class="rez-left">
+											<i class="icon-fltr2-white"></i>
+										</div>
+										<div class="rez-data">21 июля 2014</div>
+									</div>
+									<i class="icon-right-white"></i>
+								</a>
+
+								<div class="rez-bot">
+									<h2>Продукт-Koderline: CRM</h2>
+									<p>“Диагностика типовых узких мест скорости работы 1С”.. <a href="">Регистрация</a></p>
+								</div>
+							</div>
+						</div>
+
+						<div class="span3">
+							<div class="rez">
+								<a href="" class="rez-top">
+									<img src="images/rez1.jpg" alt="">
+									<div class="rez-info">
+										<div class="rez-left">
+											<i class="icon-fltr3-white"></i>
+										</div>
+										<div class="rez-data">21 июля 2014</div>
+									</div>
+									<i class="icon-right-white"></i>
+								</a>
+
+								<div class="rez-bot">
+									<h2>Вебинар</h2>
+									<p>“Диагностика типовых узких мест скорости работы 1С”.. <a href="">Читать</a></p>
+								</div>
+							</div>
+						</div>
+
+						<div class="span3">
+							<div class="rez">
+								<a href="" class="rez-top">
+									<img src="images/rez1.jpg" alt="">
+									<div class="rez-info">
+										<div class="rez-left">
+											<i class="icon-fltr4-white"></i>
+										</div>
+										<div class="rez-data">21 июля 2014</div>
+									</div>
+									<i class="icon-right-white"></i>
+								</a>
+
+								<div class="rez-bot">
+									<h2>Вебинар</h2>
+									<p>“Диагностика типовых узких мест скорости работы 1С”.. <a href="">Читать</a></p>
+								</div>
+							</div>
+						</div>
+
+						<div class="span3">
+							<div class="rez">
+								<a href="" class="rez-top">
+									<img src="images/rez1.jpg" alt="">
+									<div class="rez-info">
+										<div class="rez-left">
+											<i class="icon-fltr5-white"></i>
+										</div>
+										<div class="rez-data">21 июля 2014</div>
+									</div>
+									<i class="icon-right-white"></i>
+								</a>
+
+								<div class="rez-bot">
+									<h2>Вебинар</h2>
+									<p>“Диагностика типовых узких мест скорости работы 1С”.. <a href="">Читать</a></p>
+								</div>
+							</div>
+						</div>
+
+						<div class="span3">
+							<div class="rez">
+								<a href="" class="rez-top">
+									<img src="images/rez1.jpg" alt="">
+									<div class="rez-info">
+										<div class="rez-left">
+											<i class="icon-fltr6-white"></i>
+										</div>
+										<div class="rez-data">21 июля 2014</div>
+									</div>
+									<i class="icon-right-white"></i>
+								</a>
+
+								<div class="rez-bot">
+									<h2>Вебинар</h2>
+									<p>“Диагностика типовых узких мест скорости работы 1С”.. <a href="">Читать</a></p>
+								</div>
+							</div>
+						</div>
+
+						<div class="span3">
+							<div class="rez">
+								<a href="" class="rez-top">
+									<img src="images/rez1.jpg" alt="">
+									<div class="rez-info">
+										<div class="rez-left">
+											<i class="icon-fltr7-white"></i>
+										</div>
+										<div class="rez-data">21 июля 2014</div>
+									</div>
+									<i class="icon-right-white"></i>
+								</a>
+
+								<div class="rez-bot">
+									<h2>Вебинар</h2>
+									<p>“Диагностика типовых узких мест скорости работы 1С”.. <a href="">Читать</a></p>
+								</div>
+							</div>
+						</div>
+
+						<div class="span3">
+							<div class="rez">
+								<a href="" class="rez-top">
+									<img src="images/rez1.jpg" alt="">
+									<div class="rez-info">
+										<div class="rez-left">
+											<i class="icon-fltr7-white"></i>
+										</div>
+										<div class="rez-data">21 июля 2014</div>
+									</div>
+									<i class="icon-right-white"></i>
+								</a>
+
+								<div class="rez-bot">
+									<h2>Вебинар</h2>
+									<p>“Диагностика типовых узких мест скорости работы 1С”.. <a href="">Читать</a></p>
+								</div>
+							</div>
+						</div>
+					</div><!-- end slide -->
+
+				</div><!-- end wrapper -->
+			</div><!-- end container -->			
 
 		</div>
 
@@ -200,13 +388,34 @@
 			<div class="span12">
 				<div class="pagination">
 					<a href="#" class="prev-page">&nbsp;</a>
-					<a href="#">2</a>
-					<a href="#" class="active">3</a>
-					<a href="#">4</a>
 					<a href="#" class="next-page">&nbsp;</a>
 				</div>
 			</div>	
 		</div>
 
 	</div>
+
+	<!-- Plugin for slider -->
+	<script src="js/idangerous.swiper.min.js"></script>
+	<!-- Init slider -->
+	<script>
+	$(function(){
+		var mySwiper = $('.nw-slider').swiper({
+			mode:'horizontal',
+			speed: 1000,
+			loop: true,
+			simulateTouch: false
+		});
+
+		$(".prev-page").click(function(event) {
+			event.preventDefault();
+			mySwiper.swipePrev();
+		});
+
+		$(".next-page").click(function(event) {
+			event.preventDefault();
+			mySwiper.swipeNext();
+		});	
+	});	
+	</script>
 </section>
