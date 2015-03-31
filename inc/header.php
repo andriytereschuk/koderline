@@ -189,8 +189,16 @@
 					$('.choose-region a').click(function(event){
 						event.preventDefault();
 						var chosen = $(this).html();
-						$('.city, .city-name').html(chosen);
-						$('.choose-region').fadeOut(100);
+						var current = $('.city').html();
+						if(chosen != current) {
+							$('.city, .city-name').html(chosen);
+							$('.choose-region').fadeOut(100);
+
+							// подія зміни міста на інше відбулась. пишеш свій код
+						}
+						else {
+							$('.choose-region').fadeOut(100);
+						}
 					});
 				});
 				</script>
