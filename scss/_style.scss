@@ -2449,7 +2449,7 @@ $offer-del: $offer-dur / 2;
 .price {
 	height: 38px;
 	color: #fff;
-	background-color: #54bf4f;
+	background-color: $green;
 	text-align: center;
 	font-weight: 500;
 	line-height: 38px;
@@ -3037,7 +3037,7 @@ $offer-del: $offer-dur / 2;
 	color: #fff;
 	font-weight: 500;	
 	float: left;
-	background-color: #54bf4f;
+	background-color: $green;
 }
 
 
@@ -4666,7 +4666,7 @@ $offer-del: $offer-dur / 2;
 	font-weight: 500;
 	padding: 0 15px;
 	margin-bottom: 10px;
-	background-color: #54bf4f;
+	background-color: $green;
 }
 
 .crm-download {
@@ -5262,4 +5262,732 @@ h3 + .spec {
 	h2 {
 		text-align: left;
 	}
+}
+
+// LANDING
+
+// top-yellow
+
+.landing-top {
+    height: 538px;
+    background-image: url("../images/land.jpg");
+	background-repeat: no-repeat;
+	background-position: center 0;
+	background-size: cover;
+    padding-top: 56px;
+    
+    h1 {
+        font-size: 44px;
+        line-height: 48px;
+        font-weight: 300;
+        color: #fff;
+        margin-bottom: 40px;
+    }
+    
+    h2 {
+        margin-bottom: 36px;
+    }
+    
+    ul {
+        margin-bottom: 32px;
+        
+        li {
+            position: relative;
+            padding-left: 64px;
+            color: #fff;
+            line-height: 40px;
+            font-size: 18px;
+            font-weight: 300;
+            
+            &:before {
+                content: '';
+                position: absolute;
+                display: block;
+                left: 20px;
+                top: 8px;
+            }
+        }
+    }
+    
+    &.yellow {
+        h2 {
+            background-color: #fff301;
+            position: relative;
+            font-size: 24px;
+            line-height: 32px;
+            color: #ec2127;
+             padding: 7px 0 7px 144px;
+        }
+        
+        .icon-1c {
+            position: absolute;
+            left: 20px;
+            top: 17px;
+        }
+        
+        ul li {
+            &:before {
+                @include sprite($icon, icon-check-yellow);
+            }
+        }
+    }
+    
+    &.white {
+        h2 {
+            position: relative;
+            font-size: 24px;
+            line-height: 32px;
+            color: #fff;
+             padding: 7px 0 7px 0;
+        }
+        
+        .icon-1c {
+            position: absolute;
+            left: 20px;
+            top: 17px;
+        }
+        
+        ul li {
+            &:before {
+                @include sprite($icon, icon-check-white);
+            }
+        }
+    }
+    
+    .red-btn {
+        width: 220px;
+        
+        i {
+            position: relative;
+            top: 5px;
+            left: -8px;
+        }
+    }
+    
+    .blue-btn {
+        width: 220px;
+        
+        i {
+            position: relative;
+            top: 5px;
+            left: -8px;
+        }
+    }
+}
+
+// work with us 
+
+.with-us {
+    .container {
+        padding: 37px 0 56px 0;
+    }
+    
+    h2 {
+        font-size: 44px;
+        line-height: 32px;
+        font-weight: 300;
+        margin-bottom: 61px;
+        color: $black;
+        text-align: center;
+    }
+    
+    a {
+        display: block;
+        position: relative;
+        border-bottom: 2px solid $e;
+        min-height: 186px;
+        transition: border 0.3s;
+        margin: 0 22px 36px 22px;
+        
+        .top-ico {
+            height: 36px;
+            text-align: center;
+            display: block;
+        }
+        
+        h3 {
+            text-transform: uppercase;
+            color: $black;
+            font-size: 16px;
+            line-height: 32px;
+            text-align: center;
+            margin-bottom: 9px;
+        }
+        
+        p {
+            color: #999;
+        }
+        
+        &:hover {
+             border-bottom: 2px solid $green;
+        }
+    }
+}
+
+.bf1 {
+    .icon-ico {
+        @include sprite($icon, icon-ico1);
+    }
+    
+    &:hover {
+        .icon-ico {
+            @include sprite($icon, icon-ico1h);
+        }      
+    }
+}
+
+.bf2 {
+    .icon-ico {
+        @include sprite($icon, icon-ico2);
+    }
+    
+    &:hover {
+        .icon-ico {
+            @include sprite($icon, icon-ico2h);
+        }      
+    }
+}
+
+.bf3 {
+    .icon-ico {
+        @include sprite($icon, icon-ico3);
+    }
+    
+    &:hover {
+        .icon-ico {
+            @include sprite($icon, icon-ico3h);
+        }      
+    }
+}
+
+.bf4 {
+    .icon-ico {
+        @include sprite($icon, icon-ico4);
+    }
+    
+    &:hover {
+        .icon-ico {
+            @include sprite($icon, icon-ico4h);
+        }      
+    }
+}
+
+.bf5 {
+    .icon-ico {
+        @include sprite($icon, icon-ico5);
+    }
+    
+    &:hover {
+        .icon-ico {
+            @include sprite($icon, icon-ico5h);
+        }      
+    }
+}
+
+.bf6 {
+    .icon-ico {
+        @include sprite($icon, icon-ico6);
+    }
+    
+    &:hover {
+        .icon-ico {
+            @include sprite($icon, icon-ico6h);
+        }      
+    }
+}
+
+// services-c1
+
+.services-c1 {
+    background-color: $e;
+    
+    .container {
+        padding: 37px 0 70px 0;
+    }
+    
+    h2 {
+        font-size: 44px;
+        line-height: 32px;
+        font-weight: 300;
+        margin-bottom: 61px;
+        color: $black;
+        text-align: center;
+    }
+}
+
+.akard {
+	display: block;
+	background-color: #fff;
+	position: relative;
+    height: 80px;
+	padding: 0 50px 0 0;
+
+	& > i {
+		position: absolute;
+		right: 20px;
+		top: 50%;
+        margin-top: -4px;
+        opacity: 0.6;
+	}
+    
+    &:hover + .akard-t {
+        border-bottom: 2px solid $green;
+    }
+    
+    p {
+        font-size: 16px;
+        line-height: 24px;
+        color: $black;
+        //padding-top: 16px;
+        position: relative;
+        top: 50%;
+        @include translateY(-50%);
+    }
+
+	&.akard-open + .akard-t {
+		height: auto;
+        border-bottom: 2px solid $green;
+	}
+    
+    &.akard-open {
+        & > i {
+            @include rotate(-180deg);
+        }
+    }
+}
+
+.akard-t {
+	background-color: #e5e5e5;
+	height: 0;
+	overflow: hidden;
+	margin-bottom: 20px;
+    border-bottom: 2px solid #e3e3e3;
+    transition: border 0.15s;
+}
+
+.akard-p {
+	padding: 15px 15px 10px 15px;
+    color: $black;
+}
+
+.ak-icon {
+    float: left;
+    width: 64px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    
+    i {
+        position: relative;
+        top: 8px;
+    }
+}
+
+.ak1 {
+    .icon-ak {
+        @include sprite($icon, icon-ak1);
+    }
+    
+    &.akard-open {
+        .icon-ak {
+            @include sprite($icon, icon-ak1h);
+        }  
+    }
+    
+    &:hover {
+        .icon-ak {
+            @include sprite($icon, icon-ak1h);
+        }      
+    }
+}
+
+.ak2 {
+    .icon-ak {
+        @include sprite($icon, icon-ak2);
+    }
+    
+    &.akard-open {
+        .icon-ak {
+            @include sprite($icon, icon-ak2h);
+        }  
+    }
+    
+    &:hover {
+        .icon-ak {
+            @include sprite($icon, icon-ak2h);
+        }      
+    }
+}
+
+.ak3 {
+    .icon-ak {
+        @include sprite($icon, icon-ak3);
+    }
+    
+    &.akard-open {
+        .icon-ak {
+            @include sprite($icon, icon-ak3h);
+        }  
+    }
+    
+    &:hover {
+        .icon-ak {
+            @include sprite($icon, icon-ak3h);
+        }      
+    }
+}
+
+.ak4 {
+    .icon-ak {
+        @include sprite($icon, icon-ak4);
+    }
+    
+    &.akard-open {
+        .icon-ak {
+            @include sprite($icon, icon-ak4h);
+        }  
+    }
+    
+    &:hover {
+        .icon-ak {
+            @include sprite($icon, icon-ak4h);
+        }      
+    }
+}
+
+.ak5 {
+    .icon-ak {
+        @include sprite($icon, icon-ak5);
+    }
+    
+    &.akard-open {
+        .icon-ak {
+            @include sprite($icon, icon-ak5h);
+        }  
+    }
+    
+    &:hover {
+        .icon-ak {
+            @include sprite($icon, icon-ak5h);
+        }      
+    }
+}
+
+.ak6 {
+    .icon-ak {
+        @include sprite($icon, icon-ak6);
+    }
+    
+    &.akard-open {
+        .icon-ak {
+            @include sprite($icon, icon-ak6h);
+        }  
+    }
+    
+    &:hover {
+        .icon-ak {
+            @include sprite($icon, icon-ak6h);
+        }      
+    }
+}
+
+
+// finance
+
+.finance {
+    
+    & + .main-slider {
+        .section-icon {
+            display: none;
+        }
+    }
+    
+    .container {
+        padding: 37px 0 40px 0;
+         border-bottom: 2px solid $e;
+    }
+    
+    section {
+        margin-bottom: 10px;
+    }
+    
+    h2 {
+        font-size: 44px;
+        line-height: 32px;
+        font-weight: 300;
+        margin-bottom: 61px;
+        color: $black;
+        text-align: center;
+        margin-bottom: 4px;
+    }
+    
+    h3 {
+        text-align: center;
+        color: $black;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 66px;
+        margin-bottom: 14px;
+        
+        i {
+            position: relative;
+            margin-right: 15px;
+            top: 4px;
+        }
+    }
+}
+
+.row-th {
+    margin-bottom: 14px;
+    
+    .span12 {
+        border-bottom: 2px solid $e;
+    }
+    
+    .span3 {
+        text-align: center;
+        color: #999;
+        margin-bottom: 6px;
+    }
+}
+
+.col-grey {
+    height: 48px;
+    line-height: 48px;
+    padding-left: 20px;
+    font-size: 16px;
+    color: $black;
+    margin-bottom: 16px;
+    background-color: $e;
+}
+
+.col-green {
+    height: 48px;
+    line-height: 48px;
+    padding-left: 20px;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 16px;
+    background-color: $green;
+    text-align: center;
+}
+
+.col-orange {
+    height: 48px;
+    line-height: 48px;
+    padding-left: 20px;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 16px;
+    background-color: #f7931e;
+    text-align: center;
+}
+
+.warranty {
+    background-color: $e;
+    
+    .container {
+        padding: 37px 0 80px 0;
+    }
+    
+    h2 {
+        font-size: 44px;
+        line-height: 32px;
+        font-weight: 300;
+        margin-bottom: 55px;
+        color: $black;
+        text-align: center;
+    }
+    
+    .span1 {
+        border-color: #000;
+        border-right: 2px solid $green;
+        height: 65px;
+
+        i {
+            position: relative;
+            top: 15px;
+        }
+    }
+    
+    p {
+        color: $black;
+        font-size: 18px;
+        line-height: 24px;
+    }
+    
+    .span1 {
+        position: relative;
+        top: 6px;
+    }
+}
+
+.contact-us {
+    
+    .container {
+        padding: 70px 0 80px;
+        text-align: center;
+    }
+    
+    h2 {
+        font-size: 44px;
+        line-height: 32px;
+        font-weight: 300;
+        margin-bottom: 20px;
+        color: $black;
+        text-align: center;
+    }
+    
+    p {
+        color: $black;
+        font-size: 18px;
+        line-height: 32px;
+        font-weight: 300;
+        margin-bottom: 30px;
+    }
+    
+    .red-btn {
+        width: 300px;
+        margin: 0 auto;
+        
+        i {
+            position: relative;
+            top: 5px;
+            left: -8px;
+        }
+    }
+}
+
+.feed-contact {
+    background-color: $e;
+    
+    .container {
+        padding: 40px 0 80px;
+        text-align: center;
+    }
+    
+    h3 {
+        font-size: 24px;
+        line-height: 32px;
+        font-weight: 300;
+        margin-bottom: 33px;
+        color: $black;
+        text-align: center;
+    }
+    
+    .feed-blok {
+        border-left: 2px solid #e3e3e3;
+        min-height: 130px;
+    }
+    
+    .span4 {
+        
+        &:first-child .feed-blok{
+            border-left: none;
+        }
+    }
+}
+
+
+
+.feed-ico {
+    text-align: center;
+    height: 38px;
+}
+
+.feed-h {
+    font-size: 16px;
+    line-height: 24px;
+    color: #000;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 4px;
+}
+
+.feed-h2 {
+    font-size: 14px;
+    line-height: 32px;
+    color: #999;
+}
+
+.feed-h3 {
+    font-size: 14px;
+    line-height: 32px;
+    color: $black;
+}
+
+.feed-a {
+    text-align: center;
+    
+    a {
+        color: $blue;
+        text-decoration: underline;
+        font-size: 14px;
+        line-height: 32px;
+        
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}
+
+// faq
+
+.faq {
+    
+    
+    .container {
+        padding: 40px 0 80px 0;
+    }
+
+    h2 {
+        font-size: 44px;
+        line-height: 32px;
+        font-weight: 300;
+        margin-bottom: 61px;
+        color: $black;
+        text-align: center;
+        margin-bottom: 4px;
+    }
+    
+    h3 {
+        text-align: center;
+        color: $black;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 66px;
+        margin-bottom: 16px;
+    }
+    
+    ul {
+        margin-bottom: 18px;
+        
+        li {
+            position: relative;
+            padding-left: 33px;
+            font-size: 14px;
+            line-height: 18px;
+            color: #999;
+            margin-bottom: 5px;
+            
+            &:before {
+                content: '';
+                display: block;
+                position: absolute;
+                width: 6px;
+                height: 6px;
+                border-radius: 100%;
+                left: 17px;
+                top: 5px;
+                background-color: #f7931e;
+            }
+        }
+    }
+}
+
+.faq-qwe {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 6px;
+    color: $black;
 }

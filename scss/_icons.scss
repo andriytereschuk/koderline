@@ -722,3 +722,31 @@ $icon: sprite-map("icons/*.png", $spacing: 5px);
 .icon-logout {
 	@include sprite($icon, icon-logout);
 }
+
+.icon-1c {
+	@include sprite($icon, icon-1c);
+}
+
+.icon-sand-clock {
+	@include sprite($icon, icon-sand-clock);
+}icon-cal
+
+.icon-cal {
+	@include sprite($icon, icon-cal);
+}
+
+.icon-umbrella {
+	@include sprite($icon, icon-umbrella);
+}
+
+.icon-feed-ico1 {
+	@include sprite($icon, icon-feed-ico1);
+}
+
+.icon-feed-ico2 {
+	@include sprite($icon, icon-feed-ico2);
+}
+
+.icon-feed-ico3 {
+	@include sprite($icon, icon-feed-ico3);
+}
