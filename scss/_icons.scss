@@ -750,3 +750,7 @@ $icon: sprite-map("icons/*.png", $spacing: 5px);
 .icon-feed-ico3 {
 	@include sprite($icon, icon-feed-ico3);
 }
+
+.icon-ook {
+	@include sprite($icon, icon-ook);
+}

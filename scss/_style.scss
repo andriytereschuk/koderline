@@ -4954,6 +4954,14 @@ $offer-del: $offer-dur / 2;
 	}
 }
 
+.filter31 {
+	&.chosen {
+		i {
+			@include sprite($icon, icon-ook-hover);
+		}
+	}
+}
+
 .product-info {
 	h3 {
 		font-size: 16px;
@@ -5353,7 +5361,47 @@ h3 + .spec {
             }
         }
     }
-    
+
+    &.landing {
+    	h1, h2, ul {
+    		background-color: rgba(0,0,0,0.6);
+    		margin-bottom: 20px;
+    	}
+
+    	h1 {
+				padding: 9px 10px 13px 20px;
+				display: inline-block;
+    	}
+
+    	h2 {
+				padding: 10px 20px 10px 20px;
+				font-size: 26px;
+				line-height: 38px;
+				font-weight: 300;
+    	}
+
+    	ul {
+				margin-bottom: 30px;
+				padding: 8px 0;
+    	}
+    }
+
+    &.landing1 {
+			background-image: url("../images/land1.jpg");
+    }
+
+    &.landing2{
+			background-image: url("../images/land2.jpg");
+    }
+
+    &.landing3 {
+			background-image: url("../images/land3.jpg");
+    }
+
+    &.landing4 {
+			background-image: url("../images/land4.jpg");
+    }
+  
     .red-btn {
         width: 220px;
         
