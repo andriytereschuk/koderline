@@ -754,3 +754,31 @@ $icon: sprite-map("icons/*.png", $spacing: 5px);
 .icon-ook {
 	@include sprite($icon, icon-ook);
 }
+
+.icon-cal-blue {
+	@include sprite($icon, icon-cal-blue);
+}
+
+.icon-clock-blue {
+	@include sprite($icon, icon-clock-blue);
+}
+
+.icon-pin-blue {
+	@include sprite($icon, icon-pin-blue);
+}
+
+.icon-speach2 {
+	@include sprite($icon, icon-speach2);
+}
+
+.icon-skype {
+	@include sprite($icon, icon-skype);
+}
+
+.icon-profile-blue {
+	@include sprite($icon, icon-profile-hover);
+}
+
+.icon-soc {
+	@include sprite($icon, icon-soc);
+}
