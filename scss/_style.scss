@@ -207,36 +207,51 @@
 				ul {
 					position: absolute;
 					top: 56px;
-					background-color: rgba(68,68,68,0.95);
-					padding: 0 20px;
 					left: -20px;
 					z-index: 3;
 					height: 0;
 					opacity: 0;
-					min-width: 72px;
 					width: auto;
 					@include translateY(20px);
 					@include ts(ease-in-out,0.3s);
 					overflow: hidden;
 
 					li {
-						margin-bottom: 14px;
+						margin: 0;
+						border-top: 1px solid #c6c6c6;
 
 						&:first-child {
-							margin-top: 15px;
-						}
-
-						&:last-child {
-							margin-bottom: 18px;
-						}						
+							border-top: none;
+						}				
 
 						a {
+							padding: 0 35px 0 20px;
+							min-width: 150px;
+							background-color: rgba(76,76,76,0.95);
 							color: #fff;
 							@include ts;
 							display: block;
+							white-space: nowrap;
+							height: 38px;
+							line-height: 38px;
+							margin: 0;
+							position: relative;
+
+							&:after {
+								@include cont;
+								@include sprite($icon, icon-right-blue);
+								position: absolute;
+								right: 10px;
+								top: 12px;
+								display: none;
+							}
 
 							&:hover {
 								color: $blue;
+
+								&:after {
+									display: block;
+								}
 							}
 						}
 					}
