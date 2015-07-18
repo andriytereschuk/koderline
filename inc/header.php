@@ -123,7 +123,7 @@
 				</nav>				
 			</div>
 
-			<div class="span4">
+			<div class="span4 menu-right">
 				<div class="geo">
 					<div class="your-city">
 						<b>Ваш город:</b>
@@ -199,6 +199,36 @@
 						else {
 							$('.choose-region').fadeOut(100);
 						}
+					});
+				});
+				</script>
+
+				<div class="lang">
+					<span class="chosen-lang">RU</span>
+					<ul class="lang-list">
+						<li><a href="">ENG</a></li>
+						<li><a href="">UA</a></li>
+					</ul>
+				</div>
+
+				<script>
+				$(function(){
+					$('.chosen-lang').on('click', function(e) { 
+						e.stopPropagation();
+						if($(this).hasClass("active")) {
+							$('.lang-list').fadeOut(100);
+							$(this).removeClass("active");
+						}
+						else {
+							$('.lang-list').fadeIn(100);
+							$('.your-district').fadeOut(100);
+							$(this).addClass("active"); 
+						}
+					});
+
+					$('body').on('click', function(e) {
+						$('.lang-list').fadeOut(100);
+						$('.chosen-lang').removeClass("active");
 					});
 				});
 				</script>

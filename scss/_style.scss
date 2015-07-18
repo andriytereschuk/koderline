@@ -18,19 +18,19 @@
 	display: block;
 	width: 174px;
 	height: 40px;
-	border-bottom: 2px solid #bd3e31;
+	border-bottom: 2px solid #50a64d;
 	line-height: 40px;
 	color: #fff;
 	font-weight: 500;
 	font-size: 14px;
 	text-transform: uppercase;
 	text-align: center;
-	background-color: $red;
+	background-color: #3ce739;
 	margin-top: 14px;
 	@include ts;
 
 	&:hover {
-		background-color: #d04436;
+		background-color: #42B240;
 	}		
 }
 
@@ -5148,14 +5148,19 @@ h3 + .spec {
 
 .geo {
 	position: relative;
+	width: 258px;
+	float: left;
+	height: 56px;
 
 	.your-city {
 		color: #fff;
 		margin-top: 20px;
-		margin-left: 20px;
+		margin-left: 10px;
 
 		b {
 			margin-right: 4px;
+			position: relative;
+			top: -5px;
 		}
 
 		.city {
@@ -5163,6 +5168,9 @@ h3 + .spec {
 			cursor: pointer;
 			position: relative;
 			padding-right: 11px;
+			@include text-overflow;
+			display: inline-block;
+			max-width: 156px;
 
 
 			&:before {
@@ -5206,7 +5214,7 @@ h3 + .spec {
 	box-shadow: 0px 0px 3px rgba(0,0,0,0.1);
 	width: 332px;
 	padding: 20px 30px;
-	top: 36px;
+	top: 56px;
 	z-index: 2;
 	display: none;
 }
@@ -5216,9 +5224,6 @@ h3 + .spec {
 	color: $black;
 	font-size: 16px;
 	margin-bottom: 10px;
-}
-
-.geo-h {
 	float: left;
 }
 
@@ -5238,7 +5243,7 @@ h3 + .spec {
 	box-shadow: 0px 0px 3px rgba(0,0,0,0.1);
 	width: 332px;
 	padding: 20px 30px 10px 30px;
-	top: 36px;
+	top: 56px;
 	z-index: 2;
 	display: none;
 }
@@ -5287,6 +5292,75 @@ h3 + .spec {
 	}
 }
 
+// lang
+
+.menu-right {
+	position: relative;
+	margin-left: 0;
+
+	&:before {
+		content: '';
+		position: absolute;
+		left: -12px;
+		top: 15px;
+		height: 27px;
+		width: 1px;
+		background-color: #a2e7fe;
+	}
+}
+
+.lang {
+	position: relative;
+	float: left;
+	height: 36px;
+	padding-top: 20px;
+	margin-left: 3px;
+}
+
+.chosen-lang {
+	font-weight: 300;
+	cursor: pointer;
+	position: relative;
+	padding-right: 11px;
+	color: #fff;
+	font-weight: 500;
+
+
+	&:before {
+		content: "";
+		position: absolute;
+		display: block;
+		width: 0;
+		height: 0;
+		border-left: 3px solid transparent;
+		border-right: 3px solid transparent;
+		border-top: 5px solid #fff;
+		right: 0;
+		top: 7px;
+	}
+}
+
+.lang-list {
+	display: none;
+	position: absolute;
+	left: -16px;
+	top: 56px;
+	background-color: #fff;
+	z-index: 3;
+	border: 1px solid #f5f5f5;
+	padding: 4px 0;
+
+	a {
+		color: $black;
+		display: block;
+		padding: 2px 16px;
+		@include ts(ease,0.1s);
+
+		&:hover {
+			color: $blue;
+		}
+	}
+}
 // LANDING
 
 // top-yellow
@@ -5377,7 +5451,7 @@ h3 + .spec {
         }
     }
 
-    &.landing {
+    &.white.landing {
     	h1, h2, ul {
     		background-color: rgba(0,0,0,0.6);
     		margin-bottom: 20px;
