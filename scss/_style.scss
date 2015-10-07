@@ -461,36 +461,39 @@
 
 	i {
 		float: left;
-		margin: 35px  26px 0 31px;
+		margin: 35px 20px 0 28px;
 	}
 
 	div {
 		display: table-cell;
-		width: 200px;
+		width: 210px;
 		height: 90px;
 		vertical-align: middle;
 
+		a {
+			text-decoration: none;
+			line-height: 20px;
+			cursor: default;
+		}
+
 		span {
+			color: $grey;
+			padding-left: 5px;
 			font-weight: 500;
+		}
+
+		.send-link {
 			color: $blue;
 			text-decoration: underline;
-		}
-	}
+			cursor: pointer;
 
-	&:hover {
-		background-color: $blue;
-
-		i {
-			@include sprite($icons, icon-mail-white);
+			&:hover {
+				text-decoration: none;
+			}
 		}
 
-		span {
-			color: #fff;
-			text-decoration: none;
-		}
 	}
 }
-
 .footer3 {
 	text-align: center;
 	padding-bottom: 20px;

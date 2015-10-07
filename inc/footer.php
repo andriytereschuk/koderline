@@ -74,14 +74,24 @@
 				</div>
 			</div>
 			<div class="span4">
-				<a href="mailto:audit@koderline.ru" class="send-mail">
+				<div class="send-mail">
 					<i class="icon-mail-blue"></i>
 					<div>
-						<span>
-							audit@koderline.ru
-						</span>
+						<a href="mailto:1c@koderline.ru">
+							<span class="send-link">1c@koderline.ru</span>
+						</a>
+						<br>
+						<a href="mailto:tender@koderline.ru">
+							<span class="send-link">tender@koderline.ru</span>
+							<span>(тендеры)</span>
+						</a>
+						<br>
+						<a href="mailto:k@koderline.ru">
+							<span class="send-link">k@koderline.ru</span>
+							<span>(жалобы)</span>
+						</a>
 					</div>
-				</a>				
+				</div>				
 			</div>
 		</div>
 
