@@ -782,3 +782,11 @@ $icon: sprite-map("icons/*.png", $spacing: 5px);
 .icon-soc {
 	@include sprite($icon, icon-soc);
 }
+
+.icon-place-small {
+	@include sprite($icon, icon-place-small);
+}
+
+.icon-phone-small {
+	@include sprite($icon, icon-phone-small);
+}

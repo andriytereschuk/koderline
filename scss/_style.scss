@@ -6404,3 +6404,106 @@ h3 + .spec {
         margin: 0 auto;
     }
 }
+
+// offices
+
+.offices {
+	background-color: $e;
+	padding-bottom: 50px;
+
+	.small-h {
+		padding: 10px 0 16px 0;
+	}
+}
+
+.country-name {
+	text-align: center;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 37px;
+
+	span {
+		position: relative;
+		background-color: $e;
+		top: 11px;
+		padding: 0 10px;
+		font-size: 18px;
+		color: $black;
+	}
+}
+
+.office {
+	background-color: #fff;
+	padding: 24px 20px 0 20px;
+	width: 220px;
+	@include box;
+	float: left;
+	margin: 0 0 20px 20px;
+
+	&:nth-child(2n) {
+		margin-left: 0;
+	}
+}
+
+.office-city {
+	color: $black;
+	font-weight: 300;
+	margin-bottom: 20px;
+	font-size: 18px;
+}
+
+.office-info {
+	display: flex;
+	-ms-display: flex;
+	align-items: center;
+	-ms-align-items: center;
+	margin-bottom: 20px;
+}
+
+.office-icon {
+	flex-basis: 32px;
+	-webkit-flex-basis: 32px;
+	-ms-flex-preferred-size: 32px;
+	height: 20px;
+}
+
+.office-text {
+	-webkit-box-flex: 1;
+	-webkit-flex-grow: 1;
+	-ms-flex-positive: 1;
+	flex-grow: 1;
+	-webkit-flex-basis: 0;
+	-ms-flex-preferred-size: 0;
+	flex-basis: 0;
+	max-width: 100%;
+}
+
+.office-flex {
+	height: 110px;
+	flex-direction: column;
+	-ms-flex-direction: column;
+	-ms-justify-content: center;
+	justify-content: center;
+	display: flex;
+	-ms-display: flex;
+}
+
+.getto {
+	background-color: $e;
+	padding: 10px 0;
+
+	.small-h {
+		padding-bottom: 30px;
+	}
+
+	p {
+		color: $grey;
+		font-size: 14px;
+		line-height: 24px;
+
+		b {
+			color: $black;
+		}
+	}
+
+
+}
