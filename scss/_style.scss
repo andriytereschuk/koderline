@@ -6813,6 +6813,7 @@ h3 + .spec {
 .ar-tags {
 	position: relative;
 	padding-top: 5px;
+	margin-left: -10px;
 
 	&:before,
 	&:after {
@@ -6828,7 +6829,7 @@ h3 + .spec {
 	a {
 		display: block;
 		float: left;
-		margin-right: 10px;
+		margin-left: 10px;
 		margin-bottom: 5px;
 		border: 2px solid #ccc;
 		height: 28px;
@@ -6841,10 +6842,142 @@ h3 + .spec {
 			border: 2px solid $blue;
 			color: $blue;
 		}
+	}
+}
 
-		&:last-child {
-			margin-right: 0;
+// article
+
+.article-section {
+	background-color: $e;
+	padding: 50px 0 100px;
+
+	.span8 {
+		position: relative;
+
+		&:after {
+			content: '';
+			width: 2px;
+			height: 100%;
+			display: block;
+			position: absolute;
+			right: -20px;
+			top: 0;
+			background-color: #ccc;
 		}
 	}
 }
 
+.ar-post {
+	margin-bottom: 25px;
+
+	h1 {
+		font-weight: 300;
+		color: $black;
+		font-size: 24px;
+		line-height: 40px;
+		margin-bottom: 20px;
+	}
+
+
+	h2 {
+		color: $black;
+		font-size: 18px;
+		line-height: 24px;
+		margin-bottom: 20px;
+	}
+
+	h3 {
+		color: $black;
+		font-size: 16px;
+		font-weight: 500;
+		line-height: 20px;
+		margin-bottom: 15px;
+	}
+
+	p {
+		font-size: 18px;
+		line-height: 22px;
+		font-weight: 300;
+	}
+
+	li {
+		padding-left: 40px;
+		display: block;
+		margin-bottom: 20px;
+		font-size: 16px;
+		line-height: 24px;
+		font-weight: 300;
+		background-image: url('../images/check.png');
+		background-repeat: no-repeat;
+		background-position: 0 2px;
+	}
+}
+
+.ar-post_type {
+	font-size: 18px;
+	width: 220px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid $blue;
+	margin-bottom: 15px;
+	color: $black;
+}
+
+.ar-post_athor {
+	font-weight: 500;
+	color: $black;
+	float: left;
+}
+
+.ar-post_date {
+	float: right;
+	color: $black;
+}
+
+.ar-more {
+	padding-left: 20px;
+}
+
+.ar-more-title {
+	font-size: 18px;
+	color: $black;
+	margin-bottom: 30px;
+}
+
+.ar-item-date {
+	margin-bottom: 10px;
+	color: $black;
+}
+
+.ar-item-link {
+	display: block;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 300;
+	margin-bottom: 8px;
+	color: $grey;
+
+	&:hover {
+		color: $blue;
+	}
+}
+
+.ar-more-item {
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 17px;
+	@include ts;
+
+	&:last-child {
+		box-shadow: none;
+		border: none;
+
+		&:hover {
+			box-shadow: none;
+			border: none;
+		}
+	}
+
+	&:hover {
+		border-bottom: 1px solid $blue;
+		box-shadow: 0px 1px 0px 0px $blue;
+	}
+}
