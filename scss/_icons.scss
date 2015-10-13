@@ -425,8 +425,6 @@ $icon: sprite-map("icons/*.png", $spacing: 5px);
 	@include sprite($icon, icon-improve);	
 }
 
-
-
 .icon-fltr1 {
 	@include sprite($icon, icon-fltr1);	
 }
@@ -793,4 +791,8 @@ $icon: sprite-map("icons/*.png", $spacing: 5px);
 
 .icon-friends-white {
 	@include sprite($icon, icon-friends-white);
+}
+
+.icon-pencil-big {
+	@include sprite($icon, icon-pencil-big);	
 }
