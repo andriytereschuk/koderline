@@ -796,3 +796,35 @@ $icon: sprite-map("icons/*.png", $spacing: 5px);
 .icon-pencil-big {
 	@include sprite($icon, icon-pencil-big);	
 }
+
+.icon-phone-blue {
+	@include sprite($icon, icon-phone-blue);	
+}
+
+.icon-envelop-blue {
+	@include sprite($icon, icon-envelop-blue);	
+}
+
+.icon-skype-blue {
+	@include sprite($icon, icon-skype-blue);	
+}
+
+.icon-feedback {
+	@include sprite($icon, icon-feedback);	
+}
+
+.icon-anchor {
+	@include sprite($icon, icon-anchor);	
+}
+
+.icon-education {
+	@include sprite($icon, icon-education);	
+}
+
+.icon-disc {
+	@include sprite($icon, icon-disc);	
+}
+
+.icon-disc-white {
+	@include sprite($icon, icon-disc-white);
+}
