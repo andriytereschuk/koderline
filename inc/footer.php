@@ -53,6 +53,21 @@
 
 		<hr class="mt-40">
 
+		<div class="row">
+			<div class="span12">
+				<div class="footer-social">
+					<div class="footer-social__text">Мы в соц. сетях:</div>
+					<div class="footer-social__links">
+						<a href="" class="linkedin"></a>
+						<a href="" class="facebook"></a>
+						<a href="" class="youtube"></a>
+						<a href="" class="vk"></a>
+						<a href="" class="goo"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+
 		<div class="row footer2">
 			<div class="span4">
 				<a href="#" class="go-to-contacts">

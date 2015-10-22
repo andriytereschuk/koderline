@@ -7457,3 +7457,67 @@ h3 + .spec {
 		max-width: 100%;
 	}
 }
+
+.footer-social {
+	text-align: center;
+	padding-top: 16px;
+	border-bottom: 2px solid $e;
+	padding-bottom: 11px;
+
+
+	&__text {
+		display: inline-block;
+		font-size: 24px;
+		font-weight: 300;
+		color: $black;
+		position: relative;
+		top: -14px;
+	}
+
+	&__links {
+		display: inline-block;
+		margin-left: 28px;
+
+		a {
+			float: left;
+			display: block;
+			margin-right: 17px;
+			width: 44px;
+			height: 44px;
+
+			&.facebook {
+				@include sprite($icon, icon-facebook, 0);
+			}
+
+			&.goo {
+				@include sprite($icon, icon-goo, 0);
+			}
+
+			&.youtube {
+				@include sprite($icon, icon-youtube, 0);
+			}
+
+			&.linkedin {
+				@include sprite($icon, icon-linkedin, 0);
+			}
+
+			&.vk {
+				@include sprite($icon, icon-vk, 0);
+			}
+		}
+	}
+}
+
+.share-text {
+	float: left;
+	font-size: 24px;
+	font-weight: 300;
+	color: $black;
+	margin-right: 20px;
+	padding-top: 20px;
+}
+
+.share-links {
+	float: left;
+	padding-top: 10px;
+}
