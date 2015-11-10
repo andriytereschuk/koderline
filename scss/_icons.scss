@@ -2,6 +2,7 @@
 
 $icons: sprite-map("main-icons/*.png", $spacing: 5px);
 $icon: sprite-map("icons/*.png", $spacing: 5px);
+$icon2: sprite-map("icons2/*.png", $spacing: 5px);
 
 [class*="icon-"]{
 	display: inline-block;
@@ -827,4 +828,10 @@ $icon: sprite-map("icons/*.png", $spacing: 5px);
 
 .icon-disc-white {
 	@include sprite($icon, icon-disc-white);
+}
+
+// Icons 2
+// New folder
+.icon-down-blue {
+	@include sprite($icon2, icon-down-blue);
 }

@@ -7521,3 +7521,422 @@ h3 + .spec {
 	float: left;
 	padding-top: 10px;
 }
+
+// Specialist
+// ----------------------------
+
+.specialist {
+	background-color: $e;
+
+	.container {
+		padding: 35px 0 20px 0;
+	}
+
+	h1 {
+		font-size: 44px;
+		line-height: 48px;
+		font-weight: 300;
+		color: $black;
+		text-align: center;
+		margin-bottom: 40px;
+	}
+
+	&-ava {
+		width: 100%;
+	}	
+}
+
+.specialist-info {
+	color: $black;
+
+
+	.row {
+		margin-bottom: 14px;
+	}
+
+	.span2 {
+		font-weight: 500;
+	}
+
+	a {
+		text-decoration: underline;
+
+		&:hover {
+			text-decoration: none;
+		}
+	}
+}
+
+
+.green-btn {
+	display: inline-block;
+	height: 40px;
+	text-align: center;
+	background-color: $green;
+	border-bottom: 2px solid #48a143;
+	@include ts;
+	font-weight: 500;
+	line-height: 40px;
+	text-transform: uppercase;
+	color: #fff;
+	padding: 0 23px;
+	text-decoration: none !important;
+
+	&:hover {
+		background-color: #48a143;
+	}
+}
+
+// spec-projects
+
+.spec-projects {
+	background-color: $e;
+
+	.container {
+		padding: 0 0 20px 0;
+	}
+
+	h2 {
+		font-size: 24px;
+		font-weight: 300;
+		color: $black;
+		margin-bottom: 20px;
+	}
+}
+
+.spec-akardion {
+	display: block;
+	background-color: #fff;
+	position: relative;
+	padding: 12px 170px 12px 23px;
+	@include tsp(background-color, linear, .15s);
+
+	i {
+		position: absolute;
+		right: 20px;
+		top: 26px;
+		@include tsp(transform, linear, .15s);
+		@include sprite($icon2, icon-aka-black);
+	}
+
+
+	.spec-pro {
+		display: block;
+		font-weight: 500;
+		font-size: 18px;
+		color: $black;
+		line-height: 1;
+		margin-bottom: 4px;
+	}
+
+	.spec-def {
+		color: $grey;
+		@include text-overflow;
+	}
+
+	.spec-more {
+		position: absolute;
+		right: 42px;
+		top: 24px;
+		color: $grey;
+	}
+
+	&:hover {
+		i {
+			@include sprite($icon2, icon-aka-green);
+		}
+
+		.spec-more {
+			color: $green;
+		}
+	}
+
+	// active akardion
+	&.spec-akardion-open {
+		background-color: $green;
+
+		.spec-pro, .spec-def {
+			color: #fff;
+		}
+
+		.spec-more {
+			color: $green;
+		}
+
+		i {
+			@include rotate(90deg);
+			@include sprite($icon2, icon-aka-white);
+		}
+
+		&:hover {
+			i {
+				@include sprite($icon2, icon-aka-white);
+			}
+		}
+	}
+
+	// open akardion
+	&.spec-akardion-open + .spec-akardion-t {
+		height: auto;
+	}
+}
+
+
+
+.spec-akardion-t {
+	background-color: #fff;
+	height: 0;
+	overflow: hidden;
+	margin-bottom: 3px;
+	border-bottom: 1px solid #e3e3e3;
+
+	table {
+		tr:first-child {
+			td {
+				border-bottom: 1px solid #e6e6e6;
+			}
+
+			td + td {
+				border-left: 1px solid #e6e6e6;
+			}
+		}
+
+		td {
+			padding: 17px 20px;
+			vertical-align: top;
+
+			strong {
+				display: block;
+				color: $black;
+				font-weight: 500;
+				margin-bottom: 10px;
+			}
+
+			&:nth-child(1) {
+				width: 168px;
+			}
+
+			&:nth-child(2) {
+				width: 144px;
+			}
+
+			&:nth-child(3) {
+				width: 254px;
+			}
+
+			&:nth-child(4) {
+				width: 211px;
+			}
+		}
+	}
+}
+
+.spec-all-pro {
+	text-align: center;
+	padding-top: 20px;
+
+	a {
+		text-transform: uppercase;
+
+		i {
+			margin-left: 6px;
+		}
+	}
+}
+
+// spec add
+
+.spec-add {
+	background-color: $e;
+
+	.container {
+		padding: 0 0 80px 0;
+	}
+
+	h2 {
+		font-size: 24px;
+		font-weight: 300;
+		color: $black;
+		margin-bottom: 20px;
+	}
+}
+
+.add-akardion {
+	display: block;
+	background-color: #fff;
+	position: relative;
+	padding: 0 60px 0 0;
+	height: 40px;
+	@include tsp(background-color, linear, .15s);
+
+	.add-icon {
+		width: 48px;
+		float: left;
+		height: 40px;
+		line-height: 46px;
+		text-align: center;
+
+		i {
+			display: inline-block;
+		}
+	}
+
+	.add-study {
+		@include sprite($icon2, icon-study-green);
+	}
+
+	.add-cource {
+		@include sprite($icon2, icon-cource-green);
+	}
+
+	.add-corp {
+			@include sprite($icon2, icon-corp-green);
+	}
+
+	.add-view {
+			@include sprite($icon2, icon-view-green);		
+	}
+
+	.add-publish {
+			@include sprite($icon2, icon-publish-green);
+	}
+
+	.add-sert {
+			@include sprite($icon2, icon-sert-green);
+	}
+
+	> i {
+		position: absolute;
+		right: 20px;
+		top: 13px;
+		@include tsp(transform, linear, .15s);
+		@include sprite($icon2, icon-aka-black);
+	}
+
+	.add-def {
+		color: $grey;
+		@include text-overflow;
+		height: 40px;
+		line-height: 40px;
+		font-weight: 500;
+		color: $black;
+		float: left;
+	}
+
+
+
+	&:hover {
+		> i {
+			@include sprite($icon2, icon-aka-green);
+		}
+
+		.add-def {
+			color: $green;
+		}
+	}
+
+	// active akardion
+	&.add-akardion-open {
+		background-color: $green;
+
+		.add-study {
+			@include sprite($icon2, icon-study-white);
+		}
+
+		.add-cource {
+			@include sprite($icon2, icon-cource-white);
+		}
+
+		.add-corp {
+				@include sprite($icon2, icon-corp-white);
+		}
+
+		.add-view {
+				@include sprite($icon2, icon-view-white);		
+		}
+
+		.add-publish {
+				@include sprite($icon2, icon-publish-white);
+		}
+
+		.add-sert {
+				@include sprite($icon2, icon-sert-white);
+		}
+
+		.add-def {
+			color: #fff;
+		}
+
+
+		> i {
+			@include rotate(90deg);
+			@include sprite($icon2, icon-aka-white);
+		}
+
+		&:hover {
+			> i {
+				@include sprite($icon2, icon-aka-white);
+			}
+
+			.add-def {
+				color: #fff;
+			}
+		}
+	}
+
+	// open akardion
+	&.add-akardion-open + .add-akardion-t {
+		height: auto;
+	}
+}
+
+
+
+.add-akardion-t {
+	background-color: #fff;
+	height: 0;
+	overflow: hidden;
+	margin-bottom: 3px;
+	border-bottom: 1px solid #e3e3e3;
+
+	table {
+
+		th {
+			border-bottom: 1px solid #e6e6e6;
+			color: $black;
+			font-weight: 500;
+			padding: 17px 20px;
+			text-align: center;
+		}
+
+		td + td, th + th {
+			border-left: 1px solid #e6e6e6;
+		}
+
+		td {
+			padding: 16px 20px 0 20px;
+			vertical-align: top;
+			text-align: center;
+
+
+			&:nth-child(1) {
+				width: 220px;
+			}
+
+			&:nth-child(2) {
+				width: 430px;
+			}
+
+			&:nth-child(3) {
+				width: 170px;
+			}
+
+		}
+
+		tr:last-child {
+			td {
+				padding-bottom: 16px;
+			}
+		}
+	}
+}
