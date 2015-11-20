@@ -6619,6 +6619,8 @@ h3 + .spec {
 }
 
 .ar-cat {
+	padding-top: 30px;
+
 	li {
 		display: block;
 		float: left;
@@ -6641,8 +6643,7 @@ h3 + .spec {
 
 		&.ar-act {
 			color: $blue;
-			font-weight: 500;
-			background-color: $e;
+			background-color: rgba(35, 37, 37, 0.53);
 			border-top: 2px solid $blue;
 			cursor: default;
 		}
@@ -6654,17 +6655,17 @@ h3 + .spec {
 	padding: 30px 20px;
 
 	column-count: 4;
-	column-gap: 40px;
+	column-gap: 36px;
 	-moz-column-count: 4;
-	-moz-column-gap: 40px;
+	-moz-column-gap: 36px;
 	-webkit-column-count: 4;
-	-webkit-column-gap: 40px;
+	-webkit-column-gap: 36px;
 
 	-webkit-column-rule: 2px solid #ccc;
 	-moz-column-rule: 2px solid #ccc;
 	column-rule: 2px solid #ccc;
 
-	max-height: 200px;
+	max-height: 196px;
 	overflow-x: auto;
 
 
@@ -6672,6 +6673,8 @@ h3 + .spec {
 		display: block;
 		color: $black;
 		margin-bottom: 10px;
+		overflow: hidden;
+		height: 36px;
 
 		&:hover {
 			color: $blue;
@@ -7365,8 +7368,17 @@ h3 + .spec {
 }
 
 .program-top {
-	height: 498px;
+	height: 314px;
 	background-image: url('../images/pr-bg.jpg');
+
+	.ar-tab {
+		max-height: 160px;
+	}
+
+	.ar-cat li {
+		width: 23%;
+	}
+
 }
 
 
@@ -7604,6 +7616,18 @@ h3 + .spec {
 	}
 }
 
+.spec-hidden {
+	.specp {
+		&:nth-child(1), &:nth-child(2), &:nth-child(3) {
+			display: block;
+		}
+	}
+
+	.specp {
+		display: none;
+	}
+}
+
 .spec-akardion {
 	display: block;
 	background-color: #fff;
@@ -7740,6 +7764,28 @@ h3 + .spec {
 
 		i {
 			margin-left: 6px;
+		}
+
+		.spec-all-show {
+			display: inline;
+		}
+
+		.spec-all-hide {
+			display: none;
+		}
+
+		&.active {
+			i {
+				@include rotate(-180deg);
+			}
+
+			.spec-all-show {
+				display: none;
+			}
+
+			.spec-all-hide {
+				display: inline;
+			}
 		}
 	}
 }

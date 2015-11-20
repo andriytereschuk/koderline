@@ -22,7 +22,7 @@
 
 					<div class="ar-desc ar-desc2">
 						<a href="" class="pr-link">1С:Зарплата и Управление персоналом</a>
-						<a href="" class="pr-buy">Купить</a>
+						<a href="" class="pr-buy">Подробнее</a>
 					</div>
 				</div>
 			</div>
@@ -37,7 +37,7 @@
 
 					<div class="ar-desc ar-desc2">
 						<a href="" class="pr-link">1С:Зарплата и Управление персоналом</a>
-						<a href="" class="pr-buy">Купить</a>
+						<a href="" class="pr-buy">Подробнее</a>
 					</div>
 				</div>
 			</div>
@@ -52,7 +52,7 @@
 
 					<div class="ar-desc ar-desc2">
 						<a href="" class="pr-link">1С:Зарплата и Управление персоналом</a>
-						<a href="" class="pr-buy">Купить</a>
+						<a href="" class="pr-buy">Подробнее</a>
 					</div>
 				</div>
 			</div>
@@ -67,7 +67,7 @@
 
 					<div class="ar-desc ar-desc2">
 						<a href="" class="pr-link">1С:Зарплата и Управление персоналом</a>
-						<a href="" class="pr-buy">Купить</a>
+						<a href="" class="pr-buy">Подробнее</a>
 					</div>
 				</div>
 			</div>
@@ -82,7 +82,7 @@
 
 					<div class="ar-desc ar-desc2">
 						<a href="" class="pr-link">1С:Зарплата и Управление персоналом</a>
-						<a href="" class="pr-buy">Купить</a>
+						<a href="" class="pr-buy">Подробнее</a>
 					</div>
 				</div>
 			</div>
@@ -97,7 +97,7 @@
 
 					<div class="ar-desc ar-desc2">
 						<a href="" class="pr-link">1С:Зарплата и Управление персоналом</a>
-						<a href="" class="pr-buy">Купить</a>
+						<a href="" class="pr-buy">Подробнее</a>
 					</div>
 				</div>
 			</div>

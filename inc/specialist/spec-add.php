@@ -13,9 +13,48 @@
 			<div class="span12">
 				<a href="#" class="add-akardion">
 					<span class="add-icon">
+						<i class="add-sert"></i>
+					</span>
+					<span class="add-def">Сертификаты</span>
+					<i></i>
+				</a>
+				<div class="add-akardion-t">
+					<table>
+						<tr>
+							<th>Учебное заведение</th>
+							<th>Курс</th>
+							<th>Дата проведения </th>
+						</tr>
+
+						<tr>
+							<td>Coursera.org</td>
+							<td>Управление и развертывание Windows 2003 Server</td>
+							<td>23 / 09 / 2014</td>
+						</tr>
+
+						<tr>
+							<td>Coursera.org</td>
+							<td>Управление и развертывание Windows 2003 Server</td>
+							<td>23 / 09 / 2014</td>
+						</tr>
+
+						<tr>
+							<td>Coursera.org</td>
+							<td>Управление и развертывание Windows 2003 Server</td>
+							<td>23 / 09 / 2014</td>
+						</tr>
+					</table>
+				</div>																		
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="span12">
+				<a href="#" class="add-akardion">
+					<span class="add-icon">
 						<i class="add-study"></i>
 					</span>
-					<span class="add-def">Производственное предприятие</span>
+					<span class="add-def">Обучение</span>
 					<i></i>
 				</a>
 				<div class="add-akardion-t">
@@ -203,46 +242,6 @@
 				</div>																		
 			</div>
 		</div>
-
-		<div class="row">
-			<div class="span12">
-				<a href="#" class="add-akardion">
-					<span class="add-icon">
-						<i class="add-sert"></i>
-					</span>
-					<span class="add-def">Сертификаты</span>
-					<i></i>
-				</a>
-				<div class="add-akardion-t">
-					<table>
-						<tr>
-							<th>Учебное заведение</th>
-							<th>Курс</th>
-							<th>Дата проведения </th>
-						</tr>
-
-						<tr>
-							<td>Coursera.org</td>
-							<td>Управление и развертывание Windows 2003 Server</td>
-							<td>23 / 09 / 2014</td>
-						</tr>
-
-						<tr>
-							<td>Coursera.org</td>
-							<td>Управление и развертывание Windows 2003 Server</td>
-							<td>23 / 09 / 2014</td>
-						</tr>
-
-						<tr>
-							<td>Coursera.org</td>
-							<td>Управление и развертывание Windows 2003 Server</td>
-							<td>23 / 09 / 2014</td>
-						</tr>
-					</table>
-				</div>																		
-			</div>
-		</div>
-
 
 	</div>
 

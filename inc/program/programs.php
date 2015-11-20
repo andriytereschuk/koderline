@@ -213,11 +213,11 @@
 								<div class="span6">
 									<div class="row">
 										<div class="span3">
-											<img class="pr-slider1__img" src="images/pr-slider1.jpg" alt="">
+											<img class="pr-slider1__img" src="images/pro1.jpg" alt="">
 										</div>
 										<div class="span3">
 											<div class="pr-slider__desc">
-												<h3>Инвестгеосервис</h3>
+												<h3>Яндекс</h3>
 												<div class="pr-about">
 													Продажа парикмахерского инструмента, оборудования для салонов красоты, СПА, соляриев.
 												</div>
@@ -232,7 +232,106 @@
 									</div>
 								</div>
 							</div>
-						</div>													
+						</div>
+
+						<!-- slide #2 -->
+						<div class="swiper-slide">
+							<div class="row">
+								<div class="span6">
+									<div class="row">
+										<div class="span3">
+											<img class="pr-slider1__img" src="images/pro4.jpg" alt="">
+										</div>
+										<div class="span3">
+											<div class="pr-slider__desc">
+												<h3>Газмяс</h3>
+												<div class="pr-about">
+													Строительства нефтяных и газовых скважин любой сложности. 
+												</div>
+
+												<div class="pr-label">Решение:</div>
+												<div class="pr-res">1С:УПП</div>
+
+												<div class="pr-label">Результат:</div>
+												<div class="pr-rez">Реализован блок планирования проектов строительства скважин.  </div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="span6">
+									<div class="row">
+										<div class="span3">
+											<img class="pr-slider1__img" src="images/pro3.jpg" alt="">
+										</div>
+										<div class="span3">
+											<div class="pr-slider__desc">
+												<h3>Газпром</h3>
+												<div class="pr-about">
+													Продажа парикмахерского инструмента, оборудования для салонов красоты, СПА, соляриев.
+												</div>
+
+												<div class="pr-label">Решение:</div>
+												<div class="pr-res">1С:ERP УправлениеGредприятием 2.0</div>
+
+												<div class="pr-label">Результат:</div>
+												<div class="pr-rez">Автоматизация бизнес-процессов деятельности предприятия.</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>	
+
+						<!-- slide #3 -->
+						<div class="swiper-slide">
+							<div class="row">
+								<div class="span6">
+									<div class="row">
+										<div class="span3">
+											<img class="pr-slider1__img" src="images/pro2.jpg" alt="">
+										</div>
+										<div class="span3">
+											<div class="pr-slider__desc">
+												<h3>Apple</h3>
+												<div class="pr-about">
+													Строительства нефтяных и газовых скважин любой сложности. 
+												</div>
+
+												<div class="pr-label">Решение:</div>
+												<div class="pr-res">1С:УПП</div>
+
+												<div class="pr-label">Результат:</div>
+												<div class="pr-rez">Реализован блок планирования проектов строительства скважин.  </div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="span6">
+									<div class="row">
+										<div class="span3">
+											<img class="pr-slider1__img" src="images/pr-slider1.jpg" alt="">
+										</div>
+										<div class="span3">
+											<div class="pr-slider__desc">
+												<h3>Google</h3>
+												<div class="pr-about">
+													Продажа парикмахерского инструмента, оборудования для салонов красоты, СПА, соляриев.
+												</div>
+
+												<div class="pr-label">Решение:</div>
+												<div class="pr-res">1С:ERP УправлениеGредприятием 2.0</div>
+
+												<div class="pr-label">Результат:</div>
+												<div class="pr-rez">Автоматизация бизнес-процессов деятельности предприятия.</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>	
+
 					</div>
 				</div>						
 			</div>
