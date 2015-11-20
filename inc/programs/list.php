@@ -18,11 +18,12 @@
 						<img src="images/article-item.jpg" alt="">
 						<i class="icon-right-white"></i>
 						<span class="pr-inf">13 000 руб</span>
+						<span class="pr-more">Подробнее</span>
 					</a>
 
 					<div class="ar-desc ar-desc2">
 						<a href="" class="pr-link">1С:Зарплата и Управление персоналом</a>
-						<a href="" class="pr-buy">Подробнее</a>
+						<a href="" class="pr-buy">Купить</a>
 					</div>
 				</div>
 			</div>
@@ -33,11 +34,12 @@
 						<img src="images/article-item.jpg" alt="">
 						<i class="icon-right-white"></i>
 						<span class="pr-inf">13 000 руб</span>
+						<span class="pr-more">Подробнее</span>
 					</a>
 
 					<div class="ar-desc ar-desc2">
 						<a href="" class="pr-link">1С:Зарплата и Управление персоналом</a>
-						<a href="" class="pr-buy">Подробнее</a>
+						<a href="" class="pr-buy">Купить</a>
 					</div>
 				</div>
 			</div>
@@ -48,11 +50,12 @@
 						<img src="images/article-item.jpg" alt="">
 						<i class="icon-right-white"></i>
 						<span class="pr-inf">13 000 руб</span>
+						<span class="pr-more">Подробнее</span>
 					</a>
 
 					<div class="ar-desc ar-desc2">
 						<a href="" class="pr-link">1С:Зарплата и Управление персоналом</a>
-						<a href="" class="pr-buy">Подробнее</a>
+						<a href="" class="pr-buy">Купить</a>
 					</div>
 				</div>
 			</div>
@@ -63,11 +66,12 @@
 						<img src="images/article-item.jpg" alt="">
 						<i class="icon-right-white"></i>
 						<span class="pr-inf">13 000 руб</span>
+						<span class="pr-more">Подробнее</span>
 					</a>
 
 					<div class="ar-desc ar-desc2">
 						<a href="" class="pr-link">1С:Зарплата и Управление персоналом</a>
-						<a href="" class="pr-buy">Подробнее</a>
+						<a href="" class="pr-buy">Купить</a>
 					</div>
 				</div>
 			</div>
@@ -78,11 +82,12 @@
 						<img src="images/article-item.jpg" alt="">
 						<i class="icon-right-white"></i>
 						<span class="pr-inf">13 000 руб</span>
+						<span class="pr-more">Подробнее</span>
 					</a>
 
 					<div class="ar-desc ar-desc2">
 						<a href="" class="pr-link">1С:Зарплата и Управление персоналом</a>
-						<a href="" class="pr-buy">Подробнее</a>
+						<a href="" class="pr-buy">Купить</a>
 					</div>
 				</div>
 			</div>
@@ -93,11 +98,12 @@
 						<img src="images/article-item.jpg" alt="">
 						<i class="icon-right-white"></i>
 						<span class="pr-inf">13 000 руб</span>
+						<span class="pr-more">Подробнее</span>
 					</a>
 
 					<div class="ar-desc ar-desc2">
 						<a href="" class="pr-link">1С:Зарплата и Управление персоналом</a>
-						<a href="" class="pr-buy">Подробнее</a>
+						<a href="" class="pr-buy">Купить</a>
 					</div>
 				</div>
 			</div>

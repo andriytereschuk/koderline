@@ -6723,6 +6723,17 @@ h3 + .spec {
 	}
 }
 
+.pr-more {
+	position: absolute;
+	text-transform: uppercase;
+	color: #fff;
+	z-index: 4;
+	top: 13px;
+	left: 18px;
+	opacity: 0;
+	@include ts(ease-in-out,0.3s);
+}
+
 .ar-img {
 	display: block;
 	position: relative;
@@ -6761,6 +6772,10 @@ h3 + .spec {
 	}
 
 	&:hover {
+		.pr-more {
+			opacity: 1;
+		}
+
 		&:after {
 			opacity: 1;
 		}
