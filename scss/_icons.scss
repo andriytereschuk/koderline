@@ -835,3 +835,27 @@ $icon2: sprite-map("icons2/*.png", $spacing: 5px);
 .icon-down-blue {
 	@include sprite($icon2, icon-down-blue);
 }
+
+.icon-f1 {
+	@include sprite($icon2, icon-f1);
+}
+
+.icon-f2 {
+	@include sprite($icon2, icon-f2);
+}
+
+.icon-f3 {
+	@include sprite($icon2, icon-f3);
+}
+
+.icon-f4 {
+	@include sprite($icon2, icon-f4);
+}
+
+.icon-f5 {
+	@include sprite($icon2, icon-f5);
+}
+
+.icon-f6 {
+	@include sprite($icon2, icon-f6);
+}

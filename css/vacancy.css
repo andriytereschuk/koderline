@@ -1,0 +1,178 @@
+body {
+    font-size: 14px;
+    line-height: 18px;
+    color: #777;
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+    min-width: 960px;
+        background-color: #eeeeee;
+}
+.vacancy{
+	padding: 60px 0 128px;
+}
+.v_header{
+	border-bottom:1px solid #16c5fe;
+	padding-bottom: 15px;
+	font-size: 18px;
+	line-height: 22px; 
+}
+.v_name{
+	font-size: 24px;
+    line-height: 28px;   
+    padding: 30px 0 25px;
+    font-weight: 300;
+}
+.v_description{
+	width: 100%;
+	margin-left: 0;
+} 
+.v_description ul li{
+	font-size: 16px;
+	line-height: 30px;
+	font-weight: 300;
+	padding: 9px 0 9px 60px;
+	margin-bottom: 25px;
+	position: relative;
+}
+.v_description ul li i{
+	width: 50px;
+	height: 50px;
+	background-image: url(../images/vacancy_icons.png);
+	background-position: 4px 0;
+	position: absolute;
+	top: 0;
+	left:0;
+}
+.v_description ul li.compas i{
+	background-position: -44px 0;
+}
+.v_description ul li.graduate i{
+	background-position: -96px 0;
+}
+.v_description ul li.clock i{
+	background-position: -145px 0;
+}
+.v_description ul li.cofee i{
+	background-position: -195px 0;
+}
+.v_description ul li.phones i{
+	background-position: -246px 0;
+}
+.v_hole_description{
+	font-size: 16px;
+	line-height: 28px;
+
+}
+.vacancy h3{
+	font-size: 18px;
+	line-height: 22px;
+	font-weight: 300;
+}
+ul.v_requirments {
+	margin-top: 30px;
+}
+ul.v_requirments li{
+	font-size: 16px;
+	line-height: 24px;
+	position: relative;
+	padding: 0 0 0px 45px;
+	margin-bottom: 20px;
+
+}
+ul.v_requirments li i{
+	background-image: url(../images/okay_vak.png);
+	width: 22px;
+	height: 22px;
+	display: block;
+	position: absolute;
+	top: 3px;
+    left: 5px;
+	background-repeat: no-repeat;
+	 background-position: 0px 0;
+    
+
+}
+.resume_blc{
+	text-align: center;
+}
+.send_resume a{
+	background-color: #fff;
+	font-size: 16px;
+	line-height: 20px;
+	color: #16c5fe;
+	padding: 22px 0 23px 0;
+	display: block;
+	text-align: center;
+	position: relative;
+}
+.send_resume a i{
+	width: 24px;
+	height: 24px;
+	background: url(../images/send_resume.png);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	background-size: 100%;
+	position: absolute;
+	top: 20px;
+    left: 60px;
+
+}
+.resume_blc h3{
+	font-size: 24px;
+	line-height: 28px;
+	color: #444444;
+}
+
+.p_v_header{
+	font-size: 18px;
+	line-height: 22px;
+	margin-bottom: 35px;
+	display: block;
+}
+.v_p_block{
+	border-bottom: 1px solid #cccccc;
+	margin-top: 20px;
+}
+.v_p_block span{
+	font-size: 14px;
+	line-height: 18px;
+	font-weight: 600;
+	margin-bottom: 15px;
+	display: block;
+
+}
+.v_p_block p{
+	font-size: 18px;
+	line-height: 22px;
+	font-weight: 300;
+}
+.v_p_block a{
+	margin-bottom: 15px;
+	display: block;
+}
+
+.right_border{
+	position: relative;
+}
+.right_border:after{
+	content: '';
+	display: block;
+	height: 100%;
+	width: 2px;
+	position: absolute;
+	top: 0;
+	right: -10px;
+	background-color: #cccccc;
+}
+
+.pr-post ul p{
+	margin-bottom: 30px;
+}
+
+.pr-post ul li{
+	font-size: 16px;
+	line-height: 24px;
+	position: relative;
+	padding: 0 0 0px 45px;
+	margin-bottom: 20px;
+}

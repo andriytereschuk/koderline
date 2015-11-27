@@ -8001,3 +8001,11 @@ h3 + .spec {
 		}
 	}
 }
+
+// ----
+
+.icon-f {
+	@include scale(0.5);
+	top: -19px !important;
+	left: -14px !important;
+}
