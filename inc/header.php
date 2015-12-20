@@ -1,7 +1,7 @@
 
 
-<section class="top">
-	<div class="container">
+<section class="top" style="background-color: #f6feff">
+	<div class="container" style="background: url('images/snow.jpg') 100% no-repeat;">
 		<div class="row">
 			<div class="span2">
 				<a href="#" title="KoderLine" class="logo icon-logo"></a>
