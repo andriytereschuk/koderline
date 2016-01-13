@@ -859,3 +859,31 @@ $icon2: sprite-map("icons2/*.png", $spacing: 5px);
 .icon-f6 {
 	@include sprite($icon2, icon-f6);
 }
+
+.icon-tv {
+	@include sprite($icon2, icon-tv);
+}
+
+.icon-its-step1 {
+	@include sprite($icon2, icon-its-step1);	
+}
+
+.icon-its-step2 {
+	@include sprite($icon2, icon-its-step2);	
+}
+
+.icon-its-step3 {
+	@include sprite($icon2, icon-its-step3);	
+}
+
+.icon-its-step4 {
+	@include sprite($icon2, icon-its-step4);	
+}
+
+.icon-its-step5 {
+	@include sprite($icon2, icon-its-step5);	
+}
+
+.icon-pencil2 {
+	@include sprite($icon2, icon-pencil2);
+}
