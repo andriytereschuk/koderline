@@ -8293,3 +8293,411 @@ h3 + .spec {
 		width: 100%;
 	}	
 }
+
+
+// its desc
+
+.its-desc {
+	color: #fff;
+	background-image: url('../images/its-koderline.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center top;
+	height: 374px;
+
+	h2 {
+		font-size: 44px;
+		line-height: 48px;
+		color: #fff;
+		font-weight: 300;
+		margin-bottom: 10px;
+		margin-top: 74px;
+	}
+
+	h3 {
+		font-size: 24px;
+		line-height: 28px;
+		color: #fff;
+		font-weight: 300;
+		margin-bottom: 25px;
+	}
+
+	p {
+		margin-bottom: 20px;
+	}
+}
+
+.its-deal {
+	background-color: $e;
+
+	.container {
+		padding: 30px 0 30px;
+	}
+
+	.span12 {
+		h2 {
+			font-size: 24px;
+			color: $grey;
+			font-weight: 300;
+			margin-bottom: 35px;
+			text-align: center;
+			i {
+				position: relative;
+				top: 6px;
+				margin-right: 15px;
+			}
+		}
+	}
+}
+
+.deal-item {
+	background-color: #fff;
+	height: 206px;	
+}
+
+.deal-item--icon {
+	padding-top: 36px;
+	text-align: center;
+	height: 75px;
+}
+
+.deal-item--text {
+	padding: 0 40px;
+	text-align: center;
+	color: $grey;
+}
+
+.its-services {
+	background-color: $e;
+
+	.container {
+		padding: 0 0 30px;
+	}
+
+	.span12 {
+		h2 {
+			font-size: 24px;
+			color: $grey;
+			font-weight: 300;
+			margin-bottom: 35px;
+			text-align: center;
+			i {
+				position: relative;
+				top: 6px;
+				margin-right: 15px;
+			}
+		}
+	}
+}
+
+.its-serv {
+	position: relative;
+	height: 200px;
+	margin-bottom: 20px;
+	background-color: #fff;
+	cursor: pointer;
+
+	img {
+		width: 100%;
+		height: 100%;
+	}
+
+	&:before {
+		content: '';
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		height: 96px;
+		@include ts(ease,0.3s);
+	}
+
+	&.active {
+		&:before {
+			height: 100%;
+		}
+	}
+
+	&:after {
+		content: '';
+		width: 0;
+		height: 0;
+		display: none;
+		position: absolute;
+		border-bottom: 12px solid #fff;
+		border-left: 10px solid transparent;
+		border-right: 10px solid transparent;
+		left: 50%;
+		margin-left: -6px;
+		bottom: 0;
+		opacity: 0;
+	}
+
+	&.active {
+		&:after {
+			display: block;
+			opacity: 1;
+			transform: translateY(21px);
+			transition: opacity ease-out 0.3s 0.3s, transform ease-out 0.3s 0.3s;
+		}
+	}
+
+	&:hover:before {
+		height: 100%;
+	}
+
+	h3 {
+		position: absolute;
+		z-index: 2;
+		font-size: 24px;
+		line-height: 26px;
+		color: #fff;
+		font-weight: 300;
+		left: 0;
+		padding: 0 20px;
+		top: 130px;
+	}
+}
+
+.serv1:before {background-color: rgba(99,194,205,0.8);}
+.serv2:before {background-color: rgba(161,205,99,0.8);}
+.serv3:before {background-color: rgba(247,147,30,0.8);}
+.serv4:before {background-color: rgba(214,95,166,0.8);}
+.serv5:before {background-color: rgba(0,189,173,0.8);}
+.serv6:before {background-color: rgba(231,76,60,0.8);}
+
+.serv-desc-inner {
+	padding: 16px 50px 8px 24px;
+}
+
+.serv-desc {
+	overflow: hidden;
+	height: 0;
+	position: relative;
+	background-color: #fff;
+	margin-bottom: 0;
+	transform: scale(0.6);
+	transition: transform ease-out .3s, margin-bottom ease-out .1s, height ease-out .3s, opacity ease-out .3s;
+
+	&:nth-child(1) {
+		transform-origin: top left;
+	}
+
+	&:nth-child(2) {
+		transform-origin: top center;
+	}
+
+	&:nth-child(3) {
+		transform-origin: top right;
+	}
+
+	&.open {
+		opacity: 1;
+		margin-bottom: 20px;
+		transform: scale(1);
+	}
+
+	.its-services & {
+		h1 {
+			font-size: 18px;
+			line-height: 20px;
+			color: $black;
+			font-weight: 300;
+			margin-bottom: 15px;
+			text-align: left;
+		}
+
+		h2, h3, h4 {
+			font-size: 14px;
+			line-height: 18px;
+			color: $black;
+			margin-bottom: 15px;
+			font-weight: 500;
+			text-align: left;
+		}
+
+		b {
+			color: $black;
+		}
+
+		ul {
+			margin-bottom: 15px;
+
+			li {
+				color: $grey;
+				display: block;
+				position: relative;
+				padding-left: 22px;
+
+				&:before {
+					content: '';
+					width: 4px;
+					height: 4px;
+					display: block;
+					position: absolute;
+					left: 7px;
+					top: 5px;
+					border-radius: 100%;
+					background-color: #16c5fe;
+				}
+			}
+		}
+	}
+}
+
+.serve-close {
+	position: absolute;
+	top: 15px;
+	right: 15px;
+}
+
+.its-benefits {
+	background-color: $e;
+
+	.container {
+		padding: 0 0 10px;
+	}
+
+	.span12 {
+		h2 {
+			font-size: 24px;
+			color: $grey;
+			font-weight: 300;
+			margin-bottom: 35px;
+			text-align: center;
+			i {
+				position: relative;
+				top: 6px;
+				margin-right: 15px;
+			}
+		}
+	}
+}
+
+.its-benefit {
+	height: 190px;
+	margin-top: 7px;
+	overflow: hidden;
+	text-align: center;
+
+	&-icon {
+		height: 100px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+}
+
+.its-share {
+	background-color: $e;
+
+	.container {
+		padding: 40px 0;
+	}
+
+	.span12 {
+		h2 {
+			font-size: 24px;
+			color: $grey;
+			font-weight: 300;
+			margin-bottom: 35px;
+			text-align: center;
+			i {
+				position: relative;
+				top: 6px;
+				margin-right: 15px;
+			}
+		}
+	}
+}
+.its-slider{
+	width: 100%;
+	height: 240px;
+	margin-bottom: 20px;
+
+	&--title {
+		font-size: 24px;
+		line-height: 26px;
+		color: #fff;
+		font-weight: 300;
+		padding: 0 30px;
+		margin-top: 15px;
+		text-align: center;
+	}
+
+	&--more {
+		font-weight: 500;
+		display: block;
+		text-align: center;
+		margin-top: 12px;
+	}
+
+	.swiper-slide {
+		width: 100%;
+		height: 240px;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center 0;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}	
+}
+
+.its-cinfo {
+	background-color: $e;
+
+	.container {
+		padding: 10px 0 100px;
+	}
+
+	.span12 {
+		h2 {
+			font-size: 24px;
+			color: $grey;
+			font-weight: 300;
+			margin-bottom: 35px;
+			text-align: center;
+			margin-top: 20px;
+		}
+	}
+}
+
+.its-cinfo-blok {
+	height: 70px;
+	margin-bottom: 30px;
+	background-color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	i, span {
+		display: block;
+	}
+
+	span {
+		margin-left: 20px;
+	}
+}
+
+.its-links {
+	text-align: center;
+
+	a {
+		position: relative;
+		font-weight: 500;
+		text-transform: uppercase;
+		display: inline-block;
+		margin: 0 30px;
+
+		span {
+			padding-left: 5px;
+		}
+
+		i {
+			position: relative;
+			top: 7px;
+		}
+	}
+}

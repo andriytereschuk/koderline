@@ -887,3 +887,55 @@ $icon2: sprite-map("icons2/*.png", $spacing: 5px);
 .icon-pencil2 {
 	@include sprite($icon2, icon-pencil2);
 }
+
+.icon-okk {
+	@include sprite($icon2, icon-okk);
+}
+
+.icon-d1 {
+	@include sprite($icon2, icon-d1);
+}
+
+.icon-d2 {
+	@include sprite($icon2, icon-d2);
+}
+
+.icon-d3 {
+	@include sprite($icon2, icon-d3);
+}
+
+.icon-info {
+	@include sprite($icon2, icon-info);
+}
+
+.icon-defence {
+	@include sprite($icon2, icon-defence);
+}
+
+.icon-benefit1 {
+	@include sprite($icon2, icon-benefit1);
+}
+
+.icon-benefit2 {
+	@include sprite($icon2, icon-benefit2);
+}
+
+.icon-benefit3 {
+	@include sprite($icon2, icon-benefit3);
+}
+
+.icon-benefit4 {
+	@include sprite($icon2, icon-benefit4);
+}
+
+.icon-book-grey {
+	@include sprite($icon2, icon-book-grey);
+}
+
+.icon-pencil-blue {
+	@include sprite($icon2, icon-pencil-blue);
+}
+
+.icon-dolar-blue {
+	@include sprite($icon2, icon-dolar-blue);
+}
