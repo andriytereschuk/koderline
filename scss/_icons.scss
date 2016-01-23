@@ -718,6 +718,10 @@ $icon2: sprite-map("icons2/*.png", $spacing: 5px);
 	@include sprite($icon, icon-check-grey);	
 }
 
+.icon-check-green {
+	@include sprite($icon, icon-check-green);	
+}
+
 .icon-logout {
 	@include sprite($icon, icon-logout);
 }
@@ -728,7 +732,7 @@ $icon2: sprite-map("icons2/*.png", $spacing: 5px);
 
 .icon-sand-clock {
 	@include sprite($icon, icon-sand-clock);
-}icon-cal
+}
 
 .icon-cal {
 	@include sprite($icon, icon-cal);
@@ -938,4 +942,8 @@ $icon2: sprite-map("icons2/*.png", $spacing: 5px);
 
 .icon-dolar-blue {
 	@include sprite($icon2, icon-dolar-blue);
+}
+
+.icon-view-green {
+	@include sprite($icon2, icon-view-green);
 }
