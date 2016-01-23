@@ -19,6 +19,7 @@
 				<div class="template">
 					<h2><i class="icon-fltr2"></i>Вебинар</h1>
 					<h1>Диагностика типовых узких мест скорости 1С</h1>
+					<a href="#" class="blue-btn blue-btn-reg">ЗАРЕГЕСТРИРОВАТЬСЯ</a>
 					<div class="template-info">
 						<img src="images/temp.jpg" alt="">
 						<div class="template-date">21 июля 2014</div>
@@ -79,6 +80,8 @@
 				
 						<p>Вы бы выразить, как бы вдохнуть в рисунок то, что так полно, так трепетно живет во мне, запечатлеть отражение моей души, как душа моя - отражение предвечного бога!" Друг</p>
 				</div>
+
+				<a href="#" class="blue-btn blue-btn-reg">ЗАРЕГЕСТРИРОВАТЬСЯ</a>
 
 				<div class="share-new">
 					<div class="share-text">Поделиться:</div>

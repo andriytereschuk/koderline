@@ -8780,6 +8780,11 @@ h3 + .spec {
 	td {
 		padding-top: 11px;
 		padding-bottom: 11px;
+
+		i {
+			position: relative;
+			top: 2px;
+		}
 	}
 
 	tr:nth-child(2n) {
@@ -8855,5 +8860,237 @@ h3 + .spec {
 
 	&:hover {
 		color: $blue;
+	}
+}
+
+.compare-table {
+	background-color: #fff;
+	width: 100%;
+	border-bottom: 1px solid #e6e6e6;
+	display: none;
+
+	&.active {
+		display: table;
+	}
+
+	th, td {
+		text-align: center;
+		border-left: 1px solid #e6e6e6;
+
+		&:first-child {
+			border-left: none;
+		}
+	}
+
+	th {
+		height: 56px;
+		font-weight: 500;
+		color: $black;
+		border-bottom: 1px solid #e6e6e6;
+
+		&:nth-child(2) {
+			width: 390px;
+		}
+
+		&:nth-child(3) {
+			width: 438px;
+		}
+	}
+
+	tr:hover {
+		td {
+			background-color: #f5f5f5;
+
+			&:first-child {
+				border-left: 2px solid #54be4f;
+			}
+		}
+	}
+
+	td {
+		height: 54px;
+		font-size: 18px;
+		font-weight: 500;
+		color: $black;
+		background-color: #fff;
+		@include ts(ease, 0.15s);
+
+		&:first-child {
+			font-weight: normal;
+			color: $grey;
+			border-left: 2px solid transparent;
+			@include ts(ease, 0.15s);
+		}
+
+		a {
+			font-size: 14px;
+			font-weight: normal;
+			color: $blue;
+			margin-left: 5px;
+
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+}
+
+// its-prop
+
+.its-prop {
+	background-color: $e;
+
+	.container {
+		padding: 0 0 50px;
+	}
+
+	h2 {
+		font-size: 24px;
+		line-height: 28px;
+		text-align: center;
+		color: $black;
+		font-weight: 300;
+		margin-bottom: 28px;
+		color: $black;
+	}
+
+	p {
+		margin-bottom: 16px;
+	}
+}
+
+.blue-btn-reg {
+	display: inline-block;
+	margin-bottom: 10px;
+	padding: 0 34px;
+}
+
+.msfo-txt {
+	width: 587px;
+	@include box;
+	background-color: #fff;
+	font-size: 16px;
+	line-height: 22px;
+	padding: 10px 20px;
+	min-height: 84px;
+	display: flex;
+	-ms-display: flex;
+	align-items: center;
+	-ms-align-items: center;
+	color: $black;
+	font-weight: 300;
+	border-bottom: 2px solid $e;
+	position: relative;
+	left: 33px;
+	text-align: center;
+
+	&:first-child {
+		margin-bottom: 10px;
+	}
+}
+
+// ---------------
+
+// --- table tarifu 5 columns
+
+.tarifu {
+	background-color: $e;
+
+	.container {
+		padding: 30px 0 60px;
+	}
+
+	h2 {
+		font-size: 44px;
+		line-height: 48px;
+		text-align: center;
+		color: $black;
+		font-weight: 300;
+		margin-bottom: 36px;
+		color: $black;
+	}
+
+	h3 {
+		font-size: 24px;
+		line-height: 28px;
+		text-align: center;
+		color: $black;
+		font-weight: 300;
+		margin-bottom: 20px;
+		color: $black;
+	}
+
+	ol {
+		list-style-type: decimal;
+
+		li {
+			font-size: 16px;
+			line-height: 20px;
+			margin-bottom: 15px;
+		}
+	}	
+}
+
+.table-col-5 {
+	background-color: #f5f5f5;
+	width: 100%;
+	margin-bottom: 40px;
+	border-bottom: 1px solid #e6e6e6;
+
+	th, td {
+		text-align: center;
+		border-left: 1px solid #e6e6e6;
+
+		&:first-child {
+			text-align: left;
+			padding-left: 30px;
+			border-left: none;
+		}
+	}
+
+	th {
+		background-color: #fff;
+		height: 58px;
+		color: $black;
+		font-weight: normal;
+		border-bottom: 1px solid #e6e6e6;
+		font-size: 14px;
+		line-height: 1.3;
+		width: 148px;
+
+		b {
+			font-weight: 500;
+		}
+
+		&:first-child {
+			font-size: 18px;
+			font-weight: 500;
+			width: auto;
+		}
+	}
+
+	td {
+		height: 44px;
+		color: $black;
+		
+		i {
+			position: relative;
+			top: 3px;
+		}
+	}
+
+	tr:nth-child(odd) {
+		td {
+			background-color: #fff;
+		}
+	}
+
+	.tr-title {
+		td {
+			font-weight: 500;
+			font-size: 15px;
+			border-top: 1px solid #e6e6e6;
+			border-bottom: 1px solid #e6e6e6;
+		}
 	}
 }
