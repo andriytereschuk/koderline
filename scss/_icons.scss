@@ -722,6 +722,10 @@ $icon2: sprite-map("icons2/*.png", $spacing: 5px);
 	@include sprite($icon, icon-check-green);	
 }
 
+.icon-check-orange {
+	@include sprite($icon, icon-check-orange);	
+}
+
 .icon-logout {
 	@include sprite($icon, icon-logout);
 }
@@ -946,4 +950,8 @@ $icon2: sprite-map("icons2/*.png", $spacing: 5px);
 
 .icon-view-green {
 	@include sprite($icon2, icon-view-green);
+}
+
+.icon-haranty {
+	@include sprite($icon2, icon-haranty);
 }
