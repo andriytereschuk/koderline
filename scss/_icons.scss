@@ -955,3 +955,27 @@ $icon2: sprite-map("icons2/*.png", $spacing: 5px);
 .icon-haranty {
 	@include sprite($icon2, icon-haranty);
 }
+
+.icon-watch {
+	@include sprite($icon2, icon-watch);
+}
+
+.icon-tag-red {
+	@include sprite($icon2, icon-tag-red);
+}
+
+.icon-tags {
+	@include sprite($icon2, icon-tags);
+}
+
+.icon-fcomm {
+	@include sprite($icon2, icon-fcomm);
+}
+
+.icon-fview {
+	@include sprite($icon2, icon-fview);
+}
+
+.icon-forum {
+	@include sprite($icon2, icon-forum);
+}

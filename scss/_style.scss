@@ -9308,3 +9308,328 @@ h3 + .spec {
 		}
 	}
 }
+
+// forum
+
+.forum {
+	padding-top: 58px;
+	padding-bottom: 60px;
+}
+
+.f-item {
+	border-bottom: 2px solid $e;
+	padding-bottom: 15px;
+	margin-bottom: 17px;
+	position: relative;
+
+	.span2 {
+		min-height: 90px;
+
+		&.mh-0 {
+			min-height: 0;
+		}
+	}
+
+	h2 {
+		font-size: 24px;
+		line-height: 30px;
+		font-weight: 300;
+		color: $black;
+		margin-bottom: 14px;
+	}
+}
+
+.f-cat {
+	color: $blue;
+	position: relative;
+	padding-left: 24px;
+
+	i {
+		position: absolute;
+		left: 0;
+		top: 0;
+	}
+
+	a:hover {
+		text-decoration: underline;
+	}
+}
+
+.f-tags {
+	margin-top: 12px;
+
+	a {
+		display: inline-block;
+		padding: 0 12px;
+		height: 23px;
+		line-height: 23px;
+		border-radius: 4px;
+		background-color: #f9f9f9;
+		margin: 0 2px 5px 2px;
+		transition: ease .1s;
+		color: $grey;
+		font-size: 12px;
+
+		&:hover {
+			background-color: #54bf4f;
+			color: #fff;
+		}
+	}
+}
+
+.f-statu {
+	position: absolute;
+	right: 0;
+	bottom: 22px;
+
+	> div {
+		display: inline-block;
+		margin-left: 10px;
+	}
+
+	.icon-fcomm {
+		position: relative;
+		top: 2px;
+		margin-right: 1px;
+	}
+}
+
+.f-author {
+	color: #e74c3c;
+	text-align: right;
+
+	.span8 & {
+		text-align: left;
+	}
+}
+
+.f-date {
+	font-weight: 500;
+	color: $black;
+	margin-bottom: 8px;
+	text-align: right;
+
+	.span8 & {
+		text-align: left;
+	}
+
+	i {
+		margin-right: 4px;
+		position: relative;
+		top: 3px;
+	}
+}
+
+.f-title {
+	position: relative;
+	padding-left: 22px;
+	font-weight: 500;
+	color: $black;
+	font-size: 16px;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+
+	i {
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+}
+
+.f-cats {
+	padding: 2px 0;
+	margin-bottom: 26px;
+	background-color: #f9f9f9;
+
+	ul {
+
+		ul {
+			padding: 0 0 0 20px;
+			margin-top: 6px;
+
+			li + li {
+				border-top: none;
+			}
+
+			li {
+				padding: 0;
+			}
+		}
+	}
+
+	li + li {
+		border-top: 2px solid $e;
+	}
+
+	li {
+		padding: 10px 20px 9px 20px;
+		margin: 2px 0 2px 0;
+		line-height: 18px;
+	}
+
+	a {
+		font-size: 13px;
+		color: $black;
+		transition: ease .1s;
+
+		&:hover {
+			color: $blue;
+		}
+	}
+}
+
+.forum-template {
+
+	h1 {
+		font-size: 20px;
+		line-height: 24px;
+		color: $black;
+		margin-bottom: 15px;
+	}
+
+	h2 {
+		font-size: 15px;
+		color: $black;
+		font-weight: 500;
+		margin-bottom: 14px;
+
+		i {
+			margin-right: 10px;
+			position: relative;
+			top: 4px;
+		}
+	}
+
+	p {
+		font-size: 15px;
+		margin-bottom: 15px;
+
+		b {
+			font-weight: 500;
+		}
+
+		i, em {
+			font-family: Arial;
+		}
+
+		b i, i b, strong i, strong em, i strong, em strong {
+			font-weight: bold;
+			font-family: Arial;
+		}
+	}
+
+	ul {
+		list-style: square;
+		margin-left: 30px;
+		margin-bottom: 15px;
+
+		li i {
+			font-family: Arial;
+		}
+	}
+
+	iframe {
+		margin-bottom: 15px;
+	}
+
+	img {
+		width: 100%;
+		margin-bottom: 15px;
+	}
+}
+
+.f-comments {
+	border-bottom: 2px solid $e;
+	margin-bottom: 25px;
+	padding-top: 5px;
+}
+
+.f-comments-title {
+	font-size: 24px;
+	line-height: 30px;
+	font-weight: 300;
+	color: $black;
+	margin-bottom: 10px;
+}
+
+.fc-item	{
+	display: flex;
+	padding-top: 20px;
+	padding-bottom: 18px;
+
+	&.fc-item-sub {
+		background-color: #f9f9f9;
+		padding-left: 10px;
+		padding-right: 10px;
+		margin-left: 20px;
+	}
+}
+
+.fc-ava {
+	flex: 0 0 70px;
+
+	img {
+		width: 54px;
+		height: 54px;
+		overflow: hidden;
+		border-radius: 100%;
+	}
+}
+
+.fc-body {
+	flex: 1;
+}
+
+.fc-name {
+	color: $black;
+	font-weight: 500;
+	margin-bottom: 5px;
+}
+
+.fc-date {
+	color: #e74c3c;
+	font-weight: 500;
+}
+
+.fc-answer {
+	float: right;
+	color: #54be4f;
+
+	i {
+		display: inline-block;
+		margin-left: 8px;
+		position: relative;
+		top: 4px;
+		@include sprite($icon2, icon-aka-green);
+	}
+}
+
+.fc-add-comm {
+    padding: 0;
+    background-color: #fff;
+    width: 100%;
+    position: static;
+    margin: 0;
+
+    @include placeholder(#999);
+
+    input, textarea {
+			width: 100%;
+    }
+
+    textarea {
+    	height: 130px;
+    }
+
+    .blue-btn {
+    	width: 240px;
+    }
+
+    h3 {
+    	font-size: 14px;
+    	font-weight: 500;
+    	color: $black;
+    	margin-bottom: 20px;
+    	margin-top: 5px;
+    }
+}
