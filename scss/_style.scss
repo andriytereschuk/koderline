@@ -6205,18 +6205,28 @@ h3 + .spec {
 	background-position: center 0;
 	background-size: cover;
 
+	.container {
+		display: flex;
+		height: 100%;
+		align-items: center;
+
+		.row {
+			display: flex;
+			align-items: center;
+		}
+	}
+
 	.span7 {
-		padding: 48px 0 0;
 
 		h2 {
-			color: #fff;
+			color: #ccc;
 			font-size: 16px;
 			line-height: 24px;
 			margin-bottom: 7px;
 		}
 
 		h1 {
-			color: #fff;
+			color: #ccc;
 			font-size: 44px;
 			line-height: 48px;
 			font-weight: 300;
@@ -6224,14 +6234,14 @@ h3 + .spec {
 		}
 
 		p {
-			color: #fff;
+			color: #ccc;
 			font-size: 14px;
 			line-height: 24px;
 			margin-bottom: 10px;
 		}
 
 		hr {
-			background-color: #fff;
+			background-color: #ccc;
 			display: block;
 			height: 2px;
 			margin-bottom: 20px;
@@ -6254,9 +6264,8 @@ h3 + .spec {
 }
 
 .anounces-form {
-	margin-top: 32px;
 	background-color: #fff;
-	  padding: 25px 20px 10px 20px;
+	padding: 25px 20px 10px 20px;
 
 	h2 {
 		font-size: 24px;
