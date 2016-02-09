@@ -10,6 +10,10 @@
 	}
 }
 
+.mb-52 {
+	margin-bottom: 52px;
+}
+
 .logo {
 	margin-top: 13px;
 }
@@ -151,6 +155,14 @@
 .menu {
 	height: 56px;
 	background-color: #16c5fe;
+
+	&.menu-fixed {
+		position: fixed;
+		left: 0;
+		right: 0;
+		top: 0;
+		z-index: 2;
+	}
 
 	.row > div {
 		height: 56px;
