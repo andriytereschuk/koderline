@@ -3,6 +3,7 @@
 	include_once('inc/header.php');
 
 	include_once('inc/byharteria/slider.php');
+	include_once('inc/byharteria/work-with-us.php');
 	include_once('inc/byharteria/simple.php');
 	include_once('inc/byharteria/txt-btn.php');
 	include_once('inc/byharteria/haranty.php');

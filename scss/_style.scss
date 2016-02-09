@@ -5602,6 +5602,28 @@ h3 + .spec {
              border-bottom: 2px solid $green;
         }
     }
+
+   &.bitrix-with-us {
+
+   		h2 {
+		    text-align: center;
+		    color: $black;
+		    font-weight: 300;
+		    font-size: 24px;
+		    line-height: 34px;
+		    margin-bottom: 50px; 
+   		}
+
+   		a {
+   			.top-ico {
+						height: 80px;
+   			}
+
+   			p {
+   				text-align: center;
+   			}
+   		}
+   }
 }
 
 .bf1 {
@@ -9681,4 +9703,76 @@ h3 + .spec {
 
 .byh-slider h2 {
 	margin-bottom: 20px !important;
+}
+
+.bf7 {
+    .icon-ico {
+        @include sprite($icon2, icon-friends-grey);
+    }
+    
+    &:hover {
+        .icon-ico {
+            @include sprite($icon2, icon-friends-green);
+        }      
+    }
+}
+
+.bf8 {
+    .icon-ico {
+        @include sprite($icon2, icon-layers-grey);
+    }
+    
+    &:hover {
+        .icon-ico {
+            @include sprite($icon2, icon-layers-green);
+        }      
+    }
+}
+
+.bf9 {
+    .icon-ico {
+        @include sprite($icon2, icon-busket-grey);
+    }
+    
+    &:hover {
+        .icon-ico {
+            @include sprite($icon2, icon-busket-green);
+        }      
+    }
+}
+
+.bf10 {
+    .icon-ico {
+        @include sprite($icon2, icon-folder-grey);
+    }
+    
+    &:hover {
+        .icon-ico {
+            @include sprite($icon2, icon-folder-green);
+        }      
+    }
+}
+
+.bf11 {
+    .icon-ico {
+        @include sprite($icon2, icon-wrench-grey);
+    }
+    
+    &:hover {
+        .icon-ico {
+            @include sprite($icon2, icon-wrench-green);
+        }      
+    }
+}
+
+.bf12 {
+    .icon-ico {
+        @include sprite($icon2, icon-home-grey);
+    }
+    
+    &:hover {
+        .icon-ico {
+            @include sprite($icon2, icon-home-green);
+        }      
+    }
 }
