@@ -8328,6 +8328,7 @@ h3 + .spec {
 	background-repeat: no-repeat;
 	background-position: center top;
 	height: 374px;
+	position: relative;
 
 	h2 {
 		font-size: 44px;
@@ -9644,4 +9645,40 @@ h3 + .spec {
     	margin-bottom: 20px;
     	margin-top: 5px;
     }
+}
+
+.byh-slider {
+	height: 100%;
+}
+
+.byh-more {
+	display: flex;
+	align-items: center;
+
+	i {
+		margin-right: 10px;
+	}
+}
+
+.byh-slider-arrows {
+	position: absolute;
+	bottom: 20px;
+	left: 0;
+	right: 0;
+	text-align: center;
+	z-index: 2;
+
+	a {
+		-webkit-filter: brightness(2);
+		filter: brightness(2);
+
+		&:hover {
+			-webkit-filter: brightness(1);
+			filter: brightness(1);
+		}
+	}
+}
+
+.byh-slider h2 {
+	margin-bottom: 20px !important;
 }
