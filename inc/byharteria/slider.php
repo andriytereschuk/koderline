@@ -1,10 +1,10 @@
 
 
-<section class="its-desc">
-	<div class="swiper-container byh-slider" id="byhSlider">
+<section class="its-desc byh-slider">
+	<div class="swiper-container" id="byhSlider">
 		<div class="swiper-wrapper">
 
-			<div class="swiper-slide">
+			<div class="swiper-slide" style="background-image: url('images/its-koderline.jpg')">
 				<div class="container">
 					<div class="row">
 						<div class="span6">
@@ -16,7 +16,7 @@
 				</div>
 			</div>
 
-			<div class="swiper-slide">
+			<div class="swiper-slide" style="background-image: url('images/its-koderline.jpg')">
 				<div class="container">
 					<div class="row">
 						<div class="span6">
