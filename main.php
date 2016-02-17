@@ -3,7 +3,7 @@
 	include_once('inc/header.php');
 
 	include_once('inc/offers.php');
-	include_once('inc/news.php');
+	include_once('inc/news2.php');
 	include_once('inc/main-slider.php');
 	include_once('inc/we-are.php');
 	include_once('inc/benefits.php');
