@@ -9914,3 +9914,68 @@ h3 + .spec {
 		}
 	}
 }
+
+.schedule-one {
+	.container {
+		padding: 22px 0 60px;
+	}
+
+	h2 {
+		font-weight: 300;
+		color: $black;
+    margin-bottom: 26px;
+    font-size: 36px;
+    line-height: 48px;
+	}
+
+	hr {
+		height: 2px;
+		background-color: #e6e6e6;
+		margin-bottom: 20px;
+	}
+}
+
+.schedule-event {
+	border-bottom: 2px solid #e6e6e6;
+	margin-bottom: 28px;
+
+	&-col-1 {
+		float: left;
+		width: 195px;
+	}
+
+	&-col-2 {
+		float: left;
+		width: 236px;
+	}
+
+	&-col-3 {
+		float: left;
+		width: 220px;
+	}
+
+	&-item {
+		display: flex;
+		align-items: center;
+		margin-bottom: 26px;
+
+		&__icon {
+			width: 48px;
+		}
+
+		&__text {
+			font-weight: 500;
+			color: $black;
+
+			&.align-center {
+				position: relative;
+				top: 5px;
+				width: 100%;
+			}
+		}
+
+		.blue-btn {
+			width: 100%;
+		}
+	}
+}
