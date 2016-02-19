@@ -979,3 +979,11 @@ $icon2: sprite-map("icons2/*.png", $spacing: 5px);
 .icon-forum {
 	@include sprite($icon2, icon-forum);
 }
+
+.icon-earphones {
+	@include sprite($icon2, icon-earphones);
+}
+
+.icon-note-blue {
+	@include sprite($icon2, icon-note-blue);
+}

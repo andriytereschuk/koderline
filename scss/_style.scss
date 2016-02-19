@@ -9917,7 +9917,7 @@ h3 + .spec {
 
 .schedule-one {
 	.container {
-		padding: 22px 0 60px;
+		padding: 22px 0 80px;
 	}
 
 	h2 {
@@ -9977,5 +9977,84 @@ h3 + .spec {
 		.blue-btn {
 			width: 100%;
 		}
+	}
+}
+
+.schedule-other {
+	&-h {
+		font-weight: 300;
+		color: $black;
+		font-size: 24px;
+		margin-bottom: 22px;
+	}
+
+	ul {
+		li {
+			span {
+				display: block;
+				font-weight: 500;
+				margin-bottom: 5px;
+				color: #e74c3c;
+			}
+
+			a {
+				display: block;
+				color: #999;
+				transition: .1s;
+				margin-bottom: 18px;
+
+				&:hover {
+					color: $blue;
+				}
+			}
+		}
+
+		li + li {
+			padding-top: 18px;
+			border-top: 1px solid #e6e6e6;
+		}
+	}
+}
+
+.schedule-info {
+	padding-bottom: 20px;
+
+	.span8 {
+		margin-left: 0;
+	}
+
+	.icon {
+		margin-top: 4px;
+	}
+
+	h3 {
+		font-weight: 500;
+		color: $black;
+		margin-bottom: 10px;
+	}
+
+	p, ul {
+		margin-bottom: 22px;
+	}
+
+	img {
+		float: left;
+		margin: 4px 15px 15px 0;
+		max-width: 220px;
+	}
+}
+
+.schedule-invite {
+	text-align: center;
+
+	p {
+		margin-bottom: 20px;
+		font-size: 16px;
+		padding-top: 5px;
+	}
+
+	.blue-btn {
+		display: inline-block;
+		padding: 0 60px;
 	}
 }
