@@ -10058,3 +10058,92 @@ h3 + .spec {
 		padding: 0 60px;
 	}
 }
+
+.schedule {
+	h2 {
+		color: $black;
+	}
+
+	.filter-select {
+		color: $grey;
+		margin: 20px;
+    padding-left: 5px;
+	}
+}
+
+.schedule-cal {
+	padding-bottom: 20px;
+
+	&-title {
+		color: $black;
+		font-weight: 300;
+		font-size: 24px;
+		line-height: 32px;
+		margin-bottom: 26px;
+	}
+
+	&-info {
+		border-top: 2px solid #e6e6e6;
+		border-bottom: 2px solid #e6e6e6;
+		margin-bottom: 32px;
+	}
+
+	&-prop {
+		color: $black;
+		font-weight: 500;
+		padding-left: 18px;
+		height: 36px;
+		line-height: 40px;
+		@include box();
+		@include text-overflow();
+		width: 24%;
+		display: inline-block;
+	}
+
+	.blue-btn {
+		margin-top: 30px;
+		display: inline-block;
+		padding: 0 30px;
+	}
+}
+
+.schedule-item {
+	background-color: #fff;
+  padding: 14px 20px;
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+
+	.schedule-cal-info {
+		margin-bottom: 10px;
+	}
+
+	.schedule-cal-title {
+		margin-bottom: 12px;
+	}
+
+	&-left {
+		width: 630px;
+	}
+
+	&-right {
+		width: 220px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+
+		.blue-btn {
+			width: 100%;
+			margin-bottom: 16px;
+
+			& + a {
+				text-decoration: underline;
+
+				&:hover {
+					text-decoration: none;
+				}
+			}
+		}
+	}
+}
