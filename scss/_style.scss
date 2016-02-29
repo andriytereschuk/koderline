@@ -10072,7 +10072,9 @@ h3 + .spec {
 }
 
 .schedule-cal {
-	padding-bottom: 20px;
+	margin-bottom: 40px;
+	position: relative;
+	margin-top: 15px;
 
 	&-title {
 		color: $black;
@@ -10080,6 +10082,15 @@ h3 + .spec {
 		font-size: 24px;
 		line-height: 32px;
 		margin-bottom: 26px;
+
+		a {
+			color: $black;
+			@include ts(0.1s);
+
+			&:hover {
+				color: $blue;
+			}
+		}
 	}
 
 	&-info {

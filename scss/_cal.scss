@@ -1,0 +1,205 @@
+/*= CORE CSS */
+$border: #e6e6e6;
+
+.eventCalendar-hidden {
+	display: none;
+}
+
+.eventCalendar-day-header {
+	text-align: center;
+	color: $black;
+}
+
+.eventCalendar-wrap {
+	position: relative;
+	overflow: hidden;
+}
+
+.eventCalendar-slider {
+	overflow: hidden;
+	position: relative;
+}
+
+.eventCalendar-arrow {
+	position: absolute;
+	z-index: 2;
+	top: 8px;
+	@include tsp(opacity);
+	padding: 5px;
+
+	span {
+		display: block;
+		@include sprite($icon2, icon-aka-black);
+	}
+
+	&:hover {
+		opacity: 0.8;
+	}
+}
+
+.eventCalendar-prev {
+	left: 17px;
+
+	span {
+		transform: rotate(-180deg);
+	}
+}
+
+.eventCalendar-next {
+	right: 17px;
+}
+
+.eventCalendar-monthTitle {
+	display: block;
+	text-align: center;
+	background-color: #e6e6e6;
+	height: 40px;
+	line-height: 40px;
+	color: $black;
+}
+
+.eventCalendar-monthWrap {
+	position: relative;
+	z-index: 2;
+}
+
+.eventCalendar-currentMonth {
+	z-index: 1;
+}
+
+.eventCalendar-daysList {
+	display: table;
+	width: 100%;
+}
+
+.eventCalendar-daysList:before,
+.eventCalendar-daysList:after {
+	display: table;
+	line-height: 0;
+	content: "";
+}
+
+.eventCalendar-daysList:after {
+ 	clear: both;
+}
+
+.eventCalendar-showAsWeek {
+	display: block;
+}
+
+.eventCalendar-daysList li {
+	display: table-cell;
+}
+
+
+
+.eventCalendar-current {
+	background: rgba(234, 223, 223, 0.35);
+}
+
+.eventCalendar-showAsWeek li {
+	display: block;
+	float: left;
+	width: 53.4px;
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px solid $border;
+	border-right: 1px solid $border;
+	background-color: #fff;
+
+	&:nth-child(7n) {
+		border-right: none;
+	}
+
+	&.today {
+		
+
+		a {
+			color: #e74c3c;
+		}
+	}
+
+	&.eventCalendar-dayWithEvents {
+		a {
+			color: #54bf4f;
+			font-weight: 500;
+
+			&:after {
+				@include cont;
+				width: 28px;
+				height: 28px;
+				border: 2px solid #54bf4f;
+				left: 50%;
+				margin-left: -16px;
+				top: 50%;
+				margin-top: -16px;
+				border-radius: 100%;
+			}
+		}
+	}
+}
+
+.eventCalendar-daysList a {
+	padding: 0;
+	display: block;
+	text-align: center;
+	color: $grey;
+	height: 40px;
+	line-height: 40px;
+	position: relative;
+}
+
+.eventCalendar-loading {
+	display: block;
+	min-width: 100px;
+	height: 40px;
+	line-height: 40px;
+}
+
+.eventCalendar-list {
+	position: relative;
+	z-index: 1;
+
+	li + li {
+		margin-top: 18px;
+	}
+
+	time {
+		display: block;
+	}
+
+	time *{
+		color: $black;
+		font-size: 11px;
+		font-weight: 500;
+		margin-right: 5px;
+		font-style: normal;
+		color: #46BB41;
+	}
+
+	a {
+		font-weight: 300;
+    font-size: 18px;
+    line-height: 20px;
+    color: #444;
+    transition: color .1s;
+
+		&:hover {
+			color: $blue;
+		}
+	}
+}
+
+
+
+.eventCalendar-oldEventList {
+	z-index: 2;
+}
+
+.eventCalendar-subtitle {
+    font-weight: 500;
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 17px;
+}
+/* end of core CSS */
